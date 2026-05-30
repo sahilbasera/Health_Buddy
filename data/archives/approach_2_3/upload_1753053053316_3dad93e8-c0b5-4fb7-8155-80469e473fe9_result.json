@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753053053316_3dad93e8-c0b5-4fb7-8155-80469e473fe9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is high in refined carbohydrates due to the white bread, which can significantly impact blood sugar levels in someone with diabetes. Replacing the white bread with whole grain or whole wheat options and reducing butter can be more beneficial.",
+        "meal_title": "Butter on White Bread Slices",
+        "meal_description": "Slices of white bread spread with butter.",
+        "macros": {
+            "calories": 600,
+            "carbohydrates": 80,
+            "fats": 30,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "white bread",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            }
+        ]
+    }
+}

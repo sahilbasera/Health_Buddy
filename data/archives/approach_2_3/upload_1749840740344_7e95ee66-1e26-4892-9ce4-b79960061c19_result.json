@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels due to its vegetable content. Consider increasing the portion of vegetables for added fiber and nutrients, which will benefit blood sugar management.",
+        "meal_title": "Vegetable Stir Fry with Pork",
+        "meal_description": "A simple dish consisting of stir-fried vegetables and a portion of pork.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 15,
+            "fats": 5,
+            "proteins": 7
+        },
+        "ingredients": [
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "pork",
+                "impact": "orange"
+            },
+            {
+                "name": "herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "fileName": "upload_1753068426109_e9f92f5b-5160-494e-9ff7-32be49b9dca2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This colorful dish is composed mainly of vegetables, providing a vibrant array of nutrients with a low glycemic impact. Ideal for those managing blood sugar levels, it offers fiber and essential vitamins. Consider incorporating a source of whole grains or lean proteins for a more balanced meal.",
+        "meal_title": "Mixed Vegetable and Noodle Bowl",
+        "meal_description": "A vibrant bowl featuring a mix of vegetables, pasta, and fresh salad components.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 45,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "feta cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "beetroot",
+                "impact": "green"
+            },
+            {
+                "name": "sweet corn",
+                "impact": "orange"
+            },
+            {
+                "name": "peas",
+                "impact": "green"
+            },
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "pineapple",
+                "impact": "yellow"
+            },
+            {
+                "name": "chicken",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753200276846_5e3f6aab-de91-48e1-849a-eebc0300e207.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains lean protein and fresh vegetables with a creamy dressing, which may impact blood sugar levels moderately due to the dressing's fat and carbohydrate content. It is best to limit creamy dressings and opt for a vinaigrette or olive oil-based dressing instead to reduce glycemic impact for someone with diabetes. Including more high-fiber vegetables can further support blood sugar control.",
+        "meal_title": "Chicken Salad with Creamy Dressing",
+        "meal_description": "A salad composed of grilled chicken breast, romaine lettuce, cucumber, cauliflower, and a creamy dressing, served with a wooden spoon.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 12,
+            "fats": 20,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "impact": "green"
+            },
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "cauliflower",
+                "impact": "green"
+            },
+            {
+                "name": "creamy dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

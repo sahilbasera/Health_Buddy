@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265789773_34d75fc4-0e04-488f-b3f3-d88ffb030604.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Water is essential for health and has no effect on blood sugar levels. It is important for hydration and metabolic processes in the body. It is always a safe and recommended choice for hydration.",
+        "meal_title": "Glass of Water",
+        "meal_description": "A standard serving of plain drinking water.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Water",
+                "impact": "green"
+            }
+        ]
+    }
+}

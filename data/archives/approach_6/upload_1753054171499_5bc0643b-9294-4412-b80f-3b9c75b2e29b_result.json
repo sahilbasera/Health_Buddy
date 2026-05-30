@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753054171499_5bc0643b-9294-4412-b80f-3b9c75b2e29b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed green salad with tomato, a low-calorie meal that is relatively low in simple carbohydrates and generally has a mild effect on blood sugar levels for someone with diabetes. It is best to choose a light dressing and maintain this meal pattern, opting for whole grain additions or other high-fiber ingredients instead of refined carbohydrate sides if more energy is needed.",
+        "meal_title": "Mixed Green Salad with Tomato",
+        "meal_description": "A simple salad made with leafy greens and chopped tomato, with no clearly visible high-calorie toppings or refined carbohydrate components.",
+        "macros": {
+            "calories": 45,
+            "carbohydrates": 8,
+            "fats": 0,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            }
+        ]
+    }
+}

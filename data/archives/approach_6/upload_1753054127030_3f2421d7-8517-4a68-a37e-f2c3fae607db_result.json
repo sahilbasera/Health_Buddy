@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1753054127030_3f2421d7-8517-4a68-a37e-f2c3fae607db.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a small mixed vegetable salad, primarily composed of non-starchy vegetables with a low glycemic impact. It is generally supportive of stable blood sugar levels for someone with diabetes, though any sweetened dressing can modestly increase glycemic effect. It is best to continue choosing high-fiber, non-starchy vegetable meals, opting for whole grain additions only if a more substantial meal is needed instead.",
+        "meal_title": "Mixed Green Salad with Cucumber and Carrot",
+        "meal_description": "A small portion of mixed salad containing lettuce, cucumber, carrot, and a light dressing or seasoning. The meal is low in calories and carbohydrates, with minimal fat and modest fiber from raw vegetables.",
+        "macros": {
+            "calories": 35,
+            "carbohydrates": 6,
+            "fats": 1,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

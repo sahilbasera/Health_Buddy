@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750386301376_71400aa0-7658-40cd-9027-9a62f8489da7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": false,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza is high in refined carbohydrates and fats, which can impact blood sugar levels. It is best to avoid or strictly limit this meal, opting for a whole grain or cauliflower crust with more vegetables instead.",
+        "meal_title": "Vegetable Pizza",
+        "meal_description": "A pizza topped with cheese, spinach, mushrooms, onions, and tomato sauce on a thin crust.",
+        "macros": {
+            "calories": 800,
+            "carbohydrates": 90,
+            "fats": 30,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "Tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "Spinach",
+                "impact": "green"
+            },
+            {
+                "name": "Red onion",
+                "impact": "green"
+            }
+        ]
+    }
+}

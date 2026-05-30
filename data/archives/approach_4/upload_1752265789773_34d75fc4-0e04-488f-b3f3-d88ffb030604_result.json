@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265789773_34d75fc4-0e04-488f-b3f3-d88ffb030604.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": false,
+        "recommendation": "green",
+        "guidance_message": "This is a glass of water, which has no impact on blood sugar levels and is essential for hydration. It is a suitable choice for someone with diabetes or anyone monitoring glycemic health.",
+        "meal_title": "Glass of Water",
+        "meal_description": "A standard glass of plain water.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

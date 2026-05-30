@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753054171499_5bc0643b-9294-4412-b80f-3b9c75b2e29b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is generally healthful and suitable for maintaining stable blood sugar levels. For added fiber, whole grains or legumes can be incorporated.",
+        "meal_title": "Mixed Green Salad",
+        "meal_description": "A fresh salad featuring mixed greens, tomatoes, and onions.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 15,
+            "fats": 1,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "tomatoes",
+                "impact": "green"
+            },
+            {
+                "name": "onions",
+                "impact": "green"
+            }
+        ]
+    }
+}

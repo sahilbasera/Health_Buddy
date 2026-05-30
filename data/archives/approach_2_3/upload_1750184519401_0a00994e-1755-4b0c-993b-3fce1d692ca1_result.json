@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750184519401_0a00994e-1755-4b0c-993b-3fce1d692ca1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately starchy and contains saturated fats from cheese. Opting for whole grain pasta and going lighter on cheese can help manage blood sugar levels for someone with diabetes.",
+        "meal_title": "Pesto Pasta with Grilled Tofu",
+        "meal_description": "A dish consisting of penne pasta, pesto sauce, grilled tofu, and cheese.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 55,
+            "fats": 18,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "penne pasta",
+                "impact": "yellow"
+            },
+            {
+                "name": "pesto sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "grilled tofu",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            }
+        ]
+    }
+}

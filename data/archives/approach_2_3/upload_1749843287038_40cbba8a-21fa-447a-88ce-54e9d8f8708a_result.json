@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1749843287038_40cbba8a-21fa-447a-88ce-54e9d8f8708a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is moderately high in carbohydrates due to the presence of roti, rice, and dals. Someone with diabetes might choose whole grain alternatives and limit portion sizes to manage blood sugar levels better.",
+        "meal_title": "Traditional Indian Thali",
+        "meal_description": "A diverse Indian platter featuring various dishes, including roti, rice, dal, curry, and accompaniments.",
+        "macros": {
+            "calories": 600,
+            "carbohydrates": 90,
+            "fats": 20,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "roti",
+                "impact": "orange"
+            },
+            {
+                "name": "rice",
+                "impact": "orange"
+            },
+            {
+                "name": "dal",
+                "impact": "yellow"
+            },
+            {
+                "name": "curry",
+                "impact": "yellow"
+            },
+            {
+                "name": "yogurt",
+                "impact": "yellow"
+            },
+            {
+                "name": "pickle",
+                "impact": "yellow"
+            },
+            {
+                "name": "papad",
+                "impact": "yellow"
+            },
+            {
+                "name": "ghee",
+                "impact": "orange"
+            }
+        ]
+    }
+}

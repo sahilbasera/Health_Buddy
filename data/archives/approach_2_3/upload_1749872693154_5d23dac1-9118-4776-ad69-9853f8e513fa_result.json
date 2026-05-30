@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749872693154_5d23dac1-9118-4776-ad69-9853f8e513fa.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This sushi dish is moderate in carbohydrates due to the rice, and contains proteins from the fish. Consider going for sushi with brown rice or additional vegetables to increase fiber content for better glycemic control.",
+        "meal_title": "Spicy Tuna Sushi Roll",
+        "meal_description": "A sushi roll featuring tuna, topped with slices of green pepper and served with wasabi and pickled ginger.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 45,
+            "fats": 10,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "sushi rice",
+                "impact": "yellow"
+            },
+            {
+                "name": "tuna",
+                "impact": "green"
+            },
+            {
+                "name": "nori",
+                "impact": "green"
+            },
+            {
+                "name": "green pepper",
+                "impact": "green"
+            },
+            {
+                "name": "wasabi",
+                "impact": "green"
+            },
+            {
+                "name": "pickled ginger",
+                "impact": "green"
+            }
+        ]
+    }
+}

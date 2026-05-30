@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1749850518596_ae5c6336-732a-432f-a1c1-a64db860a708.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal consists of a small piece of cake paired with espresso. It is best to enjoy such treats in moderation due to their sugar content, opting for whole grain or high-fiber snacks instead.",
+        "meal_title": "Espresso with Cake Slice",
+        "meal_description": "A small cup of espresso served with a piece of sponge cake.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 25,
+            "fats": 5,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "Espresso",
+                "impact": "green"
+            },
+            {
+                "name": "Sponge Cake",
+                "impact": "orange"
+            },
+            {
+                "name": "Refined Wheat Flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "Butter",
+                "impact": "orange"
+            },
+            {
+                "name": "Eggs",
+                "impact": "green"
+            },
+            {
+                "name": "Baking Powder",
+                "impact": "green"
+            }
+        ]
+    }
+}

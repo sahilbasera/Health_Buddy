@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749869835174_55f1390a-6ea3-4033-a016-b8a4c30d28a1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This dish may impact blood sugar levels moderately due to potential simple carbohydrates and oils. Opt for brown rice or quinoa if it contains white rice.",
+        "meal_title": "Tuna Avocado Poke Bowl",
+        "meal_description": "A dish featuring diced raw tuna, avocados, and possibly a dressing, seasoned with soy sauce, sesame oil, and garnished with fish roe.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 30,
+            "fats": 20,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "Tuna",
+                "impact": "green"
+            },
+            {
+                "name": "Avocado",
+                "impact": "green"
+            },
+            {
+                "name": "Soy Sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Sesame Oil",
+                "impact": "orange"
+            },
+            {
+                "name": "Fish Roe",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

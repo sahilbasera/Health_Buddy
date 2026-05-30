@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1749850518596_ae5c6336-732a-432f-a1c1-a64db860a708.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is generally moderate in carbohydrates due to the cake, while the espresso is low in calories. Someone with diabetes might choose whole grain or high-protein alternatives to manage blood sugar levels better.",
+        "meal_title": "Espresso with Cake",
+        "meal_description": "A small serving of espresso accompanied by a piece of plain cake.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 25,
+            "fats": 5,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "espresso",
+                "impact": "green"
+            },
+            {
+                "name": "sponge cake",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

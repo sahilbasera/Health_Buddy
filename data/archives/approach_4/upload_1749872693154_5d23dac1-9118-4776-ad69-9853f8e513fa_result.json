@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749872693154_5d23dac1-9118-4776-ad69-9853f8e513fa.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal consists of seared beef sushi with rice and jalape\u00f1o, which is moderate in protein and fats but contains simple carbohydrates from white rice that can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for sushi made with brown rice or high-fiber alternatives instead.",
+        "meal_title": "Seared Beef Sushi with Jalape\u00f1o",
+        "meal_description": "Sushi rolls made with seared beef slices, white sushi rice, jalape\u00f1o slices, and typical sushi accompaniments such as wasabi and pickled ginger.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 15,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "impact": "green"
+            },
+            {
+                "name": "white sushi rice",
+                "impact": "orange"
+            },
+            {
+                "name": "jalape\u00f1o",
+                "impact": "green"
+            },
+            {
+                "name": "wasabi",
+                "impact": "green"
+            },
+            {
+                "name": "pickled ginger",
+                "impact": "yellow"
+            },
+            {
+                "name": "soy sauce (assumed)",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

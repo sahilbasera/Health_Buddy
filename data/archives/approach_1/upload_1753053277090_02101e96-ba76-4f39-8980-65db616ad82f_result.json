@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053277090_02101e96-ba76-4f39-8980-65db616ad82f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit plate provides natural sugars and is suitable for maintaining stable blood sugar levels. Opt for such fresh fruits to ensure a low glycemic impact.",
+        "meal_title": "Fresh Fruit Snack",
+        "meal_description": "A plate consisting of sliced apple, banana, and pear.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 21,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Apple",
+                "impact": "green"
+            },
+            {
+                "name": "Banana",
+                "impact": "yellow"
+            },
+            {
+                "name": "Pear",
+                "impact": "green"
+            }
+        ]
+    }
+}

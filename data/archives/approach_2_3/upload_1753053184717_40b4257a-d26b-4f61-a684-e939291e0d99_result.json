@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053184717_40b4257a-d26b-4f61-a684-e939291e0d99.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This apple is a healthful choice due to its high fiber content, which helps moderate blood sugar levels in someone with diabetes. Replacing processed snacks with fruits like apples is beneficial for glycemic health.",
+        "meal_title": "Fresh Red Apple",
+        "meal_description": "A single fresh red apple, perfect as a nutritious snack.",
+        "macros": {
+            "calories": 95,
+            "carbohydrates": 25,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            }
+        ]
+    }
+}

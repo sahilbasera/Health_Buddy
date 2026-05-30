@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750258584589_12758bd6-3c31-4ee6-bc2a-564be686406a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This sandwich may impact blood sugar levels moderately due to the refined flour and pickles. Choosing whole grain bread and adding more vegetables can improve its glycemic balance.",
+        "meal_title": "Chicken Sandwich with Pickles",
+        "meal_description": "A sandwich made with chicken, pickles, and lettuce on a sesame seed bun.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 10,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "pickles",
+                "impact": "yellow"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "green"
+            }
+        ]
+    }
+}

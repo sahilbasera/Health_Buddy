@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750176632186_7794b8b1-1eec-489d-a7d2-8ff1d8e94e22.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately balanced but could be improved by choosing whole-grain components over processed ones. Consider going for whole-grain toast instead of hash browns to reduce glycemic impact on blood sugar levels.",
+        "meal_title": "Breakfast with Scrambled Eggs and Hash Brown",
+        "meal_description": "A simple breakfast plate containing scrambled eggs, hash brown, and ketchup accompanied by a cup of black coffee.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 25,
+            "fats": 20,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "scrambled eggs",
+                "impact": "green"
+            },
+            {
+                "name": "hash brown",
+                "impact": "yellow"
+            },
+            {
+                "name": "ketchup",
+                "impact": "yellow"
+            },
+            {
+                "name": "black coffee",
+                "impact": "green"
+            }
+        ]
+    }
+}

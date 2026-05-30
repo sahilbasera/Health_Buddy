@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750180230407_6e49bf45-0e0b-4817-9cb1-2f8e10df6977.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This beverage is likely a coffee with milk or cream, which has a moderate impact on blood sugar levels for someone with diabetes due to its low carbohydrate content but potential added fats. It is best to avoid or strictly limit added sugars or high-fat creamers, opting for black coffee or unsweetened plant-based milk instead.",
+        "meal_title": "Coffee with Milk or Cream",
+        "meal_description": "A cup of coffee prepared with milk or cream, containing caffeine, water, milk fats, and proteins.",
+        "macros": {
+            "calories": 50,
+            "carbohydrates": 5,
+            "fats": 2,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "coffee",
+                "impact": "green"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "fileName": "upload_1750182735800_604d3797-d9eb-436f-997f-1d202a9bbcb4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed vegetable salad with legumes, leafy greens, and a light vinaigrette, which is generally moderate to low in glycemic impact. It is typically more supportive of stable blood sugar levels for someone with diabetes than refined grain-based meals, though portion size and dressing additions still matter. It is best to continue choosing meals like this, opting for high-fiber whole grain additions instead of refined croutons or sweet dressings if extra carbohydrates are desired.",
+        "meal_title": "Mixed Green Salad with Chickpeas, Edamame, Apple, and Parmesan",
+        "meal_description": "A bowl of mixed leafy greens and vegetables including romaine lettuce, spinach, cabbage, beet, red onion, apple, chickpeas, and edamame, topped with shaved Parmesan cheese, crispy topping pieces, and a light oil-based dressing.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 22,
+            "fats": 15,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "red cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "beet",
+                "impact": "green"
+            },
+            {
+                "name": "red onion",
+                "impact": "green"
+            },
+            {
+                "name": "apple",
+                "impact": "yellow"
+            },
+            {
+                "name": "chickpeas",
+                "impact": "yellow"
+            },
+            {
+                "name": "edamame",
+                "impact": "green"
+            },
+            {
+                "name": "Parmesan cheese",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "mustard",
+                "impact": "green"
+            },
+            {
+                "name": "crispy wonton strips",
+                "impact": "orange"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            }
+        ]
+    }
+}

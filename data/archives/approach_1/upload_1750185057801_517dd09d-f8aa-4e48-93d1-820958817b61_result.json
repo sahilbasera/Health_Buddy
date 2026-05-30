@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750185057801_517dd09d-f8aa-4e48-93d1-820958817b61.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit is low in calories and contains natural sugars, which is beneficial as part of a balanced diet. Choose these as a snack or add them to salads for added nutritional value.",
+        "meal_title": "Black Grapes",
+        "meal_description": "A bunch of fresh black grapes, known for their antioxidant content and natural sweetness.",
+        "macros": {
+            "calories": 60,
+            "carbohydrates": 16,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Black grapes",
+                "impact": "green"
+            }
+        ]
+    }
+}

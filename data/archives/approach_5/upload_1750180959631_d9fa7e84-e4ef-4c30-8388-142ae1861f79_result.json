@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750180959631_d9fa7e84-e4ef-4c30-8388-142ae1861f79.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a glass of white wine, an alcoholic beverage with minimal fiber and little nutritional value, and it may affect blood sugar levels in someone with diabetes by increasing the risk of glycemic variability. It is best to avoid or strictly limit this meal, opting for water, sparkling water, or a high-fiber whole-fruit-based alternative instead.",
+        "meal_title": "White Wine",
+        "meal_description": "A single glass of white wine served chilled.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 4,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "white wine",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "grapes",
+                "impact": "yellow"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "sulfites",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

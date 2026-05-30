@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750180679848_2b308ff1-fe70-46bb-b6a4-e1ef01c9d181.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This burger is generally high in carbohydrates and saturated fats, which can affect blood sugar levels in someone with diabetes. Opting for a lean protein burger with a whole grain bun could minimize glycemic impact.",
+        "meal_title": "Cheeseburger with French Fries",
+        "meal_description": "A traditional cheeseburger with a beef patty, cheese, lettuce, tomato, and arugula, served on a sesame seed bun, accompanied by French fries.",
+        "macros": {
+            "calories": 800,
+            "carbohydrates": 60,
+            "fats": 45,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "beef patty",
+                "impact": "orange"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "sesame seed bun",
+                "impact": "orange"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "arugula",
+                "impact": "green"
+            },
+            {
+                "name": "french fries",
+                "impact": "orange"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750097849597_00cf91d6-e95f-4880-b120-76efe150b1b8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a fresh vegetable salad with low glycemic impact, suitable for someone managing blood sugar levels. It is best to include such high-fiber, low-carbohydrate meals regularly. Opt for whole grain or high-fiber additions if more energy is needed.",
+        "meal_title": "Mixed Leafy Green Salad with Yellow Bell Pepper",
+        "meal_description": "A simple salad consisting of green leaf lettuce, red leaf lettuce, and diced yellow bell pepper.",
+        "macros": {
+            "calories": 40,
+            "carbohydrates": 8,
+            "fats": 0,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "green leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "red leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750097765140_1dccfd72-61d7-462c-b163-f5b7c348b547.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains moderate carbohydrate content from the bread and fats from the p\u00e2t\u00e9 and foie gras. It may cause an increase in blood sugar levels, especially for someone with diabetes. Opt for whole grain bread to increase fiber content and reduce the glycemic impact.",
+        "meal_title": "P\u00e2t\u00e9 and Foie Gras with Toast and Salad",
+        "meal_description": "A plate featuring slices of p\u00e2t\u00e9 and foie gras, accompanied by toasted bread and a fresh green salad.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 45,
+            "fats": 25,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "P\u00e2t\u00e9",
+                "impact": "orange"
+            },
+            {
+                "name": "Foie Gras",
+                "impact": "orange"
+            },
+            {
+                "name": "Toasted Bread",
+                "impact": "orange"
+            },
+            {
+                "name": "Green Salad",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750389951709_09f3f23e-5f56-4581-866f-37234067ea72.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": false,
+        "recommendation": "orange",
+        "guidance_message": "This cocktail contains alcohol and simple sugars, which can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this drink, opting for water or unsweetened beverages instead.",
+        "meal_title": "Alcoholic Cocktail with Foam and Edible Flower",
+        "meal_description": "A mixed alcoholic cocktail featuring a foamy top layer and garnished with an edible yellow flower.",
+        "macros": {
+            "calories": 200,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "alcohol (e.g., gin or vodka)",
+                "impact": "orange"
+            },
+            {
+                "name": "simple sugar syrup",
+                "impact": "orange"
+            },
+            {
+                "name": "egg white (for foam)",
+                "impact": "yellow"
+            },
+            {
+                "name": "edible flower",
+                "impact": "green"
+            }
+        ]
+    }
+}

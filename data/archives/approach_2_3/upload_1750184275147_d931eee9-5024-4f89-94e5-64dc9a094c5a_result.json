@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750184275147_d931eee9-5024-4f89-94e5-64dc9a094c5a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal, containing sausage and vegetables, is moderate in its glycemic impact due to the presence of simple carbohydrates in the sausage. For improved blood sugar management, substitute the sausage with a high-fiber plant-based protein.",
+        "meal_title": "Grilled Sausage with Vegetables",
+        "meal_description": "A plate of grilled sausage served with a creamy sauce and accompanied by vegetables such as grilled eggplant, carrots, green peas, and leeks.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 30,
+            "fats": 25,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "sausage",
+                "impact": "yellow"
+            },
+            {
+                "name": "eggplant",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "green"
+            },
+            {
+                "name": "leeks",
+                "impact": "green"
+            },
+            {
+                "name": "cream sauce",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

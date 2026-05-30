@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753211834887_fce7ded2-46f9-47f1-ad3e-667e7d7a06c3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of a lean protein source and fermented cabbage, both of which have a low glycemic impact on blood sugar levels for someone with diabetes. It is a balanced option with minimal carbohydrates and beneficial nutrients. Opting for such meals with lean proteins and fermented vegetables supports stable glycemic control.",
+        "meal_title": "Baked White Fish with Sauerkraut",
+        "meal_description": "A serving of baked white fish fillet paired with sauerkraut, a fermented cabbage dish.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 8,
+            "fats": 5,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "white fish fillet",
+                "impact": "green"
+            },
+            {
+                "name": "cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "fileName": "upload_1750185016838_9f1b1b2d-edab-473c-8a09-a7ade40c25a4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a vegetable quiche made with a refined flour crust, eggs, cheese, and non-starchy vegetables. Its glycemic impact is moderate overall, but the refined crust can raise blood sugar levels more quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber vegetable egg bake instead.",
+        "meal_title": "Vegetable Quiche Slice",
+        "meal_description": "A slice of baked vegetable quiche with pastry crust, egg custard, cheese, green bell pepper, red bell pepper, and mushroom.",
+        "macros": {
+            "calories": 290,
+            "carbohydrates": 18,
+            "fats": 20,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "green bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "red bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

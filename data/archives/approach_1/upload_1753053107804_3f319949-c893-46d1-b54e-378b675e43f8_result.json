@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753053107804_3f319949-c893-46d1-b54e-378b675e43f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This whole grain bread is low in simple carbohydrates and high in dietary fiber, making it a suitable option for maintaining steady blood sugar levels. It is best to include such high-fiber breads in a balanced diet, especially for someone with diabetes.",
+        "meal_title": "Whole Grain Bread",
+        "meal_description": "Slices of whole grain bread that appear dense and rich in fiber.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 27,
+            "fats": 2,
+            "proteins": 6
+        },
+        "ingredients": [
+            {
+                "name": "Whole wheat flour",
+                "impact": "green"
+            },
+            {
+                "name": "Water",
+                "impact": "green"
+            },
+            {
+                "name": "Yeast",
+                "impact": "green"
+            },
+            {
+                "name": "Salt",
+                "impact": "green"
+            },
+            {
+                "name": "Whole grains",
+                "impact": "green"
+            }
+        ]
+    }
+}

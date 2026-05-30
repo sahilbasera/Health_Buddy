@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753053053316_3dad93e8-c0b5-4fb7-8155-80469e473fe9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of white bread with butter, which is high in simple carbohydrates and saturated fats, potentially causing rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain bread with a high-fiber spread instead.",
+        "meal_title": "White Bread with Butter",
+        "meal_description": "Five slices of white bread spread with butter, a source of simple carbohydrates and saturated fats.",
+        "macros": {
+            "calories": 650,
+            "carbohydrates": 80,
+            "fats": 30,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            }
+        ]
+    }
+}

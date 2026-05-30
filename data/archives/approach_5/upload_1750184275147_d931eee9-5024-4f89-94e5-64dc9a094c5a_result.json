@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1750184275147_d931eee9-5024-4f89-94e5-64dc9a094c5a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be a grilled sausage with cream-based sauce, peas, fennel, carrot, and eggplant, providing moderate protein but also refined saturated fat and a starchy vegetable component that may raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a lean grilled protein with non-starchy vegetables and a whole grain or high-fiber alternative instead.",
+        "meal_title": "Grilled Sausage with Cream Sauce and Vegetables",
+        "meal_description": "A plated meal consisting of one grilled sausage served with a light cream sauce, onion, peas, fennel, carrot, eggplant, and a yellow starchy vegetable component, likely potato or squash.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 24,
+            "fats": 38,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "pork",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "orange"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "peas",
+                "impact": "yellow"
+            },
+            {
+                "name": "fennel",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "yellow"
+            },
+            {
+                "name": "eggplant",
+                "impact": "green"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            }
+        ]
+    }
+}

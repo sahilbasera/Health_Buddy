@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750389951709_09f3f23e-5f56-4581-866f-37234067ea72.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This drink may contain simple sugars and alcohol, which can cause blood sugar spikes in someone with diabetes. Opting for a non-alcoholic, lower-sugar version could be beneficial.",
+        "meal_title": "Creamy Cocktail",
+        "meal_description": "A creamy cocktail garnished with an edible flower, typically containing alcohol and sweeteners.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 10,
+            "fats": 5,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Alcohol",
+                "impact": "yellow"
+            },
+            {
+                "name": "Simple syrup",
+                "impact": "orange"
+            },
+            {
+                "name": "Lemon juice",
+                "impact": "green"
+            },
+            {
+                "name": "Egg white or cream",
+                "impact": "orange"
+            }
+        ]
+    }
+}

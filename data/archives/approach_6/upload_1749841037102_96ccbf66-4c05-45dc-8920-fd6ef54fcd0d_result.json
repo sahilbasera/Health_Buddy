@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1749841037102_96ccbf66-4c05-45dc-8920-fd6ef54fcd0d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a rice-based bean and vegetable dish topped with melted cheese, and it is relatively high in carbohydrates from white rice and beans, which can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a smaller portion with brown rice or cauliflower rice and extra non-starchy vegetables instead.",
+        "meal_title": "Rice with black beans, stewed vegetables, and melted cheese",
+        "meal_description": "A plate of white rice topped with black beans, tomato-based stewed vegetables, and a layer of melted cheese. Visible components suggest a mixed savory preparation with peppers, onion, and herbs.",
+        "macros": {
+            "calories": 390,
+            "carbohydrates": 49,
+            "fats": 12,
+            "proteins": 16
+        },
+        "ingredients": [
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "black beans",
+                "impact": "yellow"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "red bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "cilantro",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

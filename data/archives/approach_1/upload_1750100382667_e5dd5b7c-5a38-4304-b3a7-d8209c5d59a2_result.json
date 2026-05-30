@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750100382667_e5dd5b7c-5a38-4304-b3a7-d8209c5d59a2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal provides moderate carbohydrate content with the inclusion of vegetables and chicken, making it suitable for balanced nutrition. Choose whole grains or legumes as an alternative carbohydrate source to enhance fiber intake.",
+        "meal_title": "Chicken with Vegetables and Grain Bowl",
+        "meal_description": "A bowl containing grilled or roasted chicken, mixed greens including lettuce, grain such as polenta or rice, and pickled onions.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 40,
+            "fats": 20,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "polenta",
+                "impact": "yellow"
+            },
+            {
+                "name": "pickled onions",
+                "impact": "yellow"
+            },
+            {
+                "name": "dressing",
+                "impact": "orange"
+            }
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "fileName": "upload_1749843287038_40cbba8a-21fa-447a-88ce-54e9d8f8708a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a South Asian thali centered on refined-flour flatbread with lentil curry, a yellow curry, chutney, rice, yogurt, and pickle. It may raise blood sugar levels in someone with diabetes because it is relatively high in simple or rapidly digested carbohydrates from the flatbread and rice; it is best to avoid or strictly limit this meal, opting for whole grain roti or other high-fiber alternatives instead.",
+        "meal_title": "Flatbread Thali with Rice, Curries, Yogurt, and Chutney",
+        "meal_description": "A plated meal containing large folded flatbread, a small serving of white rice, plain yogurt, lentil-based curry, yellow curry, green chutney, pickle, and a crisp flatbread accompaniment.",
+        "macros": {
+            "calories": 780,
+            "carbohydrates": 108,
+            "fats": 24,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "orange"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "yogurt culture",
+                "impact": "green"
+            },
+            {
+                "name": "lentils",
+                "impact": "yellow"
+            },
+            {
+                "name": "turmeric",
+                "impact": "green"
+            },
+            {
+                "name": "cumin",
+                "impact": "green"
+            },
+            {
+                "name": "mustard seeds",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "green chili",
+                "impact": "green"
+            },
+            {
+                "name": "coriander",
+                "impact": "green"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "mango",
+                "impact": "orange"
+            },
+            {
+                "name": "papad",
+                "impact": "orange"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750097681033_c71afe76-f144-4a19-9dd3-19a1178957f4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a peeled orange, a whole fruit that provides natural carbohydrates along with fiber and water. Its glycemic impact is generally mild to moderate for someone with diabetes compared with refined sweets, though portion size still affects blood sugar levels. It is best to avoid or strictly limit fruit juice versions of this meal, opting for whole orange or other high-fiber whole fruit instead.",
+        "meal_title": "Peeled Orange",
+        "meal_description": "A peeled orange with visible citrus segments and pith, likely a single small-to-medium fresh orange.",
+        "macros": {
+            "calories": 62,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

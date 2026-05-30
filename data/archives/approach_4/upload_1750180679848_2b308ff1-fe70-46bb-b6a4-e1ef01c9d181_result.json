@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750180679848_2b308ff1-fe70-46bb-b6a4-e1ef01c9d181.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is high in simple carbohydrates and fats, which can cause a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Cheeseburger with Arugula and Tomato",
+        "meal_description": "A cheeseburger consisting of a sesame seed bun, beef patty, melted cheese, tomato slices, and arugula.",
+        "macros": {
+            "calories": 550,
+            "carbohydrates": 40,
+            "fats": 30,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "wheat bun with sesame seeds",
+                "impact": "orange"
+            },
+            {
+                "name": "beef patty",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "arugula",
+                "impact": "green"
+            }
+        ]
+    }
+}

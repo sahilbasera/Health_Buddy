@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053995329_8844fe76-9209-488e-adf3-7a13fe0c6f81.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels as it is high in protein and low in simple carbohydrates. Replacing the chicken with a leaner cut could enhance health benefits.",
+        "meal_title": "Chicken with Scrambled Eggs and Zucchini",
+        "meal_description": "A meal consisting of grilled chicken, scrambled eggs, and sauteed zucchini.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 15,
+            "fats": 18,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "eggs",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            }
+        ]
+    }
+}

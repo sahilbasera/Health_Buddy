@@ -1,0 +1,76 @@
+{
+    "fileName": "upload_1753068426109_e9f92f5b-5160-494e-9ff7-32be49b9dca2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of various vegetables and a small portion of cheese, providing a balanced intake of fiber, vitamins, and moderate protein. It has a low glycemic impact, suitable for someone with diabetes to help maintain stable blood sugar levels. It is best to include whole grain or high-fiber options alongside for a more complete meal.",
+        "meal_title": "Mixed Vegetable Plate with Cheese",
+        "meal_description": "A plate containing cooked carrots, yellow bell pepper, green peas, broccoli, spinach, corn, beetroot, cucumber, tomato, pineapple, and shredded cheese.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 40,
+            "fats": 8,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "corn",
+                "impact": "yellow"
+            },
+            {
+                "name": "beetroot",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "pineapple",
+                "impact": "yellow"
+            },
+            {
+                "name": "shredded cheese",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

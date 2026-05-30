@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753054127030_3f2421d7-8517-4a68-a37e-f2c3fae607db.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a fresh vegetable salad with low glycemic impact, suitable for someone with diabetes as it helps maintain stable blood sugar levels. It is best to include more high-fiber vegetables like broccoli or kale for added benefits.",
+        "meal_title": "Fresh Vegetable Salad",
+        "meal_description": "A simple salad consisting of lettuce, cucumber, and carrot with a light seasoning.",
+        "macros": {
+            "calories": 50,
+            "carbohydrates": 10,
+            "fats": 1,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "flax seeds",
+                "impact": "green"
+            }
+        ]
+    }
+}

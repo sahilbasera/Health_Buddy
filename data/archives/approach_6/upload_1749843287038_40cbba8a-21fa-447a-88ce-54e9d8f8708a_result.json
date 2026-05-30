@@ -1,0 +1,112 @@
+{
+    "fileName": "upload_1749843287038_40cbba8a-21fa-447a-88ce-54e9d8f8708a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a South Asian thali with refined-grain flatbread, white rice, lentil curry, ghee, and chutney, making it moderately to highly glycemic for someone with diabetes due to the concentration of starches and limited visible fiber. It is best to avoid or strictly limit this meal, opting for whole grain roti, brown rice, and higher-fiber vegetable sides instead.",
+        "meal_title": "South Asian Thali with Flatbread, Rice, Dal, Ghee, and Chutney",
+        "meal_description": "A plated meal containing large flatbread pieces, a serving of white rice, one boiled egg, a small portion of ghee or butter, lentil curry, a yellow curry or gravy, green chutney, and a small side of pickle or cooked vegetables.",
+        "macros": {
+            "calories": 780,
+            "carbohydrates": 92,
+            "fats": 28,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "orange"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "milk fat",
+                "impact": "orange"
+            },
+            {
+                "name": "lentils",
+                "impact": "yellow"
+            },
+            {
+                "name": "turmeric",
+                "impact": "green"
+            },
+            {
+                "name": "cumin",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "ginger",
+                "impact": "green"
+            },
+            {
+                "name": "green chili",
+                "impact": "green"
+            },
+            {
+                "name": "coriander",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "mustard oil",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon",
+                "impact": "green"
+            },
+            {
+                "name": "mango",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

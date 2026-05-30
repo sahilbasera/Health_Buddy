@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1750038317524_55c71fd4-30e1-4e8b-93f8-86e6094f31b3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be baked macaroni and cheese topped with bread pieces or breadcrumbs, a refined-grain dish that is high in simple carbohydrates and saturated fat. It may raise blood sugar levels relatively quickly in someone with diabetes, especially when portion size is large. It is best to avoid or strictly limit this meal, opting for a whole grain pasta with a high-fiber vegetable-based sauce instead.",
+        "meal_title": "Baked Macaroni and Cheese",
+        "meal_description": "A baked pasta dish made with refined wheat pasta, cheese sauce, milk, butter, and a breadcrumb or bread topping.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 48,
+            "fats": 24,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "durum wheat semolina",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "cheddar cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "bread",
+                "impact": "orange"
+            }
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1753053995329_8844fe76-9209-488e-adf3-7a13fe0c6f81.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal appears to be a protein-focused plate with scrambled eggs, cooked zucchini, and seasoned chicken, with a relatively low carbohydrate load and a generally modest glycemic impact on blood sugar levels. For someone with diabetes, it is best to avoid or strictly limit any added refined starches or sugary sauces with this meal, opting for whole grain or high-fiber sides instead if additional carbohydrates are needed.",
+        "meal_title": "Scrambled Eggs with Chicken and Zucchini",
+        "meal_description": "A simple plated meal containing scrambled eggs, saut\u00e9ed zucchini, and seasoned chicken pieces. The meal is predominantly protein and non-starchy vegetables, which typically results in a lower glycemic effect compared with meals high in simple carbohydrates.",
+        "macros": {
+            "calories": 320,
+            "carbohydrates": 7,
+            "fats": 17,
+            "proteins": 34
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "paprika",
+                "impact": "green"
+            }
+        ]
+    }
+}

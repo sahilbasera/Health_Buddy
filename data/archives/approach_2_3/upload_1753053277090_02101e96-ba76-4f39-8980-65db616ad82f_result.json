@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053277090_02101e96-ba76-4f39-8980-65db616ad82f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit plate is composed mainly of fresh fruits, which are low in calories and have a low to moderate impact on blood sugar levels. Opting for a combination of fruits provides a range of nutrients and is a good choice for those monitoring blood sugar levels.",
+        "meal_title": "Mixed Fruit Plate",
+        "meal_description": "A selection of apple slices, banana slices, and pear slices.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 35,
+            "fats": 1,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            },
+            {
+                "name": "banana",
+                "impact": "yellow"
+            },
+            {
+                "name": "pear",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753053995329_8844fe76-9209-488e-adf3-7a13fe0c6f81.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is suitable for managing blood sugar levels due to its high protein and low carbohydrate content. Opt for this balanced dish, or add more non-starchy vegetables to enhance its nutritional profile.",
+        "meal_title": "Chicken with Zucchini and Scrambled Eggs",
+        "meal_description": "A plate consisting of seasoned chicken pieces, saut\u00e9ed zucchini, and scrambled eggs.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 12,
+            "fats": 18,
+            "proteins": 36
+        },
+        "ingredients": [
+            {
+                "name": "Chicken",
+                "impact": "green"
+            },
+            {
+                "name": "Zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "Eggs",
+                "impact": "green"
+            },
+            {
+                "name": "Seasonings",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753054028270_f5833fb2-5b4f-45b5-9da8-a2cd7b10c97d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This dish may impact blood sugar levels due to its high carbohydrate content and should be consumed in moderation, especially for someone with diabetes. Opting for whole grain dough and reducing the amount of processed ingredients could be beneficial.",
+        "meal_title": "Lahmacun",
+        "meal_description": "A savory flatbread topped with a mixture of minced meat, herbs, and spices often resembling a Turkish-style pizza.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 40,
+            "fats": 12,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Ground meat",
+                "impact": "yellow"
+            },
+            {
+                "name": "Tomato paste",
+                "impact": "yellow"
+            },
+            {
+                "name": "Onions",
+                "impact": "green"
+            },
+            {
+                "name": "Herbs and spices",
+                "impact": "green"
+            },
+            {
+                "name": "Olive oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

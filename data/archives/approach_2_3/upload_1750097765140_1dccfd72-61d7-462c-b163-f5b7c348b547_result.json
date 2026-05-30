@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750097765140_1dccfd72-61d7-462c-b163-f5b7c348b547.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal, containing liver p\u00e2t\u00e9 and white bread, is moderately high in fats and simple carbohydrates. Someone with diabetes might choose whole grain bread and a larger portion of salad to enhance fiber intake and control blood sugar levels.",
+        "meal_title": "Liver P\u00e2t\u00e9 with Toast and Salad",
+        "meal_description": "This dish consists of liver p\u00e2t\u00e9 served with toasted white bread and a side of fresh green salad.",
+        "macros": {
+            "calories": 500,
+            "carbohydrates": 45,
+            "fats": 30,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "liver p\u00e2t\u00e9",
+                "impact": "orange"
+            },
+            {
+                "name": "white bread",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "green salad",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750185057801_517dd09d-f8aa-4e48-93d1-820958817b61.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "These appear to be black grapes, a fruit containing natural sugars and moderate carbohydrates that can raise blood sugar levels in someone with diabetes if eaten in larger portions. It is best to avoid or strictly limit this meal, opting for a smaller portion paired with nuts or a high-fiber fruit such as berries instead.",
+        "meal_title": "Black Grapes",
+        "meal_description": "A small portion of fresh black grapes served plain.",
+        "macros": {
+            "calories": 45,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "black grapes",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

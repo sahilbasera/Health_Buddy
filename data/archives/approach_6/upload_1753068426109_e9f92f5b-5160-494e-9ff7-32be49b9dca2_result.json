@@ -1,0 +1,104 @@
+{
+    "fileName": "upload_1753068426109_e9f92f5b-5160-494e-9ff7-32be49b9dca2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed composed bowl with starchy vegetables, pasta, fruit, and non-starchy vegetables, giving it a moderate glycemic impact overall. For someone with diabetes, the corn, pasta, and pineapple may raise blood sugar levels more noticeably, especially when combined in one meal. It is best to avoid or strictly limit this meal, opting for whole grain pasta or other high-fiber alternatives instead.",
+        "meal_title": "Mixed Vegetable, Pasta, Fruit, and Cheese Bowl",
+        "meal_description": "A composed bowl containing pasta with shredded cheese, sweet corn, pineapple, cucumber, grapefruit, beetroot, spinach, broccoli, peas, carrots, yellow bell pepper, and small cubes of white cheese.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 49,
+            "fats": 15,
+            "proteins": 18
+        },
+        "ingredients": [
+            {
+                "name": "pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "shredded cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "pineapple",
+                "impact": "orange"
+            },
+            {
+                "name": "sweet corn",
+                "impact": "orange"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "grapefruit",
+                "impact": "yellow"
+            },
+            {
+                "name": "beetroot",
+                "impact": "yellow"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "yellow"
+            },
+            {
+                "name": "carrot",
+                "impact": "yellow"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "white cheese",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

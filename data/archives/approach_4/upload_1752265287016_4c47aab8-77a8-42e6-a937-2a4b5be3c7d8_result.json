@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1752265287016_4c47aab8-77a8-42e6-a937-2a4b5be3c7d8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is high in simple carbohydrates and fats, which can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain bread and baked sweet potato fries instead.",
+        "meal_title": "Hamburger with French Fries",
+        "meal_description": "A hamburger sandwich with lettuce and tomato on a white bread bun, served with a side of deep-fried French fries.",
+        "macros": {
+            "calories": 700,
+            "carbohydrates": 70,
+            "fats": 35,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "white bread bun",
+                "impact": "orange"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "beef patty",
+                "impact": "yellow"
+            },
+            {
+                "name": "potato",
+                "impact": "yellow"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "orange"
+            }
+        ]
+    }
+}

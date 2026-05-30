@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of low glycemic vegetables that have minimal impact on blood sugar levels for someone with diabetes. It is a vegetable medley that is suitable for maintaining stable glycemic control. It is best to choose whole, non-starchy vegetables like these for a balanced diet.",
+        "meal_title": "Mixed Vegetable Medley",
+        "meal_description": "A combination of cooked carrots, mushrooms, and zucchini seasoned with herbs.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 15,
+            "fats": 1,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

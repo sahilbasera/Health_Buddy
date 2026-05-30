@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750386301376_71400aa0-7658-40cd-9027-9a62f8489da7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "Pizza, being generally high in refined carbohydrates, can lead to rapid increases in blood sugar levels. It is best to limit consumption of pizza, opting for a whole grain or cauliflower crust with extra vegetables instead.",
+        "meal_title": "Vegetable Pizza",
+        "meal_description": "A pizza topped with various vegetables and cheese on a traditional dough crust.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 30,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "pizza crust",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "onions",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            }
+        ]
+    }
+}

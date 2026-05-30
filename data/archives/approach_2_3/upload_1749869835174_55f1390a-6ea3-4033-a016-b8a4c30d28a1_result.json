@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749869835174_55f1390a-6ea3-4033-a016-b8a4c30d28a1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This dish, containing tuna and avocado, is moderate in its glycemic impact due to the healthy fats and proteins. For those managing blood sugar, ensuring a balance with more whole grains or high-fiber vegetables is beneficial.",
+        "meal_title": "Tuna and Avocado Tartare",
+        "meal_description": "A dish featuring raw tuna and avocado, topped with roe, and accompanied by a light sauce.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 10,
+            "fats": 25,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "tuna",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "fish roe",
+                "impact": "yellow"
+            },
+            {
+                "name": "soy sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "wasabi",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

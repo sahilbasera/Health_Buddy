@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1750184275147_d931eee9-5024-4f89-94e5-64dc9a094c5a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains a protein source with moderate fat and a variety of vegetables, which have a low glycemic impact on blood sugar levels. It is best to choose whole grain or high-fiber sides instead of sauces with added fats to better support glycemic control for someone with diabetes.",
+        "meal_title": "Grilled Sausage with Mixed Vegetables and Sauce",
+        "meal_description": "Grilled sausage served with cooked peas, carrots, zucchini, eggplant, and a creamy sauce with onions.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 20,
+            "fats": 25,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "pork sausage",
+                "impact": "yellow"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "eggplant",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

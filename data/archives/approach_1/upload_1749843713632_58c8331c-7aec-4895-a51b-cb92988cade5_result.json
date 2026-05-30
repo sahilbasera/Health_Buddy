@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1749843713632_58c8331c-7aec-4895-a51b-cb92988cade5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This beverage likely has a low impact on blood sugar levels. It is suitable for someone managing diabetes, especially if it is unsweetened tea or herbal infusion. Choosing teas or infusions without added sugars enhances its suitability for glycemic health.",
+        "meal_title": "Unsweetened Tea or Infusion",
+        "meal_description": "A cup of unsweetened tea or herbal infusion.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "tea or herbal infusion",
+                "impact": "green"
+            }
+        ]
+    }
+}

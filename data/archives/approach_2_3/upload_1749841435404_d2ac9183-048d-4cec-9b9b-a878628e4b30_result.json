@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1749841435404_d2ac9183-048d-4cec-9b9b-a878628e4b30.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This yogurt with berries is low in calories and high in fiber, making it a suitable option for someone with diabetes. Opt for plain yogurt to minimize added sugars.",
+        "meal_title": "Yogurt with Berries",
+        "meal_description": "A serving of yogurt topped with fresh blueberries and red currants.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 22,
+            "fats": 4,
+            "proteins": 7
+        },
+        "ingredients": [
+            {
+                "name": "plain yogurt",
+                "impact": "green"
+            },
+            {
+                "name": "blueberries",
+                "impact": "green"
+            },
+            {
+                "name": "red currants",
+                "impact": "green"
+            }
+        ]
+    }
+}

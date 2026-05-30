@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053217022_73c60e40-9950-4c69-8625-9eb92923f379.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Grapes are a low-calorie, high-water content fruit that can have a moderate impact on blood sugar levels. Opt for berries if you're seeking a lower glycemic index snack.",
+        "meal_title": "Fresh Red and Green Grapes",
+        "meal_description": "A plate of fresh red and green grapes, known for being hydrating and a good source of vitamins and antioxidants.",
+        "macros": {
+            "calories": 69,
+            "carbohydrates": 18,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "grapes",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

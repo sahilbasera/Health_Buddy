@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753052864483_2e9f35f0-e28e-4cb0-9e0e-161c00ce4e6d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains a mix of vegetables and bread pieces, which provide carbohydrates and fiber. For someone with diabetes, the bread pieces can raise blood sugar levels due to their refined carbohydrate content. It is best to avoid or strictly limit this meal, opting for whole grain bread or high-fiber vegetable alternatives instead.",
+        "meal_title": "Mixed Vegetable Salad with Bread Pieces",
+        "meal_description": "A salad consisting of iceberg lettuce, tomato, pear, and toasted bread cubes.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 30,
+            "fats": 4,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "iceberg lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "pear",
+                "impact": "green"
+            },
+            {
+                "name": "bread",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

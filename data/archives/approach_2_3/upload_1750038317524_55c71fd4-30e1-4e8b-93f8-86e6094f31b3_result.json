@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750038317524_55c71fd4-30e1-4e8b-93f8-86e6094f31b3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This dish is likely high in refined carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. Consider opting for whole grain pasta and adding vegetables to reduce glycemic impact.",
+        "meal_title": "Baked Pasta with Cheese and Croutons",
+        "meal_description": "A casserole dish containing baked pasta with cheese, topped with croutons.",
+        "macros": {
+            "calories": 650,
+            "carbohydrates": 75,
+            "fats": 30,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "bread for croutons",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "milk",
+                "impact": "orange"
+            }
+        ]
+    }
+}

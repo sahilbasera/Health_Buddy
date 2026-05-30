@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1753053311667_d3574386-8d95-4b91-b5c6-0ee2fecb639a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a slice of vegetable pizza made with refined flour crust, tomato sauce, cheese, and mixed vegetable toppings, which is relatively high in simple carbohydrates and can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain pizza crust or a high-fiber flatbread with extra non-starchy vegetables instead.",
+        "meal_title": "Vegetable Cheese Pizza Slice",
+        "meal_description": "A single slice of pizza with refined wheat crust, tomato sauce, melted cheese, herbs, and visible vegetable toppings such as tomato, onion, and olive.",
+        "macros": {
+            "calories": 260,
+            "carbohydrates": 30,
+            "fats": 10,
+            "proteins": 11
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "olive",
+                "impact": "yellow"
+            },
+            {
+                "name": "oregano",
+                "impact": "green"
+            },
+            {
+                "name": "basil",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

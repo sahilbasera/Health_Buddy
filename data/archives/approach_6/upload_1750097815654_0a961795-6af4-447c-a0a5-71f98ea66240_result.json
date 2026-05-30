@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750097815654_0a961795-6af4-447c-a0a5-71f98ea66240.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal appears to be fresh kiwi fruit, which is a whole fruit with fiber and a relatively moderate effect on blood sugar levels compared with refined carbohydrate foods. For someone with diabetes, it is generally a lower-glycemic fruit option when eaten in a modest portion; whole fruit is preferable to juice or sweetened fruit products.",
+        "meal_title": "Fresh Kiwi Halves",
+        "meal_description": "Two kiwi fruit halves, representing approximately one whole fresh kiwi served raw.",
+        "macros": {
+            "calories": 42,
+            "carbohydrates": 10,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "kiwi",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750263222856_8d684828-73ea-4ad9-9259-39c31e29f465.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately balanced but could be high in saturated fats from the cheese and processed meats. Consider going for leaner protein options like turkey or chicken, and incorporating more whole grains and vegetables for a more balanced meal.",
+        "meal_title": "Italian-Inspired Breakfast Plate",
+        "meal_description": "A plate consisting of various types of cheeses, cured meats, and a slice of whole grain bread.",
+        "macros": {
+            "calories": 600,
+            "carbohydrates": 40,
+            "fats": 40,
+            "proteins": 40
+        },
+        "ingredients": [
+            {
+                "name": "whole grain bread",
+                "impact": "green"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "soft cheese (ricotta)",
+                "impact": "yellow"
+            },
+            {
+                "name": "hard cheese (spicy variety)",
+                "impact": "yellow"
+            },
+            {
+                "name": "prosciutto",
+                "impact": "yellow"
+            },
+            {
+                "name": "cured ham (possibly mortadella)",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

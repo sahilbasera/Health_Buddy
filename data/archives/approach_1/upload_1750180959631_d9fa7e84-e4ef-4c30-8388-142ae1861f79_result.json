@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750180959631_d9fa7e84-e4ef-4c30-8388-142ae1861f79.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This drink may contain sugars that could affect blood sugar levels. It is best to consume in moderation, opting for water or unsweetened beverages when possible.",
+        "meal_title": "White Wine",
+        "meal_description": "A glass of white wine, typically containing alcohol and naturally occurring sugars.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 5,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Alcohol",
+                "impact": "yellow"
+            },
+            {
+                "name": "Sugars",
+                "impact": "yellow"
+            },
+            {
+                "name": "Water",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753200023630_697c8163-ee91-4c75-85b8-ad4a947e9e74.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza slice is high in refined carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain crust pizza with more vegetables instead.",
+        "meal_title": "Pizza Slice",
+        "meal_description": "A single slice of pizza topped with cheese, olives, tomato sauce, and ham.",
+        "macros": {
+            "calories": 285,
+            "carbohydrates": 36,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "Olives",
+                "impact": "yellow"
+            },
+            {
+                "name": "Tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Ham",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

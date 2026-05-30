@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1752265899911_dcb7943d-bbe6-4f7c-9c86-2b162eb3f61d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza is generally high in carbohydrates due to the crust and may not be ideal for someone with diabetes. Opting for a whole grain or cauliflower crust, along with more vegetable toppings, could be a better choice.",
+        "meal_title": "Vegetable and Ham Pizza",
+        "meal_description": "A thin-crust pizza topped with tomato sauce, cheese, mushrooms, olives, red peppers, and ham.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 36,
+            "fats": 12,
+            "proteins": 14
+        },
+        "ingredients": [
+            {
+                "name": "pizza crust",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "red peppers",
+                "impact": "green"
+            },
+            {
+                "name": "olives",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053337006_b38485b7-124a-401e-bf24-65359c9e90d0.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "Boiled potatoes generally have a medium glycemic index, which can moderately affect blood sugar levels. Consider pairing with high-fiber vegetables or lean proteins to balance the meal's impact on someone with diabetes.",
+        "meal_title": "Boiled Potatoes",
+        "meal_description": "A serving of boiled potatoes, mildly starchy root vegetables.",
+        "macros": {
+            "calories": 130,
+            "carbohydrates": 30,
+            "fats": 0,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "potatoes",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

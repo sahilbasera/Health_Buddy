@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1753053311667_d3574386-8d95-4b91-b5c6-0ee2fecb639a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This slice of pizza is moderate in carbohydrates, fats, and calories, which may impact blood sugar levels in someone with diabetes. Replacing the crust with a whole grain or cauliflower alternative can lower the glycemic impact.",
+        "meal_title": "Vegetable Pizza Slice",
+        "meal_description": "A single slice of pizza topped with vegetables and cheese.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 30,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "pizza crust",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "bell peppers",
+                "impact": "green"
+            },
+            {
+                "name": "onions",
+                "impact": "green"
+            },
+            {
+                "name": "black olives",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053088887_e0087c65-7b21-4e50-9878-19401e3fbe93.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of eggs and tomatoes, which have a low glycemic impact and provide balanced protein and fiber. It is suitable for someone with diabetes as it supports stable blood sugar levels. It is best to avoid or strictly limit high glycemic index foods, opting for whole grain or high-fiber alternatives when including carbohydrates.",
+        "meal_title": "Fried Eggs with Sliced Tomatoes",
+        "meal_description": "Two fried eggs served with sliced fresh tomatoes sprinkled with a light seasoning.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 7,
+            "fats": 15,
+            "proteins": 18
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

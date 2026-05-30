@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750038497319_6a3082e9-034c-4015-9eeb-9545000073c9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal consists of sous vide egg bites with uncured bacon and gouda, which are moderate in carbohydrates but higher in fats and proteins. For someone with diabetes, the presence of bacon and cheese can increase saturated fat intake, potentially impacting blood sugar control indirectly. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber egg-based alternatives without processed meats instead.",
+        "meal_title": "Sous Vide Egg Bites with Uncured Bacon and Gouda",
+        "meal_description": "Prepared egg bites made from cage-free eggs, uncured bacon, gouda cheese, cream, water, and seasonings, cooked sous vide.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 3,
+            "fats": 11,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "cage-free eggs",
+                "impact": "green"
+            },
+            {
+                "name": "uncured bacon",
+                "impact": "orange"
+            },
+            {
+                "name": "gouda cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

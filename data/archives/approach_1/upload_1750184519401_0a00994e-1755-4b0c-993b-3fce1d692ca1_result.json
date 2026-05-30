@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750184519401_0a00994e-1755-4b0c-993b-3fce1d692ca1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This pasta dish features a moderate amount of carbohydrates and fats. It is suitable for someone with diabetes if consumed in controlled portions, or paired with a salad. It is best to opt for whole grain pasta to increase fiber content, which can help manage blood sugar levels.",
+        "meal_title": "Pesto Pasta with Tofu",
+        "meal_description": "Penne pasta cooked with pesto sauce and grilled tofu pieces, offering a mix of carbohydrates, fats, and protein.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 60,
+            "fats": 18,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "Penne Pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "Pesto Sauce",
+                "impact": "orange"
+            },
+            {
+                "name": "Tofu",
+                "impact": "green"
+            }
+        ]
+    }
+}

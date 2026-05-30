@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750709512018_7cb970d1-5843-42fe-9f82-10279f27a01a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of a raw carrot, which is low in calories and has a low glycemic impact on blood sugar levels for someone with diabetes. It is a good choice for maintaining stable blood glucose. It is best to include such high-fiber vegetables as part of a balanced diet.",
+        "meal_title": "Raw Carrot Stick",
+        "meal_description": "A single raw carrot stick, peeled and cut.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "impact": "green"
+            }
+        ]
+    }
+}

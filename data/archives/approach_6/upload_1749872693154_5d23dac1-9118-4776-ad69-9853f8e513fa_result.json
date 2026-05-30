@@ -1,0 +1,88 @@
+{
+    "fileName": "upload_1749872693154_5d23dac1-9118-4776-ad69-9853f8e513fa.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a seared beef sushi roll topped with jalape\u00f1o, made with white sushi rice and sauce, which is relatively high in refined carbohydrates and may raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain roll, sashimi, or a high-fiber vegetable-based alternative instead.",
+        "meal_title": "Seared Beef Sushi Roll with Jalape\u00f1o",
+        "meal_description": "A specialty sushi roll made with white sushi rice, nori, seared beef slices, jalape\u00f1o rounds, and sauce, served with wasabi and pickled ginger.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 38,
+            "fats": 18,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "white sushi rice",
+                "impact": "orange"
+            },
+            {
+                "name": "rice vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "nori",
+                "impact": "green"
+            },
+            {
+                "name": "beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "jalape\u00f1o",
+                "impact": "green"
+            },
+            {
+                "name": "soy sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "mayonnaise",
+                "impact": "yellow"
+            },
+            {
+                "name": "sesame oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "wasabi",
+                "impact": "green"
+            },
+            {
+                "name": "ginger",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753199710361_657a23e2-1ed3-4b67-86cb-e5b5b76d0cc5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This is a clear broth-based soup with low carbohydrate content, which has minimal impact on blood sugar levels for someone with diabetes. It is a light meal option that can be consumed without significant glycemic concerns. For more substantial meals, incorporating whole grains or high-fiber vegetables is advisable.",
+        "meal_title": "Clear Broth Soup with Green Onions",
+        "meal_description": "A simple clear broth soup containing water, miso paste, and green onions, providing a low-calorie, low-carbohydrate option.",
+        "macros": {
+            "calories": 40,
+            "carbohydrates": 4,
+            "fats": 1,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "miso paste",
+                "impact": "green"
+            },
+            {
+                "name": "green onions",
+                "impact": "green"
+            }
+        ]
+    }
+}

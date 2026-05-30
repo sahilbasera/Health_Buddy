@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1749843713632_58c8331c-7aec-4895-a51b-cb92988cade5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be plain water, which contains no carbohydrates and has no meaningful glycemic impact on blood sugar levels, including for someone with diabetes. It is best to avoid or strictly limit sugar-sweetened beverages, opting for water or other unsweetened, high-fiber beverage alternatives instead.",
+        "meal_title": "Plain Water",
+        "meal_description": "A cup of plain drinking water with no visible added ingredients or caloric components.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

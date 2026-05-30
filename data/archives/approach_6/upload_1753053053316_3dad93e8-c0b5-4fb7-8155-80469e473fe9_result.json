@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753053053316_3dad93e8-c0b5-4fb7-8155-80469e473fe9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be several slices of white bread spread with butter, making it relatively high in refined carbohydrates and saturated fat. It may raise blood sugar levels more quickly in someone with diabetes due to the low-fiber bread. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber bread with a thinner spread instead.",
+        "meal_title": "Butter-Spread White Bread Slices",
+        "meal_description": "Five slices of white bread served with a visible spread of butter.",
+        "macros": {
+            "calories": 650,
+            "carbohydrates": 65,
+            "fats": 35,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            }
+        ]
+    }
+}

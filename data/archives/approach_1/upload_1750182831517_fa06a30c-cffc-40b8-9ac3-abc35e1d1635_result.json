@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750182831517_fa06a30c-cffc-40b8-9ac3-abc35e1d1635.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is rich in fiber and nutrients, suitable for maintaining stable blood sugar levels. Opt for salads with diverse vegetables and avoid dressings high in added sugars to enhance nutritional benefits.",
+        "meal_title": "Mixed Green Salad",
+        "meal_description": "A bowl of mixed green salad containing various leafy greens, shredded vegetables, and likely some legumes or seeds.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 20,
+            "fats": 8,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "mixed leafy greens",
+                "impact": "green"
+            },
+            {
+                "name": "shredded cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "sliced apples",
+                "impact": "yellow"
+            },
+            {
+                "name": "peas",
+                "impact": "green"
+            },
+            {
+                "name": "seeds or nuts",
+                "impact": "yellow"
+            },
+            {
+                "name": "salad dressing",
+                "impact": "orange"
+            }
+        ]
+    }
+}

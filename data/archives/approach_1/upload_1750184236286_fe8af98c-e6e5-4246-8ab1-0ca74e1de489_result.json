@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750184236286_fe8af98c-e6e5-4246-8ab1-0ca74e1de489.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": false,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This burger is high in refined carbohydrates and fats, which can impact blood sugar levels. It is best to avoid or strictly limit this meal, opting for a whole grain roll or a lettuce wrap instead.",
+        "meal_title": "Classic Cheeseburger",
+        "meal_description": "A classic cheeseburger consisting of a sesame seed bun, beef patty, cheese, lettuce, tomato, and condiments.",
+        "macros": {
+            "calories": 480,
+            "carbohydrates": 45,
+            "fats": 25,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "Sesame Seed Bun",
+                "impact": "orange"
+            },
+            {
+                "name": "Beef Patty",
+                "impact": "yellow"
+            },
+            {
+                "name": "Cheese Slice",
+                "impact": "yellow"
+            },
+            {
+                "name": "Lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Tomato",
+                "impact": "green"
+            },
+            {
+                "name": "Condiments (Ketchup, Mustard)",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

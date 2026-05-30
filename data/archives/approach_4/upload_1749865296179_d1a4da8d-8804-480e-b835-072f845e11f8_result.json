@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749865296179_d1a4da8d-8804-480e-b835-072f845e11f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal contains a flatbread and scrambled eggs with onions, which is moderate in protein but high in simple carbohydrates from the flatbread. For someone with diabetes, this meal may cause a rapid increase in blood sugar levels. It is best to avoid or strictly limit this meal, opting for whole grain flatbread or high-fiber alternatives instead.",
+        "meal_title": "Scrambled Eggs with Onion on Flatbread",
+        "meal_description": "Scrambled eggs cooked with onions served on a flatbread.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 35,
+            "fats": 12,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "yellow"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            }
+        ]
+    }
+}

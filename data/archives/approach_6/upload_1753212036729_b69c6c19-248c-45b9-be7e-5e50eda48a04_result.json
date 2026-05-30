@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753212036729_b69c6c19-248c-45b9-be7e-5e50eda48a04.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a bowl of muesli or oatmeal-style cereal with milk, made primarily from rolled oats and mixed seeds. It generally has a moderate glycemic impact, but for someone with diabetes, blood sugar levels may be better supported by choosing an unsweetened, high-fiber version with whole grain oats and no added sugar.",
+        "meal_title": "Muesli with Milk",
+        "meal_description": "A small bowl of oat-based breakfast cereal that appears to contain rolled oats, seeds, and milk. The meal is predominantly whole grain and fiber-containing, which may slow glucose absorption compared with refined breakfast cereals.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 28,
+            "fats": 8,
+            "proteins": 9
+        },
+        "ingredients": [
+            {
+                "name": "rolled oats",
+                "impact": "green"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "chia seeds",
+                "impact": "green"
+            },
+            {
+                "name": "flaxseed",
+                "impact": "green"
+            },
+            {
+                "name": "sunflower seeds",
+                "impact": "green"
+            },
+            {
+                "name": "almonds",
+                "impact": "green"
+            }
+        ]
+    }
+}

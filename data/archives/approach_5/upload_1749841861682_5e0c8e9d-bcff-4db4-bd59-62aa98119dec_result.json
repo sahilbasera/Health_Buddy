@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1749841861682_5e0c8e9d-bcff-4db4-bd59-62aa98119dec.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be a creamy chicken-and-potato dish with carrots and broccoli, providing moderate protein but also refined starch and a cream-based sauce that may raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain or higher-fiber alternative instead, such as grilled chicken with non-starchy vegetables and quinoa or brown rice.",
+        "meal_title": "Creamy Chicken with Potatoes, Carrots, and Broccoli",
+        "meal_description": "A plated meal consisting of a piece of chicken in a light cream sauce, sliced potatoes in sauce, cooked carrot rounds, and a small portion of broccoli.",
+        "macros": {
+            "calories": 320,
+            "carbohydrates": 24,
+            "fats": 16,
+            "proteins": 21
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "carrot",
+                "impact": "yellow"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

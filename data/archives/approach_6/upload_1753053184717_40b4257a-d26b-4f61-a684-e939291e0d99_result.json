@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053184717_40b4257a-d26b-4f61-a684-e939291e0d99.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a whole fresh apple, a minimally processed fruit with fiber and naturally occurring carbohydrates that generally has a moderate effect on blood sugar levels for someone with diabetes. It is best to choose whole fruit like this over juice or sweetened fruit products, and pairing it with a high-fiber or protein-rich food may further moderate glycemic impact.",
+        "meal_title": "Whole Apple",
+        "meal_description": "A single whole red apple, likely served raw and unpeeled.",
+        "macros": {
+            "calories": 95,
+            "carbohydrates": 25,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            }
+        ]
+    }
+}

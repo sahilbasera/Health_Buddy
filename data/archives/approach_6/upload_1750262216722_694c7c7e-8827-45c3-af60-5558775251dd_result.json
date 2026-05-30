@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1750262216722_694c7c7e-8827-45c3-af60-5558775251dd.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a simple lettuce salad with mixed seeds and a light dressing, which is low in digestible carbohydrates and generally has a low glycemic impact on blood sugar levels for someone with diabetes. It is best to choose this meal over refined carbohydrate-based sides, and if desired, pair it with a whole grain or high-fiber protein source for a more balanced meal.",
+        "meal_title": "Lettuce Salad with Mixed Seeds",
+        "meal_description": "A bowl of chopped lettuce topped with mixed seeds and a light dressing or seasoning. The meal is primarily non-starchy vegetables with small amounts of fat and protein from the seeds.",
+        "macros": {
+            "calories": 90,
+            "carbohydrates": 6,
+            "fats": 6,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "sunflower seed",
+                "impact": "yellow"
+            },
+            {
+                "name": "flaxseed",
+                "impact": "green"
+            },
+            {
+                "name": "sesame seed",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            }
+        ]
+    }
+}

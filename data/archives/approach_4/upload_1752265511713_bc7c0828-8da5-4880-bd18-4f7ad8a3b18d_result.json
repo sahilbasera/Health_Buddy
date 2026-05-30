@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1752265511713_bc7c0828-8da5-4880-bd18-4f7ad8a3b18d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal contains white rice and French fries, both high in simple carbohydrates that can rapidly increase blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain rice and baked sweet potato instead. The grilled meat provides protein but the overall meal's glycemic impact is elevated due to the starches and frying method.",
+        "meal_title": "Grilled Meat with White Rice and French Fries",
+        "meal_description": "A plate consisting of grilled pork ribs, white rice, French fries, and a lemon wedge.",
+        "macros": {
+            "calories": 850,
+            "carbohydrates": 90,
+            "fats": 40,
+            "proteins": 50
+        },
+        "ingredients": [
+            {
+                "name": "pork ribs",
+                "impact": "green"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon",
+                "impact": "green"
+            }
+        ]
+    }
+}

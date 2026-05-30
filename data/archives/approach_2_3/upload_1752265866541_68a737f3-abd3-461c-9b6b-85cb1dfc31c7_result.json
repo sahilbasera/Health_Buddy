@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265866541_68a737f3-abd3-461c-9b6b-85cb1dfc31c7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This mandarin is a low-calorie, high-fiber option that has minimal impact on blood sugar levels. It is a suitable choice for someone with diabetes. Opt for whole fruits like this instead of processed snacks.",
+        "meal_title": "Mandarin Orange",
+        "meal_description": "A fresh, peeled mandarin orange, ideal as a low-calorie snack.",
+        "macros": {
+            "calories": 47,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "mandarin orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

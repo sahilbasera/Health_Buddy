@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753054127030_3f2421d7-8517-4a68-a37e-f2c3fae607db.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. Opt for this type of meal for its high fiber content and nutritional benefits.",
+        "meal_title": "Green Leafy Salad",
+        "meal_description": "A fresh salad consisting primarily of lettuce, shredded carrots, and broccoli stems, lightly dressed with a tangy vinaigrette.",
+        "macros": {
+            "calories": 50,
+            "carbohydrates": 9,
+            "fats": 2,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Carrots",
+                "impact": "green"
+            },
+            {
+                "name": "Broccoli stems",
+                "impact": "green"
+            },
+            {
+                "name": "Vinaigrette dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

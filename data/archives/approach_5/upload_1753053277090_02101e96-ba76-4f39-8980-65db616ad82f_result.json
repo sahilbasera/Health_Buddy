@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753053277090_02101e96-ba76-4f39-8980-65db616ad82f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a small serving of fresh fruit with naturally occurring carbohydrates and fiber, giving it a generally mild to moderate effect on blood sugar levels for someone with diabetes. It is best to avoid or strictly limit large portions of this meal, opting for whole fruit paired with a high-fiber or protein-rich alternative instead.",
+        "meal_title": "Mixed Fresh Fruit Slices",
+        "meal_description": "A small plate of sliced fresh apple, pear, peach, and banana. The meal is minimally processed and provides natural carbohydrates with some fiber, though banana may raise glycemic impact slightly more than the other fruits.",
+        "macros": {
+            "calories": 85,
+            "carbohydrates": 22,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            },
+            {
+                "name": "pear",
+                "impact": "green"
+            },
+            {
+                "name": "peach",
+                "impact": "green"
+            },
+            {
+                "name": "banana",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

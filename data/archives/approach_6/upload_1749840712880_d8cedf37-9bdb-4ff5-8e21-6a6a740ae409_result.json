@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1749840712880_d8cedf37-9bdb-4ff5-8e21-6a6a740ae409.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed plate of couscous, cooked vegetables, a fried onion ring, and a creamy sauce. It has a moderate glycemic impact because the couscous and breaded fried item can raise blood sugar levels more quickly in someone with diabetes, while the non-starchy vegetables help moderate the meal overall. It is best to avoid or strictly limit this meal, opting for a whole grain or high-fiber grain such as quinoa or barley instead.",
+        "meal_title": "Couscous Plate with Mixed Vegetables, Onion Ring, and Creamy Sauce",
+        "meal_description": "A savory plate containing couscous, broccoli, cauliflower, cooked leafy greens, a breaded fried onion ring, and a small portion of creamy sauce or dip.",
+        "macros": {
+            "calories": 360,
+            "carbohydrates": 38,
+            "fats": 16,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "couscous",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "cauliflower",
+                "impact": "green"
+            },
+            {
+                "name": "leafy greens",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "yellow"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "breadcrumbs",
+                "impact": "orange"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "orange"
+            },
+            {
+                "name": "creamy sauce",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

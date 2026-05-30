@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1753212036729_b69c6c19-248c-45b9-be7e-5e50eda48a04.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a bowl of muesli or oatmeal-style cereal with milk, which provides moderate carbohydrates from oats and grains that can raise blood sugar levels in someone with diabetes. Its glycemic impact is lower than refined breakfast cereals when unsweetened, but portion size still matters. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber version with unsweetened milk and added nuts or seeds instead.",
+        "meal_title": "Muesli with Milk",
+        "meal_description": "A small bowl of mixed rolled oats and grain cereal served with milk, likely containing oats, seeds, and grain flakes.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 28,
+            "fats": 7,
+            "proteins": 9
+        },
+        "ingredients": [
+            {
+                "name": "rolled oats",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "wheat flakes",
+                "impact": "yellow"
+            },
+            {
+                "name": "barley flakes",
+                "impact": "yellow"
+            },
+            {
+                "name": "almond",
+                "impact": "green"
+            },
+            {
+                "name": "flaxseed",
+                "impact": "green"
+            },
+            {
+                "name": "chia seed",
+                "impact": "green"
+            },
+            {
+                "name": "sunflower seed",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

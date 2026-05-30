@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1752265511713_bc7c0828-8da5-4880-bd18-4f7ad8a3b18d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be grilled mixed meat with white rice, French fries, and lime, and it is relatively high in refined carbohydrates and fat. For someone with diabetes, the white rice and fries may raise blood sugar levels more quickly, especially when combined in one meal. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber sides such as brown rice, beans, or non-starchy vegetables instead.",
+        "meal_title": "Grilled Mixed Meat with White Rice and French Fries",
+        "meal_description": "A plated meal consisting of grilled mixed meat cuts, a serving of white rice, French fries, and a lime half.",
+        "macros": {
+            "calories": 980,
+            "carbohydrates": 78,
+            "fats": 48,
+            "proteins": 56
+        },
+        "ingredients": [
+            {
+                "name": "beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "pork",
+                "impact": "yellow"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "orange"
+            },
+            {
+                "name": "lime",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

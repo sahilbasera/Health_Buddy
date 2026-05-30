@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750097765140_1dccfd72-61d7-462c-b163-f5b7c348b547.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains toasted white bread, processed meat p\u00e2t\u00e9s, and leafy greens. It is moderate in carbohydrates and fats, which can impact blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain bread and lean, unprocessed protein sources instead.",
+        "meal_title": "Toasted White Bread with Meat P\u00e2t\u00e9s and Leafy Greens",
+        "meal_description": "A plate featuring two slices of toasted white bread, three types of meat p\u00e2t\u00e9, and a portion of leafy greens.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 35,
+            "fats": 20,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "white bread",
+                "impact": "orange"
+            },
+            {
+                "name": "pork liver p\u00e2t\u00e9",
+                "impact": "yellow"
+            },
+            {
+                "name": "chicken liver p\u00e2t\u00e9",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham p\u00e2t\u00e9",
+                "impact": "yellow"
+            },
+            {
+                "name": "lamb's lettuce",
+                "impact": "green"
+            }
+        ]
+    }
+}

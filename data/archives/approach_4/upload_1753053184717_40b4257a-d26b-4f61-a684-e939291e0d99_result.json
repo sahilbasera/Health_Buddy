@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053184717_40b4257a-d26b-4f61-a684-e939291e0d99.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of a whole apple, which is low in glycemic impact and provides fiber that helps moderate blood sugar levels in someone with diabetes. It is a natural fruit option with beneficial nutrients and antioxidants. Whole fruits like apples are preferable to processed fruit products for glycemic health.",
+        "meal_title": "Whole Red Apple",
+        "meal_description": "A single whole red apple, fresh and unprocessed.",
+        "macros": {
+            "calories": 95,
+            "carbohydrates": 25,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            }
+        ]
+    }
+}

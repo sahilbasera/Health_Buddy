@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1750386301376_71400aa0-7658-40cd-9027-9a62f8489da7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza contains refined flour crust and is high in simple carbohydrates and fats, which can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain or cauliflower crust pizza with reduced cheese and lean protein instead.",
+        "meal_title": "Mixed Topping Pizza",
+        "meal_description": "A pizza with a refined flour crust topped with tomato sauce, shredded cheese, cooked ground meat, spinach, mushrooms, and red onions.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 50,
+            "fats": 18,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "shredded cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "cooked ground meat",
+                "impact": "yellow"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "red onions",
+                "impact": "green"
+            }
+        ]
+    }
+}

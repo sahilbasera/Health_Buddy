@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750258584589_12758bd6-3c31-4ee6-bc2a-564be686406a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This sandwich contains a whole grain oat bread base with protein and vegetables, which provides moderate glycemic impact for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a sandwich with whole grain bread and additional high-fiber vegetables instead.",
+        "meal_title": "Oat Bread Sandwich with Chicken, Pickles, and Lettuce",
+        "meal_description": "A sandwich made with oat bread, containing chicken breast, pickles, and lettuce.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 6,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "oat bread",
+                "impact": "yellow"
+            },
+            {
+                "name": "chicken breast",
+                "impact": "green"
+            },
+            {
+                "name": "pickles",
+                "impact": "green"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            }
+        ]
+    }
+}

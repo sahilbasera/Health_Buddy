@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750182831517_fa06a30c-cffc-40b8-9ac3-abc35e1d1635.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a mixed vegetable and legume salad, which is low in glycemic impact and beneficial for blood sugar control in someone with diabetes. It is best to include such high-fiber, nutrient-dense meals regularly. Opting for whole, fresh vegetables and legumes supports stable blood sugar levels.",
+        "meal_title": "Mixed Leafy Green and Legume Salad",
+        "meal_description": "A salad composed of spinach, romaine lettuce, red cabbage, green peas, edamame, and possibly some nuts or seeds, providing a fiber-rich, low glycemic index meal.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 20,
+            "fats": 7,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "red cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "green"
+            },
+            {
+                "name": "edamame",
+                "impact": "green"
+            },
+            {
+                "name": "cashew nuts",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753203870259_fa36a429-304f-4b3c-b6e0-3519beaece88.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be a small serving of fresh fruit, specifically green grapes and a fig, which provides natural carbohydrates that can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a smaller portion paired with a high-fiber or protein-containing alternative instead.",
+        "meal_title": "Green Grapes and Fig",
+        "meal_description": "A small bowl containing fresh green grapes and one fresh fig.",
+        "macros": {
+            "calories": 90,
+            "carbohydrates": 23,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "green grape",
+                "impact": "yellow"
+            },
+            {
+                "name": "fig",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

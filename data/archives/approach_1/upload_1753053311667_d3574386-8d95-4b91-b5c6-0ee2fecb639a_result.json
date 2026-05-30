@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753053311667_d3574386-8d95-4b91-b5c6-0ee2fecb639a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza slice is high in refined carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain crust pizza with more vegetables instead.",
+        "meal_title": "Vegetable Pizza Slice",
+        "meal_description": "A slice of pizza topped with cheese, tomatoes, olives, and various vegetables on a refined flour crust.",
+        "macros": {
+            "calories": 285,
+            "carbohydrates": 36,
+            "fats": 12,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "Tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Olives",
+                "impact": "yellow"
+            },
+            {
+                "name": "Mixed vegetables",
+                "impact": "green"
+            }
+        ]
+    }
+}

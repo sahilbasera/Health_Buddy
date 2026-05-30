@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750389951709_09f3f23e-5f56-4581-866f-37234067ea72.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a frothy mixed cocktail, likely containing alcohol and a sweetened citrus component, which can contribute to rapid changes in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a lower-sugar drink or a whole-fruit, high-fiber alternative instead.",
+        "meal_title": "Frothy Citrus Cocktail",
+        "meal_description": "A coupe glass cocktail with a foamy top and edible flower garnish, likely prepared from distilled alcohol, citrus juice, sweetener, and foam-producing ingredients such as egg white.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "distilled alcohol",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon juice",
+                "impact": "yellow"
+            },
+            {
+                "name": "simple syrup",
+                "impact": "orange"
+            },
+            {
+                "name": "egg white",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "edible flower",
+                "impact": "green"
+            }
+        ]
+    }
+}

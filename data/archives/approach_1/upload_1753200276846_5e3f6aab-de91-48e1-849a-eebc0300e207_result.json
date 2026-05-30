@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753200276846_5e3f6aab-de91-48e1-849a-eebc0300e207.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This grilled chicken Caesar salad is a balanced choice for someone with diabetes due to its high protein and fiber content, which help in moderating blood sugar levels. It is best to maintain this meal within dietary plans, while opting for salads rich in vegetables and lean proteins.",
+        "meal_title": "Grilled Chicken Caesar Salad",
+        "meal_description": "A classic Caesar salad with grilled chicken, Romaine lettuce, cucumbers, feta cheese, and creamy dressing.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 15,
+            "fats": 20,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "Grilled chicken",
+                "impact": "green"
+            },
+            {
+                "name": "Romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "Feta cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "Caesar dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

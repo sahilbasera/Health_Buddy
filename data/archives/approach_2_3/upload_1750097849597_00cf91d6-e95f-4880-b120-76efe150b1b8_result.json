@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750097849597_00cf91d6-e95f-4880-b120-76efe150b1b8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is generally healthful and suitable for stable blood sugar levels due to its low glycemic impact. Opting for a high-fiber dressing may enhance its nutritional profile.",
+        "meal_title": "Leafy Green Salad",
+        "meal_description": "A simple salad consisting of lettuce and chopped yellow bell peppers.",
+        "macros": {
+            "calories": 30,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

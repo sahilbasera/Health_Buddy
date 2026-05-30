@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750258584589_12758bd6-3c31-4ee6-bc2a-564be686406a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This sandwich is moderately healthful. It is best to opt for a whole grain alternative for better blood sugar management in individuals with diabetes.",
+        "meal_title": "Multigrain Chicken Sandwich",
+        "meal_description": "A multigrain sandwich filled with chicken breast, arugula, and pickles.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 10,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "multigrain bread",
+                "impact": "yellow"
+            },
+            {
+                "name": "chicken breast",
+                "impact": "green"
+            },
+            {
+                "name": "arugula",
+                "impact": "green"
+            },
+            {
+                "name": "pickles",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

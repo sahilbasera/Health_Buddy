@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753200023630_697c8163-ee91-4c75-85b8-ad4a947e9e74.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "Pizza is typically high in refined carbohydrates and saturated fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain crust with more vegetables and lean protein instead.",
+        "meal_title": "Slice of Pizza",
+        "meal_description": "A slice of pizza with toppings including tomato sauce, cheese, olives, and ham.",
+        "macros": {
+            "calories": 285,
+            "carbohydrates": 36,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "pizza dough",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "ham",
+                "impact": "orange"
+            },
+            {
+                "name": "black olives",
+                "impact": "green"
+            }
+        ]
+    }
+}

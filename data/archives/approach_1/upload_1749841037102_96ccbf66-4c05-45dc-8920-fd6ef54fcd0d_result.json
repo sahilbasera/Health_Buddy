@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749841037102_96ccbf66-4c05-45dc-8920-fd6ef54fcd0d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately high in carbohydrates due to the rice, which can affect blood sugar levels. Consider going for brown rice or adding more vegetables to increase fiber. This can help minimize glycemic impact for someone with diabetes.",
+        "meal_title": "Rice with Black Bean and Tomato Salsa",
+        "meal_description": "A dish consisting of white rice topped with a black bean and tomato salsa, garnished with cheese and fresh herbs.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 60,
+            "fats": 10,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "black beans",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "fresh herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

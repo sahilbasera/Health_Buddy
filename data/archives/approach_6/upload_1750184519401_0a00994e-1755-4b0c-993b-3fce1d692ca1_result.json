@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750184519401_0a00994e-1755-4b0c-993b-3fce1d692ca1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a pan-cooked penne pasta dish with cheese and seasonings, primarily high in refined carbohydrates, which can raise blood sugar levels relatively quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain pasta or a higher-fiber legume-based pasta with non-starchy vegetables instead.",
+        "meal_title": "Pan-Cooked Penne Pasta with Cheese",
+        "meal_description": "A simple skillet pasta dish made with cooked penne, small cubes of cheese, oil, and visible dried herbs or pepper-based seasoning.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 52,
+            "fats": 17,
+            "proteins": 16
+        },
+        "ingredients": [
+            {
+                "name": "durum wheat semolina",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "dried herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

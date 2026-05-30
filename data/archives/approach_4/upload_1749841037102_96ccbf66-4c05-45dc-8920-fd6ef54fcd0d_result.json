@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749841037102_96ccbf66-4c05-45dc-8920-fd6ef54fcd0d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains white rice and a tomato-based sauce with black beans and some cream, which are moderate to high in carbohydrates and fats, potentially impacting blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain brown rice and a low-fat tomato sauce with more vegetables instead.",
+        "meal_title": "White Rice with Tomato Sauce, Black Beans, and Cream",
+        "meal_description": "A serving of cooked white rice topped with a tomato-based sauce containing black beans, diced tomatoes, fresh herbs, and a drizzle of cream.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 55,
+            "fats": 8,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "black beans",
+                "impact": "yellow"
+            },
+            {
+                "name": "cream",
+                "impact": "orange"
+            },
+            {
+                "name": "fresh herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

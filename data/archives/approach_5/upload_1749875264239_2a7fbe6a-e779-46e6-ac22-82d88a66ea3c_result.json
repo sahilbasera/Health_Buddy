@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749875264239_2a7fbe6a-e779-46e6-ac22-82d88a66ea3c.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a yogurt-based dessert or breakfast bowl with strawberries, a pink fruit compote or granita, and crushed pistachios. It contains natural fruit sugars with some protein and fat from the dairy and nuts, but the fruit base and possible added sweetener may raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for plain unsweetened Greek yogurt with fresh strawberries and a high-fiber topping instead.",
+        "meal_title": "Yogurt with Strawberries, Fruit Compote, and Pistachios",
+        "meal_description": "A bowl containing a thick scoop of yogurt topped with crushed pistachios, served over sliced strawberries and a pink fruit compote or shaved fruit ice.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 24,
+            "fats": 13,
+            "proteins": 16
+        },
+        "ingredients": [
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "yogurt culture",
+                "impact": "green"
+            },
+            {
+                "name": "strawberry",
+                "impact": "green"
+            },
+            {
+                "name": "pistachio",
+                "impact": "yellow"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

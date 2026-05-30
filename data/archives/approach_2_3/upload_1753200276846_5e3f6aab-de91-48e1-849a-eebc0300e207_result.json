@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753200276846_5e3f6aab-de91-48e1-849a-eebc0300e207.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This salad is generally healthful but watch the creamy dressing, which can add sugar and calories. Consider going for a lighter dressing option like lemon juice or olive oil to reduce glycemic impact and caloric intake.",
+        "meal_title": "Chicken Caesar Salad",
+        "meal_description": "A classic Caesar salad featuring grilled chicken, feta cheese, and a creamy dressing.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 30,
+            "fats": 25,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "grilled chicken",
+                "impact": "green"
+            },
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "feta cheese",
+                "impact": "green"
+            },
+            {
+                "name": "creamy dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

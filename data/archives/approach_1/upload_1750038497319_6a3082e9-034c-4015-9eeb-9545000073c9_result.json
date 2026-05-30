@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750038497319_6a3082e9-034c-4015-9eeb-9545000073c9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal provides moderate protein content with relatively low carbohydrate levels but is high in fats. Individuals monitoring their blood sugar levels might consider a high-fiber whole grain toast to accompany or substitute part of this meal.",
+        "meal_title": "Sous Vide Egg Bites with Uncured Bacon and Gouda",
+        "meal_description": "A convenient breakfast option featuring eggs, bacon, and gouda cheese, prepared sous vide style.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 9,
+            "fats": 22,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "Eggs",
+                "impact": "green"
+            },
+            {
+                "name": "Uncured Bacon",
+                "impact": "orange"
+            },
+            {
+                "name": "Gouda Cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "Milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "Butter",
+                "impact": "orange"
+            },
+            {
+                "name": "Salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "fileName": "upload_1753068426109_e9f92f5b-5160-494e-9ff7-32be49b9dca2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal provides a balanced combination of carbohydrates, proteins, and essential nutrients, making it suitable for maintaining stable blood sugar levels in people with diabetes. Consider opting for whole grain or high-fiber options where possible.",
+        "meal_title": "Balanced Veggie and Pasta Bowl",
+        "meal_description": "A mixed bowl featuring fresh vegetables, cooked pasta, and cheese, offering a variety of nutrients and fiber.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 60,
+            "fats": 12,
+            "proteins": 18
+        },
+        "ingredients": [
+            {
+                "name": "cooked pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "peas",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "tomatoes",
+                "impact": "green"
+            },
+            {
+                "name": "feta cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "corn",
+                "impact": "yellow"
+            },
+            {
+                "name": "beets",
+                "impact": "green"
+            },
+            {
+                "name": "potatoes",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

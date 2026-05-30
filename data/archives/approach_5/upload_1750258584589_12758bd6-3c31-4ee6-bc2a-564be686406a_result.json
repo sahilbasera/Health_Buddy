@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1750258584589_12758bd6-3c31-4ee6-bc2a-564be686406a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a sesame-seeded chicken sandwich on a refined bread roll with pickles and leafy greens, providing moderate carbohydrates with some protein. For someone with diabetes, the bread may raise blood sugar levels more than a whole grain, high-fiber roll would. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber sandwich with extra vegetables instead.",
+        "meal_title": "Chicken Sandwich on Sesame Roll",
+        "meal_description": "A prepared sandwich made with a sesame-topped bread roll, cooked chicken, pickle slices, and leafy greens. The meal provides protein from the chicken, while the roll contributes most of the carbohydrate load.",
+        "macros": {
+            "calories": 420,
+            "carbohydrates": 40,
+            "fats": 12,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "green"
+            },
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "pickle",
+                "impact": "yellow"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "arugula",
+                "impact": "green"
+            }
+        ]
+    }
+}

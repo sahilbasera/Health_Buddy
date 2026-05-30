@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1749869835174_55f1390a-6ea3-4033-a016-b8a4c30d28a1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a tuna and avocado appetizer served with a soy-based sauce, making it moderate in protein and fat but variable in glycemic impact depending on any added sweeteners in the sauce. For someone with diabetes, the sauce may contribute to blood sugar levels if it contains sugar; it is best to avoid or strictly limit this meal, opting for a high-fiber vegetable-based appetizer or a whole grain-based alternative instead.",
+        "meal_title": "Tuna Avocado with Soy-Based Sauce and Fish Roe",
+        "meal_description": "A small plated dish consisting of diced raw tuna over mashed avocado, topped with black fish roe and scallions, served in a soy-based seasoned sauce.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 9,
+            "fats": 17,
+            "proteins": 22
+        },
+        "ingredients": [
+            {
+                "name": "tuna",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "soy sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "scallion",
+                "impact": "green"
+            },
+            {
+                "name": "black fish roe",
+                "impact": "yellow"
+            },
+            {
+                "name": "sesame oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

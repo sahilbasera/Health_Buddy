@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750097849597_00cf91d6-e95f-4880-b120-76efe150b1b8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. Adding a source of protein, like grilled chicken or chickpeas, would provide a more balanced meal.",
+        "meal_title": "Mixed Leaf Salad with Bell Peppers",
+        "meal_description": "A fresh salad consisting of mixed lettuce leaves and chopped yellow bell peppers.",
+        "macros": {
+            "calories": 30,
+            "carbohydrates": 5,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Yellow Bell Peppers",
+                "impact": "green"
+            }
+        ]
+    }
+}

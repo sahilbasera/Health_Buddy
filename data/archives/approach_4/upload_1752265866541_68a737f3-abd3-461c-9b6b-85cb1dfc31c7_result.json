@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265866541_68a737f3-abd3-461c-9b6b-85cb1dfc31c7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of peeled mandarin orange segments, which are low in fat and protein but provide natural sugars and fiber. For someone with diabetes, mandarin oranges have a moderate glycemic impact due to their natural sugars but also contain fiber that helps moderate blood sugar levels. It is best to consume whole fruits like mandarin oranges rather than fruit juices to maintain better glycemic control.",
+        "meal_title": "Peeled Mandarin Orange Segments",
+        "meal_description": "Fresh peeled mandarin orange segments, naturally sweet and hydrating, providing vitamin C and dietary fiber.",
+        "macros": {
+            "calories": 50,
+            "carbohydrates": 13,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "mandarin orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

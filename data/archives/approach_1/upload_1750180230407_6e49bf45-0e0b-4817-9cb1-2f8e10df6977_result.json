@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750180230407_6e49bf45-0e0b-4817-9cb1-2f8e10df6977.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This beverage is typically low in calories and carbohydrates, making it suitable for most diets. If consuming with added sugars or creams, consider reducing them to maintain a lower glycemic impact on blood sugar levels.",
+        "meal_title": "Coffee",
+        "meal_description": "A cup of coffee, possibly with added sugar or cream, served in a mug.",
+        "macros": {
+            "calories": 5,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Water",
+                "impact": "green"
+            },
+            {
+                "name": "Coffee",
+                "impact": "green"
+            }
+        ]
+    }
+}

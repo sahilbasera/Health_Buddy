@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750263222856_8d684828-73ea-4ad9-9259-39c31e29f465.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal provides moderate protein and fats with a lower glycemic impact but can be high in saturated fats and sodium due to the cheese and cured meats. Opting for leaner meats and more vegetables could enhance its nutritional balance, especially for someone managing their blood sugar levels.",
+        "meal_title": "Antipasto Plate with Cheese and Cured Meats",
+        "meal_description": "A plate consisting of whole grain bread, mozzarella cheese, cured meats (prosciutto, ham), ricotta cheese, and a slice of peppered cheese.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 40,
+            "fats": 25,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "Whole grain bread",
+                "impact": "green"
+            },
+            {
+                "name": "Mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "Prosciutto",
+                "impact": "yellow"
+            },
+            {
+                "name": "Ham",
+                "impact": "yellow"
+            },
+            {
+                "name": "Ricotta cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "Peppered cheese",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

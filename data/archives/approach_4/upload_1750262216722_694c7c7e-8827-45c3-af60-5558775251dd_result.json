@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750262216722_694c7c7e-8827-45c3-af60-5558775251dd.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a low-calorie salad primarily composed of lettuce and seeds, which have minimal impact on blood sugar levels for someone with diabetes. It is a suitable option for maintaining stable glycemic control. For added fiber and nutrients, consider including other vegetables like tomatoes or cucumbers.",
+        "meal_title": "Lettuce Salad with Mixed Seeds",
+        "meal_description": "A simple salad made with fresh lettuce leaves and a mix of seeds such as sunflower and flax seeds, providing fiber and healthy fats.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 5,
+            "fats": 6,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "sunflower seeds",
+                "impact": "green"
+            },
+            {
+                "name": "flax seeds",
+                "impact": "green"
+            }
+        ]
+    }
+}

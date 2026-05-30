@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1753200023630_697c8163-ee91-4c75-85b8-ad4a947e9e74.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a slice of ham and olive cheese pizza made with refined flour crust, which is relatively high in simple carbohydrates and can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain or high-fiber flatbread pizza with vegetables and less cheese instead.",
+        "meal_title": "Ham and Olive Cheese Pizza Slice",
+        "meal_description": "A single slice of pizza with refined wheat crust, tomato sauce, melted cheese, ham, and black olives.",
+        "macros": {
+            "calories": 290,
+            "carbohydrates": 31,
+            "fats": 12,
+            "proteins": 14
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham",
+                "impact": "yellow"
+            },
+            {
+                "name": "black olive",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

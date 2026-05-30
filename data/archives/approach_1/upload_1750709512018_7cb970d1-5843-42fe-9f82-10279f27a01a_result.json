@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750709512018_7cb970d1-5843-42fe-9f82-10279f27a01a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Carrots are low in calories and carbohydrates, making them suitable for maintaining stable blood sugar levels. Opt for fresh vegetables like these for a nutritious snack.",
+        "meal_title": "Raw Carrot",
+        "meal_description": "A single raw carrot, known for its crunchy texture and natural sweetness.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Carrot",
+                "impact": "green"
+            }
+        ]
+    }
+}

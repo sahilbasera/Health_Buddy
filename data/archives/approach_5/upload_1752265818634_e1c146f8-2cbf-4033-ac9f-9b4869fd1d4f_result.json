@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265818634_e1c146f8-2cbf-4033-ac9f-9b4869fd1d4f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a slice of rustic bread made primarily from refined or mixed flour, which can raise blood sugar levels moderately in someone with diabetes depending on portion and fiber content. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber bread instead.",
+        "meal_title": "Slice of Rustic Bread",
+        "meal_description": "A single slice of rustic artisan-style bread, likely made from wheat flour, water, yeast, and salt.",
+        "macros": {
+            "calories": 110,
+            "carbohydrates": 22,
+            "fats": 1,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

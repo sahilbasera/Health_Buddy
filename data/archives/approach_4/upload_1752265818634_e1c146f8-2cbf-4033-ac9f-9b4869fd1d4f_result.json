@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265818634_e1c146f8-2cbf-4033-ac9f-9b4869fd1d4f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal consists of a slice of whole grain bread, which contains moderate carbohydrates that can impact blood sugar levels in someone with diabetes. It is best to consume this in moderation and consider pairing it with protein or healthy fats to reduce glycemic impact. Opting for higher fiber whole grain breads with seeds can provide better blood sugar control.",
+        "meal_title": "Slice of Whole Grain Bread",
+        "meal_description": "A single slice of whole grain bread made from whole wheat flour, water, yeast, salt, and possibly seeds or grains.",
+        "macros": {
+            "calories": 70,
+            "carbohydrates": 12,
+            "fats": 1,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

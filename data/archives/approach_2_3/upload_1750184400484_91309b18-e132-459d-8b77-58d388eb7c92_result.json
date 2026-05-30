@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750184400484_91309b18-e132-459d-8b77-58d388eb7c92.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Watermelon is generally low in calories and has a high water content, making it a hydrating choice with a low glycemic load impact on blood sugar levels. It's a good snack for regulating caloric intake and promoting hydration.",
+        "meal_title": "Fresh Watermelon",
+        "meal_description": "Slices of fresh watermelon, known for its hydrating properties and low caloric density.",
+        "macros": {
+            "calories": 30,
+            "carbohydrates": 8,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "watermelon",
+                "impact": "green"
+            }
+        ]
+    }
+}

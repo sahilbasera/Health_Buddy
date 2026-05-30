@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753053107804_3f319949-c893-46d1-b54e-378b675e43f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be sliced whole wheat or multigrain bread, a carbohydrate-dominant food that can raise blood sugar levels in someone with diabetes, though typically less rapidly than refined white bread. It is best to avoid or strictly limit this meal, opting for whole grain, high-fiber bread with visible intact grains or a lower-carbohydrate high-fiber alternative instead.",
+        "meal_title": "Whole Wheat Bread Slices",
+        "meal_description": "Two slices of whole wheat or multigrain sandwich bread, likely served plain. This is primarily a starch-based food with moderate carbohydrate content and limited protein and fat.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 32,
+            "fats": 3,
+            "proteins": 8
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

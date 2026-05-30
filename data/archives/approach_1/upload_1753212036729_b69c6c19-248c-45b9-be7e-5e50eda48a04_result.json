@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753212036729_b69c6c19-248c-45b9-be7e-5e50eda48a04.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This granola-based meal is moderate in carbohydrates and fats. It is suitable for someone with diabetes if consumed in controlled portions, or paired with high-fiber options to moderate glycemic impact.",
+        "meal_title": "Granola Cereal with Milk",
+        "meal_description": "A bowl of granola cereal combined with milk, featuring a mix of oats, nuts, and seeds.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 30,
+            "fats": 10,
+            "proteins": 8
+        },
+        "ingredients": [
+            {
+                "name": "Oats",
+                "impact": "orange"
+            },
+            {
+                "name": "Nuts",
+                "impact": "yellow"
+            },
+            {
+                "name": "Seeds",
+                "impact": "yellow"
+            },
+            {
+                "name": "Milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "Sweetener",
+                "impact": "orange"
+            }
+        ]
+    }
+}

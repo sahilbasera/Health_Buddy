@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753053088887_e0087c65-7b21-4e50-9878-19401e3fbe93.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal appears to be sliced tomato with soft-cooked eggs, a combination that is relatively low in carbohydrates and generally has a modest effect on blood sugar levels for someone with diabetes. The tomatoes provide some fiber and the eggs provide protein and fat, which may help slow glucose absorption. It is best to avoid or strictly limit added refined toppings, opting for whole grain toast or another high-fiber accompaniment instead if a larger meal is needed.",
+        "meal_title": "Soft-Cooked Eggs with Sliced Tomatoes",
+        "meal_description": "A simple plate of soft-cooked eggs served with sliced fresh tomatoes and a light seasoning, likely salt or a powdered condiment.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 8,
+            "fats": 15,
+            "proteins": 14
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "cooking oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

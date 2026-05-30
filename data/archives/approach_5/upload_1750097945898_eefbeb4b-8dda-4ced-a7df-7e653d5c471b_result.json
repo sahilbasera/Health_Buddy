@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750097945898_eefbeb4b-8dda-4ced-a7df-7e653d5c471b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a serving of cooked white rice, a refined grain that is high in rapidly digested carbohydrates and can raise blood sugar levels quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain rice, brown rice, or another high-fiber alternative instead.",
+        "meal_title": "Cooked White Rice",
+        "meal_description": "A plain serving of cooked white rice, likely prepared by boiling white rice in water with a small amount of salt.",
+        "macros": {
+            "calories": 260,
+            "carbohydrates": 57,
+            "fats": 0,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

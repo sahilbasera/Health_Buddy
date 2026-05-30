@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1750258584589_12758bd6-3c31-4ee6-bc2a-564be686406a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a chicken sandwich on a seeded white roll with pickles and leafy greens, providing a moderate-to-high glycemic load because the refined bread can raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber sandwich bread or wrap with additional non-starchy vegetables instead.",
+        "meal_title": "Chicken Sandwich on Seeded Roll",
+        "meal_description": "A prepared sandwich made with a seeded white bread roll, cooked chicken, pickle slices, and leafy greens. The main glycemic consideration is the bread, while the protein filling may modestly slow absorption.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 42,
+            "fats": 12,
+            "proteins": 34
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "green"
+            },
+            {
+                "name": "oats",
+                "impact": "green"
+            },
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "pickle cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "leafy greens",
+                "impact": "green"
+            }
+        ]
+    }
+}

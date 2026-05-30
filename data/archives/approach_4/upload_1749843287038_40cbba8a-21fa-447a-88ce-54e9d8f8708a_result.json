@@ -1,0 +1,96 @@
+{
+    "fileName": "upload_1749843287038_40cbba8a-21fa-447a-88ce-54e9d8f8708a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is high in simple carbohydrates and fats, which can cause significant blood sugar spikes in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain chapati and high-fiber vegetable-based sides instead.",
+        "meal_title": "Indian Thali with Chapati and Sides",
+        "meal_description": "This meal includes chapati (wheat flour, water, salt, oil), white rice, dal (lentils, turmeric, salt, water), green chutney (cilantro, mint, green chili, lemon juice, salt), yogurt, ghee, papad, fried onions, and coriander leaves.",
+        "macros": {
+            "calories": 700,
+            "carbohydrates": 110,
+            "fats": 20,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "orange"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "lentils",
+                "impact": "green"
+            },
+            {
+                "name": "turmeric",
+                "impact": "green"
+            },
+            {
+                "name": "cilantro",
+                "impact": "green"
+            },
+            {
+                "name": "mint",
+                "impact": "green"
+            },
+            {
+                "name": "green chili",
+                "impact": "green"
+            },
+            {
+                "name": "lemon juice",
+                "impact": "green"
+            },
+            {
+                "name": "yogurt",
+                "impact": "green"
+            },
+            {
+                "name": "ghee",
+                "impact": "orange"
+            },
+            {
+                "name": "papad (lentil flour)",
+                "impact": "yellow"
+            },
+            {
+                "name": "fried onions",
+                "impact": "orange"
+            },
+            {
+                "name": "coriander leaves",
+                "impact": "green"
+            }
+        ]
+    }
+}

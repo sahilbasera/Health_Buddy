@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750091798026_6bfd2714-28cc-4f8e-9df2-8ceb92a5a071.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is generally high in simple carbohydrates, which can rapidly raise blood sugar levels. For someone with diabetes, it's best to limit intake, opting for high-fiber, whole-grain biscuits instead.",
+        "meal_title": "Cookies in a Jar",
+        "meal_description": "A jar filled with multiple thin, round cookies stacked together.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 22,
+            "fats": 7,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "flour",
+                "impact": "orange"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "baking soda",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "vanilla extract",
+                "impact": "yellow"
+            },
+            {
+                "name": "eggs",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

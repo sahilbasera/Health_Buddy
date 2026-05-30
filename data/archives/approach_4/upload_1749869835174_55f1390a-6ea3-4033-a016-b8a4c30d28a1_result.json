@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749869835174_55f1390a-6ea3-4033-a016-b8a4c30d28a1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains raw fish and avocado, which have a moderate impact on blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Tuna Tartare with Avocado and Caviar",
+        "meal_description": "A dish featuring raw tuna, avocado, black caviar, green onions, and a soy-based sauce.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 10,
+            "fats": 18,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "raw tuna",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "black caviar",
+                "impact": "green"
+            },
+            {
+                "name": "green onion",
+                "impact": "green"
+            },
+            {
+                "name": "soy sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "wasabi",
+                "impact": "green"
+            }
+        ]
+    }
+}

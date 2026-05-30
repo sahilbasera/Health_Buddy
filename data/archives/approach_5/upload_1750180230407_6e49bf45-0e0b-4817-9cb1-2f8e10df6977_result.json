@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1750180230407_6e49bf45-0e0b-4817-9cb1-2f8e10df6977.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a milk-based coffee beverage, which is relatively low in carbohydrates if unsweetened and may have a mild effect on blood sugar levels for someone with diabetes. It is best to avoid or strictly limit sweetened versions of this meal, opting for unsweetened coffee with low-fat milk or a high-fiber breakfast pairing instead.",
+        "meal_title": "Milk Coffee",
+        "meal_description": "A mug of coffee with milk and light foam, likely prepared from brewed coffee and milk without visible solid food components.",
+        "macros": {
+            "calories": 90,
+            "carbohydrates": 9,
+            "fats": 4,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "coffee",
+                "impact": "green"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

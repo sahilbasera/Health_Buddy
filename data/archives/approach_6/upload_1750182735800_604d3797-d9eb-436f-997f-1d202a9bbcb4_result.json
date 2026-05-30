@@ -1,0 +1,84 @@
+{
+    "fileName": "upload_1750182735800_604d3797-d9eb-436f-997f-1d202a9bbcb4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed vegetable salad with legumes, leafy greens, and a light vinaigrette, which is generally lower in glycemic load and provides fiber that may help moderate blood sugar levels in someone with diabetes. It is best to choose versions with minimal sweetened dressing and croutons, opting for whole grain or high-fiber additions instead if extra carbohydrates are desired.",
+        "meal_title": "Mixed Green Salad with Chickpeas and Edamame",
+        "meal_description": "A bowl of mixed leafy greens and vegetables including romaine lettuce, spinach, red cabbage, beet, apple, chickpeas, edamame, shaved cheese, croutons, and vinaigrette dressing.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 24,
+            "fats": 14,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "red cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "beet",
+                "impact": "green"
+            },
+            {
+                "name": "apple",
+                "impact": "yellow"
+            },
+            {
+                "name": "chickpeas",
+                "impact": "yellow"
+            },
+            {
+                "name": "edamame",
+                "impact": "green"
+            },
+            {
+                "name": "parmesan cheese",
+                "impact": "green"
+            },
+            {
+                "name": "croutons",
+                "impact": "orange"
+            },
+            {
+                "name": "olive oil",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

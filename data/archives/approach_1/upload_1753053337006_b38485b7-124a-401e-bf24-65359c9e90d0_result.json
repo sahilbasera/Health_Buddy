@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753053337006_b38485b7-124a-401e-bf24-65359c9e90d0.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "Boiled potatoes are a moderate source of carbohydrates and are low in fats and proteins. For someone with diabetes, it is advisable to consume them in moderation and to accompany them with a source of fiber or protein to balance blood sugar levels.",
+        "meal_title": "Boiled Potatoes",
+        "meal_description": "A simple dish consisting of peeled and boiled potatoes, often served as a side or base in meals.",
+        "macros": {
+            "calories": 110,
+            "carbohydrates": 26,
+            "fats": 0,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "Potatoes",
+                "impact": "yellow"
+            },
+            {
+                "name": "Water",
+                "impact": "green"
+            }
+        ]
+    }
+}

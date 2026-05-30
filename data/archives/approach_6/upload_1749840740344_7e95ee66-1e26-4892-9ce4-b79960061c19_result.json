@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a small serving of saut\u00e9ed vegetables, primarily potato, carrot, and mushroom, which provides a moderate glycemic effect because of the potato content. For someone with diabetes or when aiming to reduce blood sugar levels, it is best to avoid or strictly limit larger portions of this meal, opting for a higher-fiber non-starchy vegetable mix or sweet potato with added legumes instead.",
+        "meal_title": "Saut\u00e9ed Potato, Carrot, and Mushroom Mix",
+        "meal_description": "A small portion of pan-cooked mixed vegetables consisting mainly of potato slices, carrot sticks, mushrooms, onion, and herbs, likely prepared with oil, salt, and pepper.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 16,
+            "fats": 5,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "carrot",
+                "impact": "yellow"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "yellow"
+            },
+            {
+                "name": "parsley",
+                "impact": "green"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

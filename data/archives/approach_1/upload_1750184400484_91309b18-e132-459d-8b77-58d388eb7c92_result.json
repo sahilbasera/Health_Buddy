@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750184400484_91309b18-e132-459d-8b77-58d388eb7c92.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This is a hydrating snack with a low glycemic index, ideal as a refreshing snack for maintaining stable blood sugar levels in people with diabetes. Consider pairing it with a protein source like nuts for balanced nutrient intake.",
+        "meal_title": "Watermelon Snacks",
+        "meal_description": "A serving of fresh watermelon, consisting of three slices, known for its high water content and natural sweetness.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Watermelon",
+                "impact": "green"
+            }
+        ]
+    }
+}

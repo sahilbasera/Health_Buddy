@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1749865296179_d1a4da8d-8804-480e-b835-072f845e11f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately balanced but could be improved by choosing whole-grain flatbread. For someone with diabetes, this adjustment can help manage blood sugar levels by increasing fiber intake.",
+        "meal_title": "Egg and Onion Flatbread",
+        "meal_description": "A flatbread topped with scrambled eggs and chopped onions.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 15,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "flatbread",
+                "impact": "yellow"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            }
+        ]
+    }
+}

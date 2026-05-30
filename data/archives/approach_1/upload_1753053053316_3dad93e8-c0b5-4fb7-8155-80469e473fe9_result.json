@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753053053316_3dad93e8-c0b5-4fb7-8155-80469e473fe9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of white bread with butter, which is high in simple carbohydrates and saturated fats. It may cause a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain bread with avocado or olive oil instead.",
+        "meal_title": "Butter on White Bread",
+        "meal_description": "Slices of white bread topped with butter.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 40,
+            "fats": 15,
+            "proteins": 6
+        },
+        "ingredients": [
+            {
+                "name": "White bread",
+                "impact": "orange"
+            },
+            {
+                "name": "Butter",
+                "impact": "orange"
+            }
+        ]
+    }
+}

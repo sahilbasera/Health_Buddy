@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749840712880_d8cedf37-9bdb-4ff5-8e21-6a6a740ae409.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels due to its vegetable content and whole grains. Consider ensuring portion control of the onion rings, opting for more whole grains like quinoa instead.",
+        "meal_title": "Vegetable and Grain Mix with Onion Rings",
+        "meal_description": "A meal consisting of steamed broccoli, cauliflower, spinach, onion rings, couscous, and hummus.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 60,
+            "fats": 15,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "cauliflower",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "onion rings",
+                "impact": "orange"
+            },
+            {
+                "name": "couscous",
+                "impact": "yellow"
+            },
+            {
+                "name": "hummus",
+                "impact": "green"
+            }
+        ]
+    }
+}

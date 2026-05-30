@@ -1,0 +1,21 @@
+{
+    "name": "safety_checks",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "no_insuline_guidance": {"type": "boolean"},
+            "no_carb_content": {"type": "boolean"},
+            "no_emotional_or_judgmental_language": {"type": "boolean"},
+            "no_risky_ingredient_substitutions": {"type": "boolean"},
+            "no_treatment_recommendation": {"type": "boolean"},
+            "no_medical_diagnosis": {"type": "boolean"}
+        },
+        "required": [
+            "no_insuline_guidance", "no_carb_content", 
+            "no_emotional_or_judgmental_language", "no_risky_ingredient_substitutions", 
+            "no_treatment_recommendation", "no_medical_diagnosis"
+        ],
+        "additionalProperties": false
+    }
+}

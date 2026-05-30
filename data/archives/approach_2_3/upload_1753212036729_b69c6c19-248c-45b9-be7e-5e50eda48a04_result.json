@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753212036729_b69c6c19-248c-45b9-be7e-5e50eda48a04.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This granola-based meal is moderate in carbohydrates and fats, potentially impacting blood sugar. For someone with diabetes, it's beneficial to add berries for added fiber and antioxidants.",
+        "meal_title": "Granola Cereal with Milk",
+        "meal_description": "A bowl of granola cereal served with milk.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 50,
+            "fats": 12,
+            "proteins": 8
+        },
+        "ingredients": [
+            {
+                "name": "granola",
+                "impact": "orange"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

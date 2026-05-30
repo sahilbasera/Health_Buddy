@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750263222856_8d684828-73ea-4ad9-9259-39c31e29f465.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains moderate carbohydrates primarily from whole grain bread and proteins and fats from various cheeses and cured meats. For someone with diabetes, the presence of whole grain bread is beneficial, but the cured meats and cheeses should be consumed in moderation due to their fat content. It is best to avoid or strictly limit cured meats, opting for lean protein sources and high-fiber whole grain bread instead.",
+        "meal_title": "Mixed Cheese and Cured Meat Plate with Whole Grain Bread",
+        "meal_description": "A plate featuring whole grain bread, fresh mozzarella, a slice of semi-hard cheese with chili flakes, a wedge of soft white cheese, and slices of cured ham and prosciutto.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 30,
+            "fats": 30,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "whole grain bread",
+                "impact": "green"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "semi-hard cheese with chili flakes",
+                "impact": "yellow"
+            },
+            {
+                "name": "soft white cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "cured ham",
+                "impact": "orange"
+            },
+            {
+                "name": "prosciutto",
+                "impact": "orange"
+            }
+        ]
+    }
+}

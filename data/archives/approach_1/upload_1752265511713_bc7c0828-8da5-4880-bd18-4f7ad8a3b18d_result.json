@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265511713_bc7c0828-8da5-4880-bd18-4f7ad8a3b18d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is high in carbohydrates and fats, which may cause blood sugar spikes in someone with diabetes. Opting for grilled meats with vegetables and brown rice can lower glycemic impact.",
+        "meal_title": "Grilled Ribs with Rice and Fries",
+        "meal_description": "A dish consisting of grilled ribs served with white rice, French fries, and a slice of lemon for garnish.",
+        "macros": {
+            "calories": 800,
+            "carbohydrates": 90,
+            "fats": 35,
+            "proteins": 40
+        },
+        "ingredients": [
+            {
+                "name": "grilled ribs",
+                "impact": "yellow"
+            },
+            {
+                "name": "white rice",
+                "impact": "orange"
+            },
+            {
+                "name": "French fries",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon",
+                "impact": "green"
+            }
+        ]
+    }
+}

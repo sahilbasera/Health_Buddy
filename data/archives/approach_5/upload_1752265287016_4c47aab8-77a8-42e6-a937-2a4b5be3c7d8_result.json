@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1752265287016_4c47aab8-77a8-42e6-a937-2a4b5be3c7d8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be a burger with French fries, a combination that is relatively high in refined starch and may raise blood sugar levels quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain sandwich with non-starchy vegetables and a high-fiber side instead.",
+        "meal_title": "Burger with French Fries",
+        "meal_description": "A plated meal consisting of a burger served on a white bun with lettuce and tomato, alongside a portion of French fries.",
+        "macros": {
+            "calories": 680,
+            "carbohydrates": 58,
+            "fats": 34,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "orange"
+            }
+        ]
+    }
+}

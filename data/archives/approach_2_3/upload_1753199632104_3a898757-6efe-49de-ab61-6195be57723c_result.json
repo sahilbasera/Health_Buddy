@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753199632104_3a898757-6efe-49de-ab61-6195be57723c.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Carrots are generally low in calories and have a minimal impact on blood sugar levels. For someone with diabetes, this is a suitable option due to its high fiber content and low glycemic load.",
+        "meal_title": "Raw Carrot",
+        "meal_description": "A fresh, peeled carrot.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "carrot",
+                "impact": "green"
+            }
+        ]
+    }
+}

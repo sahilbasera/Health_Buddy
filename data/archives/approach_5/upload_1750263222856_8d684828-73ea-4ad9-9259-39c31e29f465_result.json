@@ -1,0 +1,108 @@
+{
+    "fileName": "upload_1750263222856_8d684828-73ea-4ad9-9259-39c31e29f465.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be a mixed breakfast plate with rye-style bread, cured meats, egg, and cheeses, providing relatively low carbohydrate content overall but with some refined and processed components. Its glycemic impact is likely moderate to lower than a pastry-based breakfast, though the bread can still raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain, high-fiber bread and less processed protein alternatives instead.",
+        "meal_title": "Bread, Egg, Cured Meats, and Cheese Plate",
+        "meal_description": "A breakfast-style plate containing one slice of dark bread, one boiled egg, several slices of cured ham/prosciutto, one slice of semi-soft cheese, and one wedge of soft white cheese.",
+        "macros": {
+            "calories": 470,
+            "carbohydrates": 20,
+            "fats": 29,
+            "proteins": 31
+        },
+        "ingredients": [
+            {
+                "name": "rye flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "pork",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "semi-soft cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "starter culture",
+                "impact": "green"
+            },
+            {
+                "name": "rennet",
+                "impact": "green"
+            },
+            {
+                "name": "chili pepper",
+                "impact": "green"
+            },
+            {
+                "name": "soft white cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "starter culture",
+                "impact": "green"
+            },
+            {
+                "name": "rennet",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265866541_68a737f3-abd3-461c-9b6b-85cb1dfc31c7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a peeled mandarin orange, a whole fruit containing natural carbohydrates along with fiber and water, which generally has a mild-to-moderate effect on blood sugar levels for someone with diabetes. It is best to choose the whole fruit rather than juice, and pair it with a high-fiber or protein-containing food if a slower glucose response is desired.",
+        "meal_title": "Peeled Mandarin Orange",
+        "meal_description": "A whole peeled mandarin orange with separated citrus segments visible. This is a single-fruit snack with naturally occurring sugars, fiber, and water.",
+        "macros": {
+            "calories": 47,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "mandarin orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750100382667_e5dd5b7c-5a38-4304-b3a7-d8209c5d59a2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels due to its balanced components. Consider going for this mix as part of a wholesome diet, favoring green leafy vegetables and lean proteins.",
+        "meal_title": "Grilled Chicken with Avocado Salad",
+        "meal_description": "A bowl containing grilled chicken, avocado, lettuce, pickled red onions, polenta, and chimichurri sauce.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 25,
+            "fats": 20,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "pickled red onions",
+                "impact": "yellow"
+            },
+            {
+                "name": "polenta",
+                "impact": "yellow"
+            },
+            {
+                "name": "chimichurri sauce",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750185016838_9f1b1b2d-edab-473c-8a09-a7ade40c25a4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This vegetable quiche contains a pastry crust high in refined carbohydrates, which can raise blood sugar levels in someone with diabetes. The vegetables provide fiber and nutrients but the overall glycemic impact is moderate due to the crust. It is best to avoid or strictly limit this meal, opting for a whole grain or high-fiber crust alternative instead.",
+        "meal_title": "Vegetable Quiche Slice",
+        "meal_description": "A slice of quiche made with a pastry crust, eggs, cheese, green bell peppers, red bell peppers, and mushrooms.",
+        "macros": {
+            "calories": 320,
+            "carbohydrates": 28,
+            "fats": 20,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "pastry crust",
+                "impact": "orange"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "green bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "red bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            }
+        ]
+    }
+}

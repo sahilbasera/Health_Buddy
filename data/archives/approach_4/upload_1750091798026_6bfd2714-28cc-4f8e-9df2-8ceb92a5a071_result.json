@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750091798026_6bfd2714-28cc-4f8e-9df2-8ceb92a5a071.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of cookies that are typically high in simple carbohydrates and added sugars, which can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber snacks instead.",
+        "meal_title": "Homemade Cookies",
+        "meal_description": "A jar of homemade cookies likely made from refined flour, sugar, butter, and eggs.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 20,
+            "fats": 7,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "granulated sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "baking powder",
+                "impact": "green"
+            },
+            {
+                "name": "vanilla extract",
+                "impact": "green"
+            }
+        ]
+    }
+}

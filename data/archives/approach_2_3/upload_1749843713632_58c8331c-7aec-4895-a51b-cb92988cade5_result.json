@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1749843713632_58c8331c-7aec-4895-a51b-cb92988cade5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a green tea, which is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. It is beneficial to include this type of beverage in a balanced diet.",
+        "meal_title": "Green Tea",
+        "meal_description": "A cup of green tea, known for its antioxidants and low caloric value.",
+        "macros": {
+            "calories": 2,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "green tea",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

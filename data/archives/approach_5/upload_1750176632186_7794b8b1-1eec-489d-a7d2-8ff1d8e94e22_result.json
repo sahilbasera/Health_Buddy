@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1750176632186_7794b8b1-1eec-489d-a7d2-8ff1d8e94e22.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be a breakfast of a sausage patty, scrambled eggs, ketchup, and black coffee. It is relatively low in carbohydrates overall, but the processed meat and ketchup may still be less favorable for blood sugar levels and overall cardiometabolic health in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain toast with eggs and a high-fiber vegetable side instead.",
+        "meal_title": "Sausage Patty with Scrambled Eggs and Black Coffee",
+        "meal_description": "A simple breakfast plate containing one sausage patty, a serving of scrambled eggs, a small portion of ketchup, and a cup of black coffee.",
+        "macros": {
+            "calories": 290,
+            "carbohydrates": 5,
+            "fats": 23,
+            "proteins": 16
+        },
+        "ingredients": [
+            {
+                "name": "pork",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "orange"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "sage",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "egg",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "ketchup",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "coffee",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

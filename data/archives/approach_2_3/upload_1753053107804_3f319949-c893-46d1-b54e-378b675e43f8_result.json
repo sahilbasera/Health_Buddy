@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753053107804_3f319949-c893-46d1-b54e-378b675e43f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This whole grain bread is rich in complex carbohydrates and fiber, supporting stable blood sugar levels for someone with diabetes. Opting for whole grain options aids in maintaining glycemic control.",
+        "meal_title": "Whole Grain Bread",
+        "meal_description": "Slices of whole grain bread, typically made from whole wheat flour and containing grains or seeds.",
+        "macros": {
+            "calories": 130,
+            "carbohydrates": 22,
+            "fats": 2,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "green"
+            },
+            {
+                "name": "seeds",
+                "impact": "green"
+            }
+        ]
+    }
+}

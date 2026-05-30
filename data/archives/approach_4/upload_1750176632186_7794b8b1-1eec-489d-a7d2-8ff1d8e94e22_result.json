@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750176632186_7794b8b1-1eec-489d-a7d2-8ff1d8e94e22.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains scrambled eggs and sausage, which are moderate in protein and fat but low in carbohydrates, with a small amount of ketchup adding simple sugars. For someone with diabetes, the impact on blood sugar is moderate due to the low carbohydrate content but the ketchup can cause a slight increase. It is best to avoid or strictly limit this meal, opting for whole grain toast and fresh vegetables instead.",
+        "meal_title": "Scrambled Eggs with Sausage and Ketchup",
+        "meal_description": "A breakfast plate featuring scrambled eggs, a cooked sausage patty, and a small serving of ketchup, accompanied by black coffee.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 10,
+            "fats": 28,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "pork sausage",
+                "impact": "yellow"
+            },
+            {
+                "name": "ketchup",
+                "impact": "orange"
+            },
+            {
+                "name": "black coffee",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753199710361_657a23e2-1ed3-4b67-86cb-e5b5b76d0cc5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This is a low-calorie option with minimal impact on blood sugar levels, suitable for individuals monitoring their glycemic health.",
+        "meal_title": "Miso Soup",
+        "meal_description": "A traditional Japanese soup made from a base of miso paste and dashi, garnished with green onions and seaweed.",
+        "macros": {
+            "calories": 35,
+            "carbohydrates": 5,
+            "fats": 1,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "Miso paste",
+                "impact": "green"
+            },
+            {
+                "name": "Dashi",
+                "impact": "green"
+            },
+            {
+                "name": "Green onions",
+                "impact": "green"
+            },
+            {
+                "name": "Seaweed",
+                "impact": "green"
+            }
+        ]
+    }
+}

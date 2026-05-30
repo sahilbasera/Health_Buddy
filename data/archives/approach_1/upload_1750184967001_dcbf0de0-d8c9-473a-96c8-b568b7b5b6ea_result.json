@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750184967001_dcbf0de0-d8c9-473a-96c8-b568b7b5b6ea.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit snack is naturally low in fats and high in fiber, beneficial for blood sugar management. Opt for this whole fruit option instead of processed snacks for sustained energy levels.",
+        "meal_title": "Green Grapes and Fig",
+        "meal_description": "A bowl containing fresh green grapes and a fig, offering refreshing natural sweetness and fiber.",
+        "macros": {
+            "calories": 110,
+            "carbohydrates": 28,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Green Grapes",
+                "impact": "green"
+            },
+            {
+                "name": "Fig",
+                "impact": "green"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750184400484_91309b18-e132-459d-8b77-58d388eb7c92.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of watermelon, which is low in calories and has a moderate glycemic index. It can cause a mild increase in blood sugar levels in someone with diabetes but is generally acceptable in small portions. It is best to consume it alongside higher fiber foods to moderate glycemic impact.",
+        "meal_title": "Fresh Watermelon Chunks",
+        "meal_description": "Three small pieces of fresh watermelon, a hydrating fruit with natural sugars and water content.",
+        "macros": {
+            "calories": 45,
+            "carbohydrates": 11,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "watermelon",
+                "impact": "green"
+            }
+        ]
+    }
+}

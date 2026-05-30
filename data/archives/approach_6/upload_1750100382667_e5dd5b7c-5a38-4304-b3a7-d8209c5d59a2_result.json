@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1750100382667_e5dd5b7c-5a38-4304-b3a7-d8209c5d59a2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed bowl with roasted chicken, lettuce, avocado, radish, and a starchy yellow mash or grain component. It has a moderate glycemic impact overall, but the starchy portion may raise blood sugar levels in someone with diabetes more than the non-starchy vegetables and protein. It is best to avoid or strictly limit this meal, opting for a whole grain or higher-fiber vegetable base instead.",
+        "meal_title": "Roasted Chicken and Vegetable Bowl",
+        "meal_description": "A savory bowl containing roasted chicken pieces, lettuce, avocado, radish, and a yellow starchy mash or grain component, likely prepared with oil, salt, and seasonings.",
+        "macros": {
+            "calories": 420,
+            "carbohydrates": 18,
+            "fats": 28,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "chicken",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "orange"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "radish",
+                "impact": "green"
+            },
+            {
+                "name": "cornmeal",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

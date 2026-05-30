@@ -1,0 +1,92 @@
+{
+    "fileName": "upload_1749840712880_d8cedf37-9bdb-4ff5-8e21-6a6a740ae409.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed plate of couscous, cooked vegetables, a fried onion ring, and a creamy sauce. It has a moderate glycemic impact overall, with the couscous and breaded fried item more likely to raise blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain couscous or another high-fiber whole grain and replacing the fried item with a non-breaded protein or extra vegetables instead.",
+        "meal_title": "Couscous Plate with Mixed Vegetables, Onion Ring, and Creamy Sauce",
+        "meal_description": "A savory plate containing couscous, broccoli, cauliflower, cooked leafy greens, one breaded fried onion ring, and a small portion of creamy sauce.",
+        "macros": {
+            "calories": 360,
+            "carbohydrates": 38,
+            "fats": 16,
+            "proteins": 11
+        },
+        "ingredients": [
+            {
+                "name": "semolina",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "cauliflower",
+                "impact": "green"
+            },
+            {
+                "name": "leafy greens",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "yellow"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "breadcrumbs",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "mustard",
+                "impact": "green"
+            }
+        ]
+    }
+}

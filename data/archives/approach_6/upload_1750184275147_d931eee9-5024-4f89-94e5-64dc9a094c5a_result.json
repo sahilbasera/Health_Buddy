@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1750184275147_d931eee9-5024-4f89-94e5-64dc9a094c5a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be a grilled sausage with cooked vegetables and a cream-based sauce, providing moderate protein with relatively low carbohydrate content. Its glycemic impact is likely lower than breaded or starch-heavy meals, but the sauce and processed sausage may still be less favorable for blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain and high-fiber lean protein plate instead.",
+        "meal_title": "Grilled Sausage with Mixed Vegetables and Cream Sauce",
+        "meal_description": "A plated meal consisting of one grilled sausage served with peas, carrots, leeks, yellow squash, eggplant, and a light cream-based sauce with onions or shallots.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 22,
+            "fats": 38,
+            "proteins": 22
+        },
+        "ingredients": [
+            {
+                "name": "pork",
+                "impact": "orange"
+            },
+            {
+                "name": "salt",
+                "impact": "orange"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "green pea",
+                "impact": "yellow"
+            },
+            {
+                "name": "leek",
+                "impact": "green"
+            },
+            {
+                "name": "yellow squash",
+                "impact": "green"
+            },
+            {
+                "name": "eggplant",
+                "impact": "green"
+            }
+        ]
+    }
+}

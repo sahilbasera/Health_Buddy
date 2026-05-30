@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1753054028270_f5833fb2-5b4f-45b5-9da8-a2cd7b10c97d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is a meat pizza, which is high in simple carbohydrates and saturated fats, potentially causing a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain crust pizza with lean protein and more vegetables instead.",
+        "meal_title": "Meat Pizza",
+        "meal_description": "A pizza with a wheat flour crust topped with ground meat, cheese, and herbs.",
+        "macros": {
+            "calories": 700,
+            "carbohydrates": 70,
+            "fats": 35,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "ground meat",
+                "impact": "orange"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

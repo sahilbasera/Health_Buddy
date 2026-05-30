@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053995329_8844fe76-9209-488e-adf3-7a13fe0c6f81.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of scrambled eggs, cooked zucchini, and cooked chicken pieces, which are low in carbohydrates and have minimal impact on blood sugar levels for someone with diabetes. It is a balanced meal with protein and non-starchy vegetables. It is best to continue choosing such high-protein and low-glycemic foods for stable blood sugar control.",
+        "meal_title": "Scrambled Eggs with Cooked Zucchini and Chicken",
+        "meal_description": "A plate containing scrambled eggs, cooked zucchini slices, and cooked chicken pieces, providing a low-carbohydrate, high-protein meal.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 10,
+            "fats": 20,
+            "proteins": 40
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "zucchini",
+                "impact": "green"
+            },
+            {
+                "name": "chicken breast",
+                "impact": "green"
+            }
+        ]
+    }
+}

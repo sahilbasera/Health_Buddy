@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265789773_34d75fc4-0e04-488f-b3f3-d88ffb030604.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Plain water is the optimal choice for hydration, playing a crucial role in maintaining optimal bodily functions and regulating blood sugar levels.",
+        "meal_title": "Plain Water",
+        "meal_description": "A glass of plain drinking water.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Water",
+                "impact": "green"
+            }
+        ]
+    }
+}

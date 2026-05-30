@@ -1,0 +1,76 @@
+{
+    "fileName": "upload_1752265899911_dcb7943d-bbe6-4f7c-9c86-2b162eb3f61d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a mixed-topping pizza made with refined wheat crust, tomato sauce, cheese, processed meat, and vegetables. It can raise blood sugar levels in someone with diabetes due to the refined crust and relatively low fiber content, especially when paired with processed meat and cheese. It is best to avoid or strictly limit this meal, opting for a whole grain or high-fiber vegetable-based pizza instead.",
+        "meal_title": "Mixed-Topping Cheese and Ham Pizza",
+        "meal_description": "A thin-crust pizza with tomato sauce, melted cheese, ham, mushroom, black olive, and red pepper.",
+        "macros": {
+            "calories": 780,
+            "carbohydrates": 78,
+            "fats": 31,
+            "proteins": 34
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham",
+                "impact": "orange"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "black olive",
+                "impact": "yellow"
+            },
+            {
+                "name": "red pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

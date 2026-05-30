@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265818634_e1c146f8-2cbf-4033-ac9f-9b4869fd1d4f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This bread may have a moderate impact on blood sugar levels. Opt for whole grain or high-fiber options to help maintain stable blood sugar levels.",
+        "meal_title": "Artisan Bread Slice",
+        "meal_description": "A slice of artisan bread, potentially made with a mix of whole and refined flours.",
+        "macros": {
+            "calories": 70,
+            "carbohydrates": 15,
+            "fats": 1,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "Flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Water",
+                "impact": "green"
+            },
+            {
+                "name": "Yeast",
+                "impact": "green"
+            },
+            {
+                "name": "Salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

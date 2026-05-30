@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1752265287016_4c47aab8-77a8-42e6-a937-2a4b5be3c7d8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is generally high in simple carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain sandwich with oven-baked sweet potato fries instead.",
+        "meal_title": "Burger with French Fries",
+        "meal_description": "A plate consisting of a burger with lettuce and tomato accompanied by a side of French fries.",
+        "macros": {
+            "calories": 700,
+            "carbohydrates": 80,
+            "fats": 40,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "bun",
+                "impact": "orange"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "beef patty",
+                "impact": "orange"
+            },
+            {
+                "name": "french fries",
+                "impact": "orange"
+            }
+        ]
+    }
+}

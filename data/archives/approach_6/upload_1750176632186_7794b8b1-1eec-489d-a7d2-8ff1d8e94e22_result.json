@@ -1,0 +1,92 @@
+{
+    "fileName": "upload_1750176632186_7794b8b1-1eec-489d-a7d2-8ff1d8e94e22.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be a breakfast of scrambled eggs, a sausage patty, ketchup, and black coffee. It is relatively low in carbohydrates overall, but the processed sausage and ketchup can still affect blood sugar levels indirectly when paired with other refined foods; it is best to avoid or strictly limit this meal, opting for a high-fiber whole grain breakfast with eggs and less processed protein instead.",
+        "meal_title": "Scrambled Eggs with Sausage Patty, Ketchup, and Black Coffee",
+        "meal_description": "A simple breakfast plate containing scrambled eggs, one sausage patty, a small portion of ketchup, and a cup of black coffee.",
+        "macros": {
+            "calories": 320,
+            "carbohydrates": 6,
+            "fats": 25,
+            "proteins": 18
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "pork",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sage",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "coffee",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

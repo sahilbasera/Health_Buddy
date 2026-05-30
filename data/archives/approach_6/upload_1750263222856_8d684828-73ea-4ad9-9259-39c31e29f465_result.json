@@ -1,0 +1,92 @@
+{
+    "fileName": "upload_1750263222856_8d684828-73ea-4ad9-9259-39c31e29f465.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is a low-carbohydrate plate centered on cured meats, egg, cheese, and a slice of bread, so it is likely to have a moderate effect on blood sugar levels, mainly from the bread. It is best to avoid or strictly limit this meal, opting for whole grain, high-fiber bread and less processed protein choices instead. For someone with diabetes, reducing the cured meats and pairing the bread with more fiber-rich foods may help moderate glycemic impact.",
+        "meal_title": "Breakfast Plate with Bread, Egg, Cured Meats, and Cheese",
+        "meal_description": "A mixed breakfast plate containing one slice of dark bread, one boiled egg, several slices of cured ham/prosciutto, one slice of semi-hard cheese, and one wedge of soft fresh cheese.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 18,
+            "fats": 34,
+            "proteins": 34
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "rye flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "pork",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "semi-hard cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "chili pepper",
+                "impact": "green"
+            },
+            {
+                "name": "soft fresh cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1750182831517_fa06a30c-cffc-40b8-9ac3-abc35e1d1635.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is generally healthful and suitable for maintaining stable blood sugar levels due to its high fiber content. Opting for a reduced amount of added dressing, or selecting vinaigrette-based options, can further minimize calorie intake.",
+        "meal_title": "Mixed Green Salad",
+        "meal_description": "A fresh and vibrant salad containing an assortment of leafy greens, vegetables, and fruits.",
+        "macros": {
+            "calories": 200,
+            "carbohydrates": 25,
+            "fats": 10,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "red cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "green"
+            },
+            {
+                "name": "apples",
+                "impact": "green"
+            },
+            {
+                "name": "walnuts",
+                "impact": "green"
+            },
+            {
+                "name": "parmesan cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

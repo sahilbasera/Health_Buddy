@@ -1,0 +1,15 @@
+{
+    "name": "guardrail_check",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "is_food": {"type": "boolean"}, 
+            "no_pii": {"type": "boolean"},
+            "no_humans": {"type": "boolean"},
+            "no_captcha": {"type": "boolean"}
+        },
+        "required": ["is_food", "no_pii", "no_humans", "no_captcha"],
+        "additionalProperties": false
+    }
+}

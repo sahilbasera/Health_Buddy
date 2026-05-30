@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753053277090_02101e96-ba76-4f39-8980-65db616ad82f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of fresh fruits that have a moderate glycemic impact and provide essential nutrients and fiber. It is suitable for someone with diabetes when consumed in controlled portions. Opting for whole fruits like these supports stable blood sugar levels.",
+        "meal_title": "Mixed Fresh Fruit Plate",
+        "meal_description": "A small serving of fresh apple, banana, pear, and peach slices.",
+        "macros": {
+            "calories": 90,
+            "carbohydrates": 23,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "green"
+            },
+            {
+                "name": "banana",
+                "impact": "yellow"
+            },
+            {
+                "name": "pear",
+                "impact": "green"
+            },
+            {
+                "name": "peach",
+                "impact": "green"
+            }
+        ]
+    }
+}

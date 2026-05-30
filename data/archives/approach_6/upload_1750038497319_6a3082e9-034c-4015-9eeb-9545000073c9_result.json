@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1750038497319_6a3082e9-034c-4015-9eeb-9545000073c9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "These are sous vide egg bites made with eggs, bacon, and gouda, providing high protein with relatively low carbohydrate content. Their glycemic impact is generally low and may cause a smaller rise in blood sugar levels for someone with diabetes than refined grain breakfast items, but the saturated fat and sodium content can be notable. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber breakfast with eggs and vegetables instead.",
+        "meal_title": "Sous Vide Egg Bites with Uncured Bacon and Gouda",
+        "meal_description": "Packaged refrigerated egg bites made primarily from eggs, uncured bacon, gouda cheese, and dairy-based ingredients, cooked in a sous vide style. This is a protein-rich, low-carbohydrate breakfast item with moderate fat content.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 9,
+            "fats": 20,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "cottage cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "gouda cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "uncured bacon",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "rice starch",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "orange"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "citric acid",
+                "impact": "green"
+            }
+        ]
+    }
+}

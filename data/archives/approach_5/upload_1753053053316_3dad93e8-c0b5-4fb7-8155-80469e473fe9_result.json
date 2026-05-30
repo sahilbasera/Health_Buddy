@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753053053316_3dad93e8-c0b5-4fb7-8155-80469e473fe9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be several slices of white bread spread with butter, making it relatively high in refined carbohydrates and saturated fat. For someone with diabetes, this combination may raise blood sugar levels more quickly than a whole-grain, higher-fiber option. It is best to avoid or strictly limit this meal, opting for whole grain bread with a thinner spread or a high-fiber topping instead.",
+        "meal_title": "Butter-Spread White Bread Slices",
+        "meal_description": "Five slices of white bread with a visible spread of butter. The meal is simple and energy-dense, with most of its glycemic effect coming from refined flour bread.",
+        "macros": {
+            "calories": 620,
+            "carbohydrates": 68,
+            "fats": 33,
+            "proteins": 13
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            }
+        ]
+    }
+}

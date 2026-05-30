@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750184400484_91309b18-e132-459d-8b77-58d388eb7c92.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal appears to be fresh watermelon, a fruit with high water content and a moderate glycemic effect due to its natural sugars. For someone with diabetes, portion size still matters for blood sugar levels, and pairing fruit with a high-fiber or protein-containing food may help moderate the response. It is best to avoid or strictly limit large portions of this meal, opting for a high-fiber fruit such as berries instead.",
+        "meal_title": "Fresh Watermelon Pieces",
+        "meal_description": "Three pieces of fresh watermelon served plain.",
+        "macros": {
+            "calories": 45,
+            "carbohydrates": 11,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "watermelon",
+                "impact": "green"
+            }
+        ]
+    }
+}

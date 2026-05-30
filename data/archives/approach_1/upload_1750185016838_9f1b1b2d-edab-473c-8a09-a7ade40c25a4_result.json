@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750185016838_9f1b1b2d-edab-473c-8a09-a7ade40c25a4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This vegetable quiche is moderate in carbohydrates due to the crust. Opting for a whole grain crust can provide more fiber, beneficial for blood sugar control.",
+        "meal_title": "Vegetable Quiche",
+        "meal_description": "A slice of quiche featuring vegetables like bell peppers and mushrooms in a pastry crust.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 25,
+            "fats": 18,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "Pastry crust",
+                "impact": "orange"
+            },
+            {
+                "name": "Eggs",
+                "impact": "green"
+            },
+            {
+                "name": "Cream or milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "Bell peppers",
+                "impact": "green"
+            },
+            {
+                "name": "Mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "Cheese",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

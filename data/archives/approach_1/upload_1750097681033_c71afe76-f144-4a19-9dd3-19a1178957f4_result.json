@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750097681033_c71afe76-f144-4a19-9dd3-19a1178957f4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. Opt for fresh fruit like this for a nutritious snack with minimal glycemic impact.",
+        "meal_title": "Fresh Mixed Oranges",
+        "meal_description": "A serving of fresh orange and blood orange, providing natural sweetness and vitamin C.",
+        "macros": {
+            "calories": 60,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Orange",
+                "impact": "green"
+            },
+            {
+                "name": "Blood Orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

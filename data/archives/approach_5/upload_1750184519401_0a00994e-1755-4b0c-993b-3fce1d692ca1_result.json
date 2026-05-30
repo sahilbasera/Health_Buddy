@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750184519401_0a00994e-1755-4b0c-993b-3fce1d692ca1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a pan-cooked pasta dish with cheese and oil, which is relatively high in refined carbohydrates and may raise blood sugar levels more quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain pasta, non-starchy vegetables, and a lean protein instead.",
+        "meal_title": "Pan-Cooked Penne Pasta with Cheese",
+        "meal_description": "A simple skillet meal made with cooked penne pasta, cheese cubes, oil, herbs, and seasoning.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 48,
+            "fats": 18,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "durum wheat semolina",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "dried herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

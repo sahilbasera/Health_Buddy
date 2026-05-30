@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1749850518596_ae5c6336-732a-432f-a1c1-a64db860a708.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal appears to be an espresso served with a small slice of plain cake or sweet bread, which is relatively high in refined carbohydrates and may raise blood sugar levels in someone with diabetes. The espresso itself has minimal glycemic effect, but the cake contributes the main glycemic load. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber biscuit or unsweetened yogurt with nuts instead.",
+        "meal_title": "Espresso with Small Slice of Plain Cake",
+        "meal_description": "A small cup of espresso served with a small slice of plain sponge-style cake or sweet loaf. The beverage is very low in calories, while the cake provides most of the carbohydrates and calories.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 22,
+            "fats": 8,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "coffee",
+                "impact": "green"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "baking powder",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

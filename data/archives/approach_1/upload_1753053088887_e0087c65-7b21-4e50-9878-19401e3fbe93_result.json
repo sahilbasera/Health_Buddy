@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753053088887_e0087c65-7b21-4e50-9878-19401e3fbe93.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal provides a balanced combination of proteins and healthy fats with essential vitamins from the tomatoes.",
+        "meal_title": "Eggs with Sliced Tomatoes",
+        "meal_description": "A dish consisting of two fried eggs accompanied by sliced fresh tomatoes, lightly seasoned.",
+        "macros": {
+            "calories": 200,
+            "carbohydrates": 10,
+            "fats": 14,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "Eggs",
+                "impact": "green"
+            },
+            {
+                "name": "Tomatoes",
+                "impact": "green"
+            },
+            {
+                "name": "Seasoning (e.g., salt, pepper)",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

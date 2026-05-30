@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750038317524_55c71fd4-30e1-4e8b-93f8-86e6094f31b3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is a baked pasta dish with cheese and bread crumbs, which is high in simple carbohydrates and fats, potentially causing a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain pasta with added vegetables and a reduced-fat cheese sauce instead.",
+        "meal_title": "Baked Macaroni and Cheese with Bread Crumbs",
+        "meal_description": "A baked pasta dish made with macaroni pasta, cheese sauce, and topped with bread crumbs.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 55,
+            "fats": 18,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "macaroni pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "cheddar cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "all-purpose flour",
+                "impact": "orange"
+            },
+            {
+                "name": "bread crumbs",
+                "impact": "orange"
+            }
+        ]
+    }
+}

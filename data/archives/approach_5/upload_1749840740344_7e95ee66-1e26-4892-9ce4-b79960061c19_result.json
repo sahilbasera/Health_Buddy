@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a small serving of saut\u00e9ed vegetables, primarily mushrooms, carrots, and potatoes, which provides a modest carbohydrate load and generally lower glycemic impact than refined starch-based meals. For someone with diabetes, blood sugar levels may still rise from the potato content, so it is best to avoid or strictly limit this meal, opting for a higher-fiber non-starchy vegetable mix or a whole grain-based side instead.",
+        "meal_title": "Saut\u00e9ed Mixed Vegetables",
+        "meal_description": "A small portion of cooked mixed vegetables consisting mainly of mushrooms, carrots, and potatoes, likely saut\u00e9ed with oil and basic seasonings.",
+        "macros": {
+            "calories": 110,
+            "carbohydrates": 14,
+            "fats": 5,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "parsley",
+                "impact": "green"
+            }
+        ]
+    }
+}

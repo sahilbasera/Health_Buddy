@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753199710361_657a23e2-1ed3-4b67-86cb-e5b5b76d0cc5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a light broth-based soup with minimal carbohydrate content and a low likely glycemic impact on blood sugar levels for someone with diabetes. It is generally a lower-glycemic meal, though sodium content may vary; if paired with starches, whole grain or high-fiber sides would be preferable. It is best to avoid or strictly limit this meal only if it is served with refined noodles or white rice, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Clear Broth Soup",
+        "meal_description": "A small serving of clear savory broth with visible seaweed and green onion, likely a simple miso-style or light stock-based soup.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 3,
+            "fats": 1,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "miso",
+                "impact": "yellow"
+            },
+            {
+                "name": "seaweed",
+                "impact": "green"
+            },
+            {
+                "name": "green onion",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

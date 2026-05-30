@@ -1,0 +1,88 @@
+{
+    "fileName": "upload_1750097765140_1dccfd72-61d7-462c-b163-f5b7c348b547.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to include toasted white bread, p\u00e2t\u00e9 or liver spread, and leafy greens, making it moderate to high in refined carbohydrates with added fat. For someone with diabetes, the white toast may raise blood sugar levels more quickly than higher-fiber options. It is best to avoid or strictly limit this meal, opting for whole grain toast and a higher-fiber, lean-protein alternative instead.",
+        "meal_title": "White Toast with P\u00e2t\u00e9 and Leafy Greens",
+        "meal_description": "A plate containing two slices of toasted white bread, several portions of p\u00e2t\u00e9 or liver spread, and a side of leafy green salad dressed lightly.",
+        "macros": {
+            "calories": 390,
+            "carbohydrates": 28,
+            "fats": 24,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "liver",
+                "impact": "yellow"
+            },
+            {
+                "name": "pork",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

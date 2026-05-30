@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753052864483_2e9f35f0-e28e-4cb0-9e0e-161c00ce4e6d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is suitable for managing blood sugar levels due to its high fiber content from the vegetables and potential proteins from cheese or eggs. Opt for a whole grain or legume-based salad for more variety.",
+        "meal_title": "Vegetable and Cheese Salad",
+        "meal_description": "A fresh salad consisting of assorted vegetables and cheese, possibly with a light dressing, making it a low-glycemic meal choice.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 10,
+            "fats": 10,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

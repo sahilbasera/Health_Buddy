@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1750038497319_6a3082e9-034c-4015-9eeb-9545000073c9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is moderately high in protein due to eggs and cheese, but also contains bacon which can increase sodium and saturated fat levels. For someone with diabetes, opting for a version with increased vegetables and whole grains might be preferable.",
+        "meal_title": "Sous Vide Egg Bites: Uncured Bacon & Gouda",
+        "meal_description": "These are sous vide egg bites with uncured bacon and gouda, providing a protein-rich option. They are made from cage-free eggs and offer a convenient snack or meal choice.",
+        "macros": {
+            "calories": 310,
+            "carbohydrates": 9,
+            "fats": 23,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "whole eggs",
+                "impact": "yellow"
+            },
+            {
+                "name": "uncured bacon",
+                "impact": "orange"
+            },
+            {
+                "name": "gouda cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "skim milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "modified food starch",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

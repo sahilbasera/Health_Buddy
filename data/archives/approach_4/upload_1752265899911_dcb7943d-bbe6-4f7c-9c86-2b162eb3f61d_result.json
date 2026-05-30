@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1752265899911_dcb7943d-bbe6-4f7c-9c86-2b162eb3f61d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza meal is high in simple carbohydrates and saturated fats, which can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain crust and high-fiber vegetable toppings instead.",
+        "meal_title": "Ham and Mushroom Pizza with Olives",
+        "meal_description": "A pizza consisting of wheat flour crust, tomato sauce, mozzarella cheese, ham, mushrooms, black olives, and some red bell pepper pieces.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 40,
+            "fats": 15,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham",
+                "impact": "orange"
+            },
+            {
+                "name": "mushroom",
+                "impact": "green"
+            },
+            {
+                "name": "black olive",
+                "impact": "yellow"
+            },
+            {
+                "name": "red bell pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

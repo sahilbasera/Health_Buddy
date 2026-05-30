@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750185057801_517dd09d-f8aa-4e48-93d1-820958817b61.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Grapes generally have a moderate glycemic index and are a healthy snack in moderation. Opting for whole fruits like these provides fiber, which may help regulate blood sugar levels in someone with diabetes.",
+        "meal_title": "Fresh Grapes",
+        "meal_description": "A cluster of fresh dark grapes",
+        "macros": {
+            "calories": 62,
+            "carbohydrates": 16,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "grapes",
+                "impact": "green"
+            }
+        ]
+    }
+}

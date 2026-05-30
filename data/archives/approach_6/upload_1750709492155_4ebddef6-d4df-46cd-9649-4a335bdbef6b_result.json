@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750709492155_4ebddef6-d4df-46cd-9649-4a335bdbef6b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is fresh orange segments, a whole fruit source of carbohydrates with fiber and water that generally has a lower glycemic effect than fruit juice. For someone with diabetes, whole oranges are typically a more moderate option for blood sugar levels than juice; portion control and pairing with protein or nuts can further reduce glycemic impact.",
+        "meal_title": "Orange Wedges",
+        "meal_description": "Several wedges of fresh orange served plain on a plate.",
+        "macros": {
+            "calories": 62,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

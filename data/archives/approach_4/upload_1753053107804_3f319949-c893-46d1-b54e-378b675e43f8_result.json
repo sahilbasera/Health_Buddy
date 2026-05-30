@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753053107804_3f319949-c893-46d1-b54e-378b675e43f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of whole grain bread, which is moderate in glycemic impact and beneficial for blood sugar control in someone with diabetes. It is best to choose whole grain or high-fiber bread options to support stable blood sugar levels.",
+        "meal_title": "Whole Grain Bread Slices",
+        "meal_description": "Two slices of whole grain bread made from whole wheat flour, water, yeast, salt, and seeds.",
+        "macros": {
+            "calories": 140,
+            "carbohydrates": 24,
+            "fats": 2,
+            "proteins": 6
+        },
+        "ingredients": [
+            {
+                "name": "whole wheat flour",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "flax seeds",
+                "impact": "green"
+            }
+        ]
+    }
+}

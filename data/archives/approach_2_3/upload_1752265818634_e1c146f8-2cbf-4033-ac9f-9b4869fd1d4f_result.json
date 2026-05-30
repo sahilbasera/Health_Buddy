@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265818634_e1c146f8-2cbf-4033-ac9f-9b4869fd1d4f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This slice of whole grain bread is high in fiber and has a low glycemic impact, making it suitable for maintaining stable blood sugar levels. It may be included regularly in a balanced diet.",
+        "meal_title": "Whole Grain Bread Slice",
+        "meal_description": "A slice of whole grain bread, often rich in fiber and nutrients.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 15,
+            "fats": 1,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "whole grain flour",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

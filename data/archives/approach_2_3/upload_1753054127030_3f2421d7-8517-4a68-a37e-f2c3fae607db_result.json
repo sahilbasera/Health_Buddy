@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753054127030_3f2421d7-8517-4a68-a37e-f2c3fae607db.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is generally healthful and suitable for stable blood sugar levels due to its high fiber content. Incorporating more diverse vegetables can increase nutrient density and sustain energy levels for someone with diabetes.",
+        "meal_title": "Simple Green Salad",
+        "meal_description": "A fresh salad composed of lettuce, shredded carrots, and broccoli stems, seasoned lightly with a vinaigrette dressing and sesame seeds.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 12,
+            "fats": 10,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli stems",
+                "impact": "green"
+            },
+            {
+                "name": "vinaigrette dressing",
+                "impact": "yellow"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

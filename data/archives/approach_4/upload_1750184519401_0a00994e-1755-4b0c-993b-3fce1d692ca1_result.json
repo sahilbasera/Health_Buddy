@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750184519401_0a00994e-1755-4b0c-993b-3fce1d692ca1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists primarily of pasta, which is high in simple carbohydrates and can cause a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber pasta alternatives instead.",
+        "meal_title": "Pasta with Tofu and Pesto Sauce",
+        "meal_description": "Cooked penne pasta mixed with tofu pieces and a green pesto sauce.",
+        "macros": {
+            "calories": 400,
+            "carbohydrates": 60,
+            "fats": 12,
+            "proteins": 18
+        },
+        "ingredients": [
+            {
+                "name": "penne pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "tofu",
+                "impact": "green"
+            },
+            {
+                "name": "basil",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

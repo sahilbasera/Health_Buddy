@@ -1,0 +1,88 @@
+{
+    "fileName": "upload_1750182831517_fa06a30c-cffc-40b8-9ac3-abc35e1d1635.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed vegetable salad with legumes, leafy greens, and a light vinaigrette, which is generally moderate to low in glycemic impact. It is typically supportive of steadier blood sugar levels for someone with diabetes, though portion size and dressing composition can influence the response. It is best to continue choosing meals like this, opting for whole grain or high-fiber additions instead of refined carbohydrate sides.",
+        "meal_title": "Mixed Green Salad with Chickpeas and Edamame",
+        "meal_description": "A bowl of mixed leafy greens and shredded vegetables with chickpeas, edamame, apple, shaved hard cheese, crispy topping, and vinaigrette-style dressing.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 24,
+            "fats": 14,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "radicchio",
+                "impact": "green"
+            },
+            {
+                "name": "red cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "beet",
+                "impact": "green"
+            },
+            {
+                "name": "apple",
+                "impact": "yellow"
+            },
+            {
+                "name": "chickpeas",
+                "impact": "green"
+            },
+            {
+                "name": "edamame",
+                "impact": "green"
+            },
+            {
+                "name": "parmesan cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "crispy wonton strips",
+                "impact": "orange"
+            },
+            {
+                "name": "olive oil",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

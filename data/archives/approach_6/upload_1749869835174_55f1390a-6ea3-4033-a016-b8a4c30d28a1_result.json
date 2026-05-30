@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1749869835174_55f1390a-6ea3-4033-a016-b8a4c30d28a1.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a tuna and avocado appetizer served with a soy-based sauce, which is relatively low in carbohydrates but may still affect blood sugar levels depending on the sauce and portion size. For someone with diabetes, it is best to limit richer sauce portions and opt for a high-fiber accompaniment or a whole grain side instead.",
+        "meal_title": "Tuna Tartare with Avocado and Caviar",
+        "meal_description": "A small plated appetizer made with diced raw tuna layered over avocado, topped with black caviar, and served in a savory soy-based sauce with scallion.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 8,
+            "fats": 18,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "tuna",
+                "impact": "green"
+            },
+            {
+                "name": "avocado",
+                "impact": "green"
+            },
+            {
+                "name": "black caviar",
+                "impact": "yellow"
+            },
+            {
+                "name": "soy sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "scallion",
+                "impact": "green"
+            },
+            {
+                "name": "sesame oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "rice vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

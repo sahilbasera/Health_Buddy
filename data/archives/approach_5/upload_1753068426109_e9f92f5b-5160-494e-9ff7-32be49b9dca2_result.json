@@ -1,0 +1,92 @@
+{
+    "fileName": "upload_1753068426109_e9f92f5b-5160-494e-9ff7-32be49b9dca2.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed composed bowl with starchy vegetables, corn, fruit, pasta, and several non-starchy vegetables, creating a moderate carbohydrate load with some fiber and protein. It may raise blood sugar levels in someone with diabetes due to the corn, pasta, and fruit components; it is best to avoid or strictly limit this meal, opting for a whole grain or higher-fiber bowl with non-starchy vegetables and a clearly defined lean protein instead.",
+        "meal_title": "Mixed Vegetable, Fruit, Corn, and Pasta Bowl",
+        "meal_description": "A composed bowl containing pasta, corn, pineapple, cucumber, grapefruit, beet, spinach, broccoli, peas, carrots, yellow bell pepper, cheese, and a small portion of shredded chicken or tuna-like lean protein.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 46,
+            "fats": 14,
+            "proteins": 24
+        },
+        "ingredients": [
+            {
+                "name": "pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "corn",
+                "impact": "orange"
+            },
+            {
+                "name": "pineapple",
+                "impact": "orange"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "grapefruit",
+                "impact": "yellow"
+            },
+            {
+                "name": "beet",
+                "impact": "yellow"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "green peas",
+                "impact": "yellow"
+            },
+            {
+                "name": "carrot",
+                "impact": "yellow"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "chicken",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

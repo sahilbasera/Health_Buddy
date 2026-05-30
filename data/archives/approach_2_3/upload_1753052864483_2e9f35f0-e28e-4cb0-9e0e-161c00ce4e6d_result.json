@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753052864483_2e9f35f0-e28e-4cb0-9e0e-161c00ce4e6d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is generally healthful and suitable for stable blood sugar levels due to its fresh vegetable content. Incorporating more leafy greens can increase the fiber content, aiding glycemic control for someone with diabetes.",
+        "meal_title": "Fresh Vegetable Salad",
+        "meal_description": "A light salad consisting of chopped lettuce, tomatoes, cucumbers, and dressing.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 15,
+            "fats": 6,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

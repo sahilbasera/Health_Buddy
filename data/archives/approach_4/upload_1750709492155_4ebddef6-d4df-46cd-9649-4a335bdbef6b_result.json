@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1750709492155_4ebddef6-d4df-46cd-9649-4a335bdbef6b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of orange fruit pieces, which are low in fat and protein but contain natural sugars that can moderately raise blood sugar levels in someone with diabetes. It is a whole fruit option with fiber that helps moderate glycemic impact. It is best to consume such fruit in controlled portions as part of a balanced diet.",
+        "meal_title": "Fresh Orange Segments",
+        "meal_description": "Segments of fresh orange fruit, providing natural carbohydrates, fiber, and vitamin C.",
+        "macros": {
+            "calories": 60,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

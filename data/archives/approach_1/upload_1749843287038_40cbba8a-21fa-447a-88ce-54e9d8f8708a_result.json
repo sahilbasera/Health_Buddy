@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1749843287038_40cbba8a-21fa-447a-88ce-54e9d8f8708a.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This thali features a combination of foods that are moderate in glycemic impact. Opt for whole grain roti and limit rice portions to manage blood sugar levels effectively.",
+        "meal_title": "Indian Thali",
+        "meal_description": "A traditional thali featuring chapati, rice, dal, curry, curd, and accompaniments such as pickles and papad.",
+        "macros": {
+            "calories": 600,
+            "carbohydrates": 90,
+            "fats": 20,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "Chapati",
+                "impact": "orange"
+            },
+            {
+                "name": "Rice",
+                "impact": "orange"
+            },
+            {
+                "name": "Dal",
+                "impact": "green"
+            },
+            {
+                "name": "Curry",
+                "impact": "green"
+            },
+            {
+                "name": "Curd",
+                "impact": "green"
+            },
+            {
+                "name": "Pickles",
+                "impact": "yellow"
+            },
+            {
+                "name": "Papad",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753199710361_657a23e2-1ed3-4b67-86cb-e5b5b76d0cc5.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a light broth-based soup, which is low in simple carbohydrates and likely to have a minimal effect on blood sugar levels for someone with diabetes. It is generally a lower glycemic option, though adding whole grain noodles, beans, or high-fiber vegetables would provide more balanced nutrition if needed.",
+        "meal_title": "Clear Broth Soup",
+        "meal_description": "A small serving of clear savory broth with visible green onion and dark leafy seaweed or greens, likely a simple light soup.",
+        "macros": {
+            "calories": 20,
+            "carbohydrates": 2,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "green onion",
+                "impact": "green"
+            },
+            {
+                "name": "seaweed",
+                "impact": "green"
+            }
+        ]
+    }
+}

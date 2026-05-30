@@ -1,0 +1,88 @@
+{
+    "fileName": "upload_1753054028270_f5833fb2-5b4f-45b5-9da8-a2cd7b10c97d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a minced meat flatbread pizza made with refined flour crust, cheese, and seasoned meat, which can raise blood sugar levels in someone with diabetes due to its refined carbohydrate content and moderate fat load. It is best to avoid or strictly limit this meal, opting for a whole grain, high-fiber flatbread with non-starchy vegetables and a lighter protein topping instead.",
+        "meal_title": "Minced Meat Flatbread Pizza",
+        "meal_description": "A thin flatbread-style pizza topped with minced meat, melted cheese, and seasonings, cut into slices.",
+        "macros": {
+            "calories": 980,
+            "carbohydrates": 78,
+            "fats": 46,
+            "proteins": 58
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "ground beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "tomato paste",
+                "impact": "yellow"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "parsley",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "paprika",
+                "impact": "green"
+            },
+            {
+                "name": "cumin",
+                "impact": "green"
+            }
+        ]
+    }
+}

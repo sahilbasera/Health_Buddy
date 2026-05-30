@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750180959631_d9fa7e84-e4ef-4c30-8388-142ae1861f79.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a glass of white wine, an alcoholic beverage with minimal fiber and low carbohydrate content but potential effects on blood sugar regulation in someone with diabetes. It is best to avoid or strictly limit this meal, opting for water, sparkling water, or an unsweetened high-fiber beverage alternative instead.",
+        "meal_title": "White Wine",
+        "meal_description": "A single serving of white wine served in a stemmed glass. This beverage is primarily composed of fermented grape juice and contains alcohol with a modest carbohydrate load and no meaningful fiber or protein.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 4,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "grapes",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "sulfites",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

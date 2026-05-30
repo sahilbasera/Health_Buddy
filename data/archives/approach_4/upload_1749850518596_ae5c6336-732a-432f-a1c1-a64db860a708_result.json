@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749850518596_ae5c6336-732a-432f-a1c1-a64db860a708.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of a coffee with a slice of plain cake, which is high in simple carbohydrates and fats that can rapidly increase blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Coffee with Plain Cake Slice",
+        "meal_description": "A cup of black coffee served with a slice of plain cake, typically made from flour, sugar, eggs, and butter.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 30,
+            "fats": 12,
+            "proteins": 4
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "coffee beans",
+                "impact": "green"
+            },
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "eggs",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753210424880_8af29a21-30dc-4b8a-b26b-24215e050a3f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is a hamburger containing refined wheat bun and a beef patty, which are high in simple carbohydrates and saturated fats, potentially raising blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain bun and lean protein alternatives instead.",
+        "meal_title": "Beef Hamburger with Sesame Seed Bun",
+        "meal_description": "A hamburger consisting of a sesame seed bun, beef patty, tomato slices, lettuce, and sauce.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 40,
+            "fats": 25,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour (refined)",
+                "impact": "orange"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "yellow"
+            },
+            {
+                "name": "beef patty",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "mayonnaise or sauce",
+                "impact": "orange"
+            }
+        ]
+    }
+}

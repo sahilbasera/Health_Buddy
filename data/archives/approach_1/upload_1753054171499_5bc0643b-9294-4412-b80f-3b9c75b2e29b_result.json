@@ -1,0 +1,44 @@
+{
+    "fileName": "upload_1753054171499_5bc0643b-9294-4412-b80f-3b9c75b2e29b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. It is best to include a variety of colorful vegetables for added nutrients and fiber.",
+        "meal_title": "Mixed Green Salad",
+        "meal_description": "A fresh salad consisting primarily of leafy greens and diced tomatoes.",
+        "macros": {
+            "calories": 75,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomatoes",
+                "impact": "green"
+            },
+            {
+                "name": "mixed greens",
+                "impact": "green"
+            }
+        ]
+    }
+}

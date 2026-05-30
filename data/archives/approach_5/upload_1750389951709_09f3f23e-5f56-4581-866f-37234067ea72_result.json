@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750389951709_09f3f23e-5f56-4581-866f-37234067ea72.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a frothy mixed cocktail, likely containing alcohol and added simple carbohydrates, which can contribute to variable blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a lower-sugar drink or a whole-fruit, high-fiber alternative instead.",
+        "meal_title": "Frothy Cocktail",
+        "meal_description": "A coupe glass containing a pale, foamy mixed alcoholic drink garnished with an edible yellow flower.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "gin",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon juice",
+                "impact": "yellow"
+            },
+            {
+                "name": "simple syrup",
+                "impact": "orange"
+            },
+            {
+                "name": "egg white",
+                "impact": "green"
+            },
+            {
+                "name": "edible flower",
+                "impact": "green"
+            }
+        ]
+    }
+}

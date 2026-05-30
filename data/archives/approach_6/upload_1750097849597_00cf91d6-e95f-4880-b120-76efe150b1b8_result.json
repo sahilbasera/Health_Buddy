@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750097849597_00cf91d6-e95f-4880-b120-76efe150b1b8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed green salad with lettuce and yellow bell pepper, which is low in simple carbohydrates and generally has a low glycemic impact on blood sugar levels for someone with diabetes. It is best to choose this type of meal regularly, and if adding toppings or dressing, opt for high-fiber vegetables and minimal added sugar instead.",
+        "meal_title": "Mixed Lettuce and Bell Pepper Salad",
+        "meal_description": "A simple salad composed primarily of mixed lettuce leaves with diced yellow bell pepper and no clearly visible high-carbohydrate additions.",
+        "macros": {
+            "calories": 35,
+            "carbohydrates": 7,
+            "fats": 0,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "red leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "green leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "yellow bell pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

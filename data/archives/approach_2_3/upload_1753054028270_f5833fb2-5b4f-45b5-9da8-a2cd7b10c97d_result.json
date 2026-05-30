@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1753054028270_f5833fb2-5b4f-45b5-9da8-a2cd7b10c97d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This dish is generally high in carbohydrates due to the crust, which can affect blood sugar levels. Consider going for a whole grain or cauliflower-based crust to mitigate the glycemic impact.",
+        "meal_title": "Flatbread with Meat Topping",
+        "meal_description": "A savory flatbread topped with a spiced ground meat mixture, typically Turkish-style.",
+        "macros": {
+            "calories": 400,
+            "carbohydrates": 50,
+            "fats": 15,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "ground meat",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "spices",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

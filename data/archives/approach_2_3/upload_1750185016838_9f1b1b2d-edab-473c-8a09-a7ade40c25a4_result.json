@@ -1,0 +1,68 @@
+{
+    "fileName": "upload_1750185016838_9f1b1b2d-edab-473c-8a09-a7ade40c25a4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This vegetable quiche has moderate carbohydrates due to the crust, but provides some fiber from the vegetables. Someone with diabetes might choose a whole wheat crust and increase the vegetable content to enhance fiber intake.",
+        "meal_title": "Vegetable Quiche",
+        "meal_description": "A slice of quiche with a flaky crust, filled with vegetables and cheese.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 30,
+            "fats": 15,
+            "proteins": 10
+        },
+        "ingredients": [
+            {
+                "name": "flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "eggs",
+                "impact": "green"
+            },
+            {
+                "name": "whole milk",
+                "impact": "orange"
+            },
+            {
+                "name": "bell peppers",
+                "impact": "green"
+            },
+            {
+                "name": "mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "tomatoes",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "orange"
+            }
+        ]
+    }
+}

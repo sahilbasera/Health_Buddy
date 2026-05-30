@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753203870259_fa36a429-304f-4b3c-b6e0-3519beaece88.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of fresh fruit, which is low in fat and protein but contains natural sugars that can moderately impact blood sugar levels in someone with diabetes. It is a healthy choice with a low glycemic impact when consumed in moderation. Opting for whole fruits like these is beneficial for glycemic control.",
+        "meal_title": "Fresh Grapes and Fig",
+        "meal_description": "A small serving of green grapes and one fig, providing natural sugars, fiber, and essential nutrients.",
+        "macros": {
+            "calories": 70,
+            "carbohydrates": 18,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "green grapes",
+                "impact": "yellow"
+            },
+            {
+                "name": "fig",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

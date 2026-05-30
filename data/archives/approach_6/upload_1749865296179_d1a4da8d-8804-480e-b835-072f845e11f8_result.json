@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1749865296179_d1a4da8d-8804-480e-b835-072f845e11f8.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a flatbread with an onion omelet, providing moderate protein but also a notable carbohydrate load from refined flour. It may cause a moderate rise in blood sugar levels in someone with diabetes, especially if the flatbread is made from refined wheat flour. It is best to avoid or strictly limit this meal, opting for a whole grain or high-fiber flatbread with added non-starchy vegetables instead.",
+        "meal_title": "Flatbread with Onion Omelet",
+        "meal_description": "A pan-cooked wheat flatbread topped with a folded omelet containing onion and seasonings, prepared with cooking fat.",
+        "macros": {
+            "calories": 320,
+            "carbohydrates": 28,
+            "fats": 15,
+            "proteins": 14
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "yellow"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

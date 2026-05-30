@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750262216722_694c7c7e-8827-45c3-af60-5558775251dd.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This salad is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. Adding a source of protein, like grilled chicken or chickpeas, would enhance its nutritional profile.",
+        "meal_title": "Mixed Green Salad with Nuts",
+        "meal_description": "A fresh salad consisting of iceberg lettuce, mixed greens, and a sprinkle of mixed nuts, seasoned with herbs.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 8,
+            "fats": 10,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "Iceberg Lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Mixed Greens",
+                "impact": "green"
+            },
+            {
+                "name": "Mixed Nuts",
+                "impact": "yellow"
+            },
+            {
+                "name": "Herbs and Seasoning",
+                "impact": "green"
+            }
+        ]
+    }
+}

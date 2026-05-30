@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1750180679848_2b308ff1-fe70-46bb-b6a4-e1ef01c9d181.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a cheeseburger on a sesame bun with a refined-grain bread base and a moderate-to-high carbohydrate and fat load, which can contribute to a more pronounced rise in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain bun or a lettuce-wrapped burger with extra non-starchy vegetables instead.",
+        "meal_title": "Cheeseburger on Sesame Bun",
+        "meal_description": "A grilled beef burger served on a sesame-topped bun with melted cheese, tomato, arugula, and sauce. A side of fries is partially visible but not included in the main meal estimate due to incomplete portion visibility.",
+        "macros": {
+            "calories": 620,
+            "carbohydrates": 38,
+            "fats": 34,
+            "proteins": 36
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "yellow"
+            },
+            {
+                "name": "beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "arugula",
+                "impact": "green"
+            },
+            {
+                "name": "mayonnaise",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

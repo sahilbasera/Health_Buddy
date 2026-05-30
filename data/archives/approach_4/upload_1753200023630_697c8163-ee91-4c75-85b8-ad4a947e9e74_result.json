@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753200023630_697c8163-ee91-4c75-85b8-ad4a947e9e74.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is a slice of pizza, which is high in simple carbohydrates and fats, potentially causing a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives such as a whole grain vegetable flatbread with lean protein instead.",
+        "meal_title": "Slice of Pizza with Ham and Olives",
+        "meal_description": "A slice of pizza consisting of pizza dough, tomato sauce, mozzarella cheese, ham, black olives, and herbs.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 30,
+            "fats": 12,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "pizza dough",
+                "impact": "orange"
+            },
+            {
+                "name": "tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "mozzarella cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "ham",
+                "impact": "yellow"
+            },
+            {
+                "name": "black olives",
+                "impact": "green"
+            },
+            {
+                "name": "herbs",
+                "impact": "green"
+            }
+        ]
+    }
+}

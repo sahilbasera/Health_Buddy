@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053217022_73c60e40-9950-4c69-8625-9eb92923f379.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal is a serving of red grapes, which provide natural sugars and carbohydrates that can raise blood sugar levels in someone with diabetes when eaten in larger portions. It is best to avoid or strictly limit this meal, opting for a smaller portion paired with nuts or a high-fiber fruit such as berries instead.",
+        "meal_title": "Red Grapes",
+        "meal_description": "A small plate of fresh red grapes.",
+        "macros": {
+            "calories": 90,
+            "carbohydrates": 23,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "red grapes",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

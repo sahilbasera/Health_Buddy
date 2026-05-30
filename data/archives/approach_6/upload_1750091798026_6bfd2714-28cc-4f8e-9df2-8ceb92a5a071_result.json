@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1750091798026_6bfd2714-28cc-4f8e-9df2-8ceb92a5a071.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a jar of plain sweet biscuits or cookies made primarily from refined flour and sugar, which can raise blood sugar levels relatively quickly in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain, high-fiber crackers or oat-based biscuits with less added sugar instead.",
+        "meal_title": "Plain Sweet Biscuits",
+        "meal_description": "A jar of small round plain biscuits/cookies, likely made from refined wheat flour, sugar, fat, leavening, and salt.",
+        "macros": {
+            "calories": 420,
+            "carbohydrates": 58,
+            "fats": 18,
+            "proteins": 6
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "baking powder",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "vanilla",
+                "impact": "green"
+            }
+        ]
+    }
+}

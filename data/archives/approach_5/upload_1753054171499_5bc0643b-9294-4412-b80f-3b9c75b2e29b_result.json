@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1753054171499_5bc0643b-9294-4412-b80f-3b9c75b2e29b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a mixed green salad with tomato and a light dressing, generally low in simple carbohydrates and supportive of steadier blood sugar levels for someone with diabetes. Its glycemic impact is typically low due to the high fiber and water content of the vegetables. It is best to choose this meal as a favorable option, or add whole grain or high-fiber protein sides if a more complete meal is needed.",
+        "meal_title": "Mixed Green Salad with Tomato",
+        "meal_description": "A simple salad made with mixed leafy greens, lettuce, tomato, and a light vinaigrette-style dressing. The meal is low in calories and carbohydrates, with minimal fat and modest fiber from non-starchy vegetables.",
+        "macros": {
+            "calories": 60,
+            "carbohydrates": 7,
+            "fats": 3,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "mixed salad greens",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "olive oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            }
+        ]
+    }
+}

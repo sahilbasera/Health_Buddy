@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265866541_68a737f3-abd3-461c-9b6b-85cb1dfc31c7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a peeled mandarin orange, a fruit containing natural sugars and fiber with a moderate glycemic effect. For someone with diabetes, it can raise blood sugar levels less sharply than refined carbohydrates, but portion control still matters. It is best to avoid or strictly limit this meal, opting for a higher-fiber whole fruit pairing such as mandarin with nuts or seeds instead.",
+        "meal_title": "Peeled Mandarin Orange",
+        "meal_description": "A single peeled mandarin orange with separated citrus segments visible.",
+        "macros": {
+            "calories": 47,
+            "carbohydrates": 12,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "mandarin orange",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "fileName": "upload_1753200276846_5e3f6aab-de91-48e1-849a-eebc0300e207.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a grilled chicken salad with lettuce, cucumber, broccoli, cauliflower, cheese, and a creamy dressing. Its glycemic impact is likely moderate to low because it is relatively low in simple carbohydrates, but the creamy dressing can add calories and may be less favorable for blood sugar levels in someone with diabetes. It is best to limit heavy creamy dressing, opting for a high-fiber salad with olive oil or vinaigrette instead.",
+        "meal_title": "Grilled Chicken Salad with Creamy Dressing",
+        "meal_description": "A salad bowl containing grilled chicken breast, romaine lettuce, cucumber, broccoli, cauliflower, cheese, and a creamy white dressing.",
+        "macros": {
+            "calories": 420,
+            "carbohydrates": 12,
+            "fats": 24,
+            "proteins": 38
+        },
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "impact": "green"
+            },
+            {
+                "name": "romaine lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "cauliflower",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "mayonnaise",
+                "impact": "orange"
+            },
+            {
+                "name": "buttermilk",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "garlic",
+                "impact": "green"
+            },
+            {
+                "name": "onion",
+                "impact": "green"
+            }
+        ]
+    }
+}

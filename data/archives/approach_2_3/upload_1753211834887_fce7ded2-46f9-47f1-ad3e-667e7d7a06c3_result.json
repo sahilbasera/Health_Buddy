@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753211834887_fce7ded2-46f9-47f1-ad3e-667e7d7a06c3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels as it is low in simple carbohydrates. Opting for grilled fish with sauerkraut ensures a balanced intake of proteins and fiber.",
+        "meal_title": "Grilled Fish with Sauerkraut",
+        "meal_description": "A dish consisting of grilled fish paired with fermented sauerkraut.",
+        "macros": {
+            "calories": 200,
+            "carbohydrates": 8,
+            "fats": 5,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "fish",
+                "impact": "green"
+            },
+            {
+                "name": "sauerkraut",
+                "impact": "green"
+            }
+        ]
+    }
+}

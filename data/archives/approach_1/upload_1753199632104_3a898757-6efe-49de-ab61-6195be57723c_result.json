@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753199632104_3a898757-6efe-49de-ab61-6195be57723c.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "Carrots are low in calories and carbohydrates, making them suitable for maintaining stable blood sugar levels. Opt for raw or lightly cooked carrots to maximize their nutritional benefits.",
+        "meal_title": "Raw Carrot",
+        "meal_description": "A raw, peeled carrot, known for its crunchy texture and natural sweetness.",
+        "macros": {
+            "calories": 25,
+            "carbohydrates": 6,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Carrot",
+                "impact": "green"
+            }
+        ]
+    }
+}

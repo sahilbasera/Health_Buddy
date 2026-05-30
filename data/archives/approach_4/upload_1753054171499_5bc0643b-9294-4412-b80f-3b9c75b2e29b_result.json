@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1753054171499_5bc0643b-9294-4412-b80f-3b9c75b2e29b.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a fresh vegetable salad with low glycemic impact, suitable for someone managing blood sugar levels. It is best to include such high-fiber, low-carbohydrate meals regularly to support glycemic health. Adding a source of lean protein can further balance the meal.",
+        "meal_title": "Fresh Mixed Green Salad with Tomato and Dressing",
+        "meal_description": "A salad composed of mixed leafy greens, chopped tomatoes, and a light creamy dressing.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 8,
+            "fats": 5,
+            "proteins": 2
+        },
+        "ingredients": [
+            {
+                "name": "butter lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "red leaf lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "spinach",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "creamy salad dressing",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

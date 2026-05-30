@@ -1,0 +1,45 @@
+{
+    "name": "meal_inference",
+    "strict": true,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "is_food": {"type": "boolean"},
+            "recommendation": {
+                "type": "string", 
+                "enum": ["green", "yellow", "orange"]
+            },
+            "guidance_message": {"type": "string"},
+            "meal_title": {"type": "string"},
+            "meal_description": {"type": "string"},
+            "macros": {
+                "type": "object",
+                "properties": {
+                    "calories": {"type": "integer"},
+                    "carbohydrates": {"type": "integer"},
+                    "fats": {"type": "integer"},
+                    "proteins": {"type": "integer"}
+                },
+                "required": ["calories", "carbohydrates", "fats", "proteins"],
+                "additionalProperties": false
+            },
+            "ingredients": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {"type": "string"},
+                        "impact": {"type": "string", "enum": ["green", "yellow", "orange"]}
+                    },
+                    "required": ["name", "impact"],
+                    "additionalProperties": false
+                }
+            }
+        },
+        "required": [
+            "is_food","recommendation", "guidance_message", "meal_title", "meal_description", 
+             "macros", "ingredients"
+        ],
+        "additionalProperties": false
+    }
+}

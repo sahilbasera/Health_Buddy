@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053337006_b38485b7-124a-401e-bf24-65359c9e90d0.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of boiled potatoes, which are high in simple carbohydrates and can cause a rapid increase in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives such as sweet potatoes or legumes instead.",
+        "meal_title": "Boiled Potatoes",
+        "meal_description": "Four medium-sized boiled potatoes without added fats or seasonings.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 120,
+            "fats": 0,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "impact": "orange"
+            }
+        ]
+    }
+}

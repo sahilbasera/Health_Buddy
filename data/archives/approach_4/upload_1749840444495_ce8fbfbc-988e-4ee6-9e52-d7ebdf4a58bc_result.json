@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749840444495_ce8fbfbc-988e-4ee6-9e52-d7ebdf4a58bc.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal consists of white bread rolls, which are high in simple carbohydrates and can cause rapid increases in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber bread alternatives instead.",
+        "meal_title": "White Bread Rolls",
+        "meal_description": "Three white bread rolls made from refined wheat flour, typically containing water, yeast, salt, sugar, and oil.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 85,
+            "fats": 6,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

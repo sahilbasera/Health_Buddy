@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750097681033_c71afe76-f144-4a19-9dd3-19a1178957f4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of fresh orange and blood orange segments, which are low in fat and protein but provide natural carbohydrates with fiber. For someone with diabetes, these fruits have a moderate glycemic impact due to their natural sugars and fiber content. It is best to consume whole fruits like these rather than fruit juices to maintain better blood sugar control.",
+        "meal_title": "Orange and Blood Orange Segments",
+        "meal_description": "Fresh segments of orange and blood orange, providing natural sugars, fiber, and vitamin C.",
+        "macros": {
+            "calories": 80,
+            "carbohydrates": 20,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "orange",
+                "impact": "green"
+            },
+            {
+                "name": "blood orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

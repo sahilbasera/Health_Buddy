@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053217022_73c60e40-9950-4c69-8625-9eb92923f379.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal consists of grapes, which are a source of natural sugars and can affect blood sugar levels. Opting for smaller portions or pairing them with protein can help stabilize blood sugar for someone with diabetes.",
+        "meal_title": "Fresh Grapes",
+        "meal_description": "A small plate of fresh grapes, providing natural sweetness and hydration.",
+        "macros": {
+            "calories": 104,
+            "carbohydrates": 27,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Grapes",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

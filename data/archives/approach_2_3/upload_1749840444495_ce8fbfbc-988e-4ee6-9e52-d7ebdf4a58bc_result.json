@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1749840444495_ce8fbfbc-988e-4ee6-9e52-d7ebdf4a58bc.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is generally high in refined carbohydrates, which can impact blood sugar levels significantly. For someone with diabetes, it's best to limit intake of such items, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Bread Rolls and Juice",
+        "meal_description": "A serving of bread rolls paired with boxed juice.",
+        "macros": {
+            "calories": 280,
+            "carbohydrates": 50,
+            "fats": 7,
+            "proteins": 8
+        },
+        "ingredients": [
+            {
+                "name": "white bread roll",
+                "impact": "orange"
+            },
+            {
+                "name": "refined flour",
+                "impact": "orange"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "boxed juice",
+                "impact": "orange"
+            }
+        ]
+    }
+}

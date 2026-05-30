@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753211882695_715dc254-cac3-4122-a437-3f9d756e85b7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists of white fish and sauerkraut, both low in carbohydrates and beneficial for blood sugar control in someone with diabetes. It is best to avoid or strictly limit high glycemic foods, opting for whole grain or high-fiber alternatives when consuming carbohydrates.",
+        "meal_title": "White Fish with Sauerkraut",
+        "meal_description": "A serving of cooked white fish paired with fermented cabbage (sauerkraut), providing a low-carbohydrate, high-protein, and fiber-rich meal.",
+        "macros": {
+            "calories": 180,
+            "carbohydrates": 8,
+            "fats": 3,
+            "proteins": 30
+        },
+        "ingredients": [
+            {
+                "name": "white fish fillet",
+                "impact": "green"
+            },
+            {
+                "name": "cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            }
+        ]
+    }
+}

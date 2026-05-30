@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1753053184717_40b4257a-d26b-4f61-a684-e939291e0d99.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This apple is a low-calorie fruit that is high in dietary fiber and vitamin C, making it an excellent choice for maintaining steady blood sugar levels. Opting for whole fruits like apples supports glycemic control and overall health.",
+        "meal_title": "Fresh Apple",
+        "meal_description": "A fresh apple, ideal for a nutritious snack due to its natural sweetness and fiber content.",
+        "macros": {
+            "calories": 95,
+            "carbohydrates": 25,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "Apple",
+                "impact": "green"
+            }
+        ]
+    }
+}

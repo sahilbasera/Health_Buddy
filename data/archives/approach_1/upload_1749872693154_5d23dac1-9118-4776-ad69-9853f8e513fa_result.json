@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749872693154_5d23dac1-9118-4776-ad69-9853f8e513fa.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This sushi roll features a combination of rice, protein, and spices and can affect blood sugar levels due to the presence of white rice. It is best to limit processed carbohydrate servings, opting for brown rice or quinoa-based sushi alternatives instead.",
+        "meal_title": "Spicy Beef Sushi Roll",
+        "meal_description": "A sushi roll featuring slices of grilled beef, spicy sauce, and jalape\u00f1o slices, served over vinegared sushi rice with a side of wasabi and pickled ginger.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 38,
+            "fats": 15,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "Sushi Rice",
+                "impact": "orange"
+            },
+            {
+                "name": "Grilled Beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "Jalape\u00f1o",
+                "impact": "green"
+            },
+            {
+                "name": "Spicy Sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Wasabi",
+                "impact": "green"
+            },
+            {
+                "name": "Pickled Ginger",
+                "impact": "green"
+            }
+        ]
+    }
+}

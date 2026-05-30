@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750180679848_2b308ff1-fe70-46bb-b6a4-e1ef01c9d181.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This burger may impact blood sugar levels due to its high carbohydrate content and presence of refined ingredients. It is best to avoid or strictly limit this meal, opting for a whole grain bun and lean protein patty instead.",
+        "meal_title": "Cheese Burger with Fries",
+        "meal_description": "A burger with a sesame seed bun, beef patty, cheese, tomato, lettuce, and a side of fries.",
+        "macros": {
+            "calories": 800,
+            "carbohydrates": 70,
+            "fats": 40,
+            "proteins": 35
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour bun",
+                "impact": "orange"
+            },
+            {
+                "name": "Beef patty",
+                "impact": "yellow"
+            },
+            {
+                "name": "Cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "Tomato",
+                "impact": "green"
+            },
+            {
+                "name": "Lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "Fries",
+                "impact": "orange"
+            }
+        ]
+    }
+}

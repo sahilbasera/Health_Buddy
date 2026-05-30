@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753203870259_fa36a429-304f-4b3c-b6e0-3519beaece88.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit snack is composed mainly of fresh grapes and a fig, which are low in calories and have a moderate glycemic impact. For someone with diabetes, these fruits are generally a good option due to their fiber and nutrient content. It is best to combine them with protein or healthy fats to slow down the sugar absorption.",
+        "meal_title": "Grape and Fig Snack",
+        "meal_description": "A simple fresh fruit snack consisting of green grapes and a fig.",
+        "macros": {
+            "calories": 104,
+            "carbohydrates": 27,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "grapes",
+                "impact": "green"
+            },
+            {
+                "name": "fig",
+                "impact": "green"
+            }
+        ]
+    }
+}

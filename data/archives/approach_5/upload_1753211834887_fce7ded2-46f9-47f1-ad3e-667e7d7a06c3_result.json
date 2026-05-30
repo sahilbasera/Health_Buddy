@@ -1,0 +1,60 @@
+{
+    "fileName": "upload_1753211834887_fce7ded2-46f9-47f1-ad3e-667e7d7a06c3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal appears to be baked or pan-cooked white fish with sauerkraut, a low-carbohydrate meal with minimal expected impact on blood sugar levels for someone with diabetes. It is generally favorable for glycemic control, though sodium may be elevated from the fermented cabbage. It is best to avoid or strictly limit higher-glycemic side substitutions, opting for whole grain or high-fiber alternatives instead if additional carbohydrates are desired.",
+        "meal_title": "White Fish with Sauerkraut",
+        "meal_description": "A simple plate consisting of a cooked white fish fillet and a serving of sauerkraut. The meal is predominantly protein and fiber with very low carbohydrate content.",
+        "macros": {
+            "calories": 220,
+            "carbohydrates": 6,
+            "fats": 7,
+            "proteins": 31
+        },
+        "ingredients": [
+            {
+                "name": "white fish",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "cabbage",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

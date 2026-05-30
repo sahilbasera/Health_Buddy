@@ -1,0 +1,52 @@
+{
+    "fileName": "upload_1750038317524_55c71fd4-30e1-4e8b-93f8-86e6094f31b3.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pasta dish is high in refined carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain pasta with added vegetables instead.",
+        "meal_title": "Baked Macaroni and Cheese",
+        "meal_description": "A baked dish of macaroni pasta with cheese sauce, topped with croutons or breadcrumbs.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 50,
+            "fats": 20,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "Macaroni pasta",
+                "impact": "orange"
+            },
+            {
+                "name": "Cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "Milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "Butter",
+                "impact": "orange"
+            },
+            {
+                "name": "Breadcrumbs/croutons",
+                "impact": "orange"
+            }
+        ]
+    }
+}

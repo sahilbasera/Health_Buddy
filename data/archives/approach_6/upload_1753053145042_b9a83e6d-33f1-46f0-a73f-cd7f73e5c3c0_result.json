@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753053145042_b9a83e6d-33f1-46f0-a73f-cd7f73e5c3c0.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a glass of plain water with ice, which contains no meaningful carbohydrates and has no glycemic impact on blood sugar levels, including for someone with diabetes. It is best to choose this beverage over sugar-sweetened drinks, opting for water or other unsweetened alternatives instead.",
+        "meal_title": "Ice Water",
+        "meal_description": "A tall glass of plain drinking water served with ice.",
+        "macros": {
+            "calories": 0,
+            "carbohydrates": 0,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "ice",
+                "impact": "green"
+            }
+        ]
+    }
+}

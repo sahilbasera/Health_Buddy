@@ -1,0 +1,80 @@
+{
+    "fileName": "upload_1753210424880_8af29a21-30dc-4b8a-b26b-24215e050a3f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This appears to be a hamburger on a sesame seed bun, which is relatively high in refined carbohydrates and may contribute to a moderate-to-rapid rise in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain bun or a lettuce-wrapped burger with non-starchy vegetables instead.",
+        "meal_title": "Sesame Bun Hamburger",
+        "meal_description": "A prepared hamburger consisting of a sesame seed bun, beef patty, lettuce, tomato, and a creamy sauce. The meal combines refined bread with a protein-rich meat filling and small amounts of vegetables.",
+        "macros": {
+            "calories": 430,
+            "carbohydrates": 31,
+            "fats": 24,
+            "proteins": 22
+        },
+        "ingredients": [
+            {
+                "name": "wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "yeast",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "sugar",
+                "impact": "orange"
+            },
+            {
+                "name": "sesame seeds",
+                "impact": "yellow"
+            },
+            {
+                "name": "beef",
+                "impact": "yellow"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "egg",
+                "impact": "yellow"
+            },
+            {
+                "name": "oil",
+                "impact": "yellow"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            }
+        ]
+    }
+}

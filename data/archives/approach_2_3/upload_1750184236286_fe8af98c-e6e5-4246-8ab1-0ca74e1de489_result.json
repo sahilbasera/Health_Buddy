@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1750184236286_fe8af98c-e6e5-4246-8ab1-0ca74e1de489.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This burger is generally high in simple carbohydrates and fats, which can affect blood sugar levels in someone with diabetes. It is best to avoid or strictly limit this meal, opting for a whole grain bun with lean protein and extra vegetables instead.",
+        "meal_title": "Classic Cheeseburger",
+        "meal_description": "A standard cheeseburger with a sesame seed bun, beef patty, lettuce, tomato, cheese, and condiments.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 45,
+            "fats": 25,
+            "proteins": 25
+        },
+        "ingredients": [
+            {
+                "name": "sesame seed bun",
+                "impact": "orange"
+            },
+            {
+                "name": "beef patty",
+                "impact": "yellow"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "condiments",
+                "impact": "orange"
+            }
+        ]
+    }
+}

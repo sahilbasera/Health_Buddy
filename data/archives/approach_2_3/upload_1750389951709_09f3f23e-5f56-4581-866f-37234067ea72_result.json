@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750389951709_09f3f23e-5f56-4581-866f-37234067ea72.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This alcoholic cocktail is best consumed in moderation, choosing beverages with lower sugar content for better glycemic control.",
+        "meal_title": "Alcoholic Cocktail",
+        "meal_description": "A cocktail likely made with spirits and other mixers, garnished with a flower.",
+        "macros": {
+            "calories": 150,
+            "carbohydrates": 10,
+            "fats": 0,
+            "proteins": 0
+        },
+        "ingredients": [
+            {
+                "name": "alcoholic spirit",
+                "impact": "orange"
+            },
+            {
+                "name": "simple syrup",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon juice",
+                "impact": "yellow"
+            },
+            {
+                "name": "flower garnish",
+                "impact": "green"
+            }
+        ]
+    }
+}

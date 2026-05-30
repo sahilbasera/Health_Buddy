@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1752265511713_bc7c0828-8da5-4880-bd18-4f7ad8a3b18d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal is moderately high in carbohydrates due to the fries and rice, which may impact blood sugar levels in someone with diabetes. Replacing the rice with a whole grain option and the fries with a salad could be beneficial.",
+        "meal_title": "Grilled Ribs with Fries and Rice",
+        "meal_description": "A plate consisting of grilled pork ribs, French fries, and white rice, garnished with a lemon slice.",
+        "macros": {
+            "calories": 820,
+            "carbohydrates": 80,
+            "fats": 40,
+            "proteins": 50
+        },
+        "ingredients": [
+            {
+                "name": "pork ribs",
+                "impact": "orange"
+            },
+            {
+                "name": "potatoes",
+                "impact": "orange"
+            },
+            {
+                "name": "rice",
+                "impact": "orange"
+            },
+            {
+                "name": "lemon",
+                "impact": "green"
+            }
+        ]
+    }
+}

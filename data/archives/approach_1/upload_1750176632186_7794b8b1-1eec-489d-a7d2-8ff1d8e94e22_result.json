@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1750176632186_7794b8b1-1eec-489d-a7d2-8ff1d8e94e22.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": false,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal provides moderate protein and fats from the scrambled eggs and sausage patty. It is best to avoid or strictly limit sugary or high-calorie condiments like ketchup, opting for fresh vegetables or whole grain toast instead to manage blood sugar levels effectively.",
+        "meal_title": "Breakfast Plate with Sausage and Eggs",
+        "meal_description": "A breakfast plate containing scrambled eggs, a sausage patty, and a serving of ketchup. Served with black coffee.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 15,
+            "fats": 25,
+            "proteins": 15
+        },
+        "ingredients": [
+            {
+                "name": "scrambled eggs",
+                "impact": "yellow"
+            },
+            {
+                "name": "sausage patty",
+                "impact": "orange"
+            },
+            {
+                "name": "ketchup",
+                "impact": "orange"
+            },
+            {
+                "name": "black coffee",
+                "impact": "green"
+            }
+        ]
+    }
+}

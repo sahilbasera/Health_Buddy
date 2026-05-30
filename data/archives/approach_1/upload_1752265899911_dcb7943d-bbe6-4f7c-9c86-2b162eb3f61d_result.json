@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1752265899911_dcb7943d-bbe6-4f7c-9c86-2b162eb3f61d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": false,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This pizza is high in refined carbohydrates and fats, which can impact blood sugar levels. It is best to avoid or strictly limit this meal, opting for a whole grain or cauliflower crust with more vegetables instead.",
+        "meal_title": "Mushroom, Ham, and Olive Pizza",
+        "meal_description": "A pizza topped with tomato sauce, cheese, mushrooms, ham, and black olives on a thin crust.",
+        "macros": {
+            "calories": 250,
+            "carbohydrates": 30,
+            "fats": 10,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "Refined wheat flour",
+                "impact": "orange"
+            },
+            {
+                "name": "Tomato sauce",
+                "impact": "yellow"
+            },
+            {
+                "name": "Cheese",
+                "impact": "orange"
+            },
+            {
+                "name": "Ham",
+                "impact": "yellow"
+            },
+            {
+                "name": "Mushrooms",
+                "impact": "green"
+            },
+            {
+                "name": "Black olives",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

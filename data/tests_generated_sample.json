@@ -1,0 +1,286 @@
+[
+  {
+    "vars": {
+      "image": "data/images/upload_1749840444495_ce8fbfbc-988e-4ee6-9e52-d7ebdf4a58bc.jpeg",
+      "title": "Plain Bread Rolls",
+      "fileName": "upload_1749840444495_ce8fbfbc-988e-4ee6-9e52-d7ebdf4a58bc.jpeg",
+      "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+      },
+      "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+      },
+      "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "These are plain bread rolls, which are high in simple carbohydrates and have a high glycemic index. Consuming meals like this may cause a spike in blood sugar levels for someone with diabetes. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives instead.",
+        "meal_title": "Plain Bread Rolls",
+        "meal_description": "Three soft, plain white bread rolls served on a tray, typically made from refined flour.",
+        "macros": {
+          "calories": 270,
+          "carbohydrates": 54,
+          "fats": 3,
+          "proteins": 7
+        },
+        "ingredients": [
+          {
+            "name": "Refined wheat flour",
+            "impact": "orange"
+          },
+          {
+            "name": "Sugar",
+            "impact": "orange"
+          },
+          {
+            "name": "Butter or oil",
+            "impact": "yellow"
+          },
+          {
+            "name": "Yeast",
+            "impact": "green"
+          },
+          {
+            "name": "Salt",
+            "impact": "green"
+          },
+          {
+            "name": "Water",
+            "impact": "green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "vars": {
+      "image": "data/images/upload_1749840712880_d8cedf37-9bdb-4ff5-8e21-6a6a740ae409.jpeg",
+      "title": "Veggie Couscous Plate",
+      "fileName": "upload_1749840712880_d8cedf37-9bdb-4ff5-8e21-6a6a740ae409.jpeg",
+      "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+      },
+      "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+      },
+      "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is well-balanced and diabetes-friendly, as it features mostly non-starchy vegetables (broccoli, spinach, cauliflower) and whole grains (couscous). It is relatively low in simple carbohydrates and high in fiber, which helps support stable blood sugar levels. The presence of a fried onion ring may add some refined carbs and fats, but consumed in moderation, the overall impact on blood sugar should be manageable. This meal is suitable for people with diabetes, especially with portion control.",
+        "meal_title": "Veggie Couscous Plate",
+        "meal_description": "A plate featuring couscous, fried onion ring, steamed broccoli, cauliflower, spinach, and a small serving of sauce or dip.",
+        "macros": {
+          "calories": 400,
+          "carbohydrates": 56,
+          "fats": 10,
+          "proteins": 12
+        },
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "impact": "green"
+          },
+          {
+            "name": "Spinach",
+            "impact": "green"
+          },
+          {
+            "name": "Cauliflower",
+            "impact": "green"
+          },
+          {
+            "name": "Couscous",
+            "impact": "yellow"
+          },
+          {
+            "name": "Fried onion ring",
+            "impact": "orange"
+          },
+          {
+            "name": "Dip/Sauce (likely hummus)",
+            "impact": "yellow"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "vars": {
+      "image": "data/images/upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+      "title": "Vegetable Stir-Fry Plate",
+      "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+      "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+      },
+      "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+      },
+      "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is primarily composed of non-starchy vegetables, which are low in carbohydrates and have a minimal impact on blood sugar levels, making it a safe choice for people with diabetes. The small portion of minced meat adds protein, which further stabilizes blood sugar. This meal can be enjoyed freely, but as always, portion size and overall dietary balance should be considered.",
+        "meal_title": "Vegetable Stir-Fry Plate",
+        "meal_description": "A partially eaten plate of saut\u00c3\u00a9ed carrots, mushrooms, and zucchini with a small portion of minced meat.",
+        "macros": {
+          "calories": 80,
+          "carbohydrates": 9,
+          "fats": 2,
+          "proteins": 5
+        },
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "impact": "yellow"
+          },
+          {
+            "name": "Zucchini",
+            "impact": "green"
+          },
+          {
+            "name": "Mushrooms",
+            "impact": "green"
+          },
+          {
+            "name": "Onion",
+            "impact": "yellow"
+          },
+          {
+            "name": "Minced Meat",
+            "impact": "green"
+          },
+          {
+            "name": "Herbs/Seasoning",
+            "impact": "green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "vars": {
+      "image": "data/images/upload_1749841037102_96ccbf66-4c05-45dc-8920-fd6ef54fcd0d.jpeg",
+      "title": "Rice and Bean Bowl",
+      "fileName": "upload_1749841037102_96ccbf66-4c05-45dc-8920-fd6ef54fcd0d.jpeg",
+      "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+      },
+      "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+      },
+      "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains white rice, beans, salsa, and possibly sour cream or cheese. The white rice gives it a moderate to high carbohydrate load, which can spike blood sugar. However, the beans add fiber and protein which help to moderate the blood glucose effect. For diabetics, it's best to limit the portion size of the rice, focus on beans and vegetables, and go easy on any creamy toppings. Consider switching to brown rice for lower glycemic load.",
+        "meal_title": "Rice and Bean Bowl",
+        "meal_description": "A bowl of white rice topped with black beans, salsa, vegetables, and a creamy sauce.",
+        "macros": {
+          "calories": 340,
+          "carbohydrates": 57,
+          "fats": 6,
+          "proteins": 10
+        },
+        "ingredients": [
+          {
+            "name": "White rice",
+            "impact": "orange"
+          },
+          {
+            "name": "Black beans",
+            "impact": "green"
+          },
+          {
+            "name": "Salsa (tomato, onion, pepper)",
+            "impact": "green"
+          },
+          {
+            "name": "Sour cream or cheese",
+            "impact": "yellow"
+          },
+          {
+            "name": "Cilantro/Herbs",
+            "impact": "green"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "vars": {
+      "image": "data/images/upload_1749841435404_d2ac9183-048d-4cec-9b9b-a878628e4b30.jpeg",
+      "title": "Berry Yogurt Bowl",
+      "fileName": "upload_1749841435404_d2ac9183-048d-4cec-9b9b-a878628e4b30.jpeg",
+      "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+      },
+      "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+      },
+      "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is a healthy option for people with diabetes. It\u00e2\u20ac\u2122s low in added sugars and high in fiber, antioxidants, and protein, which help moderate blood sugar spikes. Choose unsweetened yogurt and keep fruit portions reasonable.",
+        "meal_title": "Berry Yogurt Bowl",
+        "meal_description": "A bowl of plain yogurt topped with fresh blueberries and red currants.",
+        "macros": {
+          "calories": 150,
+          "carbohydrates": 18,
+          "fats": 2,
+          "proteins": 9
+        },
+        "ingredients": [
+          {
+            "name": "Plain Yogurt (unsweetened, low-fat)",
+            "impact": "green"
+          },
+          {
+            "name": "Blueberries",
+            "impact": "green"
+          },
+          {
+            "name": "Red Currants",
+            "impact": "green"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+    "fileName": "upload_1752265866541_68a737f3-abd3-461c-9b6b-85cb1dfc31c7.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": false,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This fruit is low in calories and carbohydrates, making it suitable for maintaining stable blood sugar levels. Opt for this whole fruit as a nutritious snack alternative.",
+        "meal_title": "Fresh Orange Segments",
+        "meal_description": "Peeled segments of a fresh orange, naturally sweet and juicy.",
+        "macros": {
+            "calories": 62,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "Orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

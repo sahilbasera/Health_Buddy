@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1750097681033_c71afe76-f144-4a19-9dd3-19a1178957f4.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and can be included in a balanced diet. For someone with diabetes, citrus fruits like oranges provide vitamins and fiber but may impact blood sugar if consumed in large quantities. Opt for smaller servings alongside other low-GI foods to stabilize blood glucose levels.",
+        "meal_title": "Citrus Fruits",
+        "meal_description": "A serving of fresh orange and blood orange.",
+        "macros": {
+            "calories": 60,
+            "carbohydrates": 15,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "orange",
+                "impact": "green"
+            },
+            {
+                "name": "blood orange",
+                "impact": "green"
+            }
+        ]
+    }
+}

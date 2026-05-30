@@ -1,0 +1,64 @@
+{
+    "fileName": "upload_1753054127030_3f2421d7-8517-4a68-a37e-f2c3fae607db.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a small mixed vegetable salad with lettuce, cucumber, carrot, and a light dressing, which is generally low in simple carbohydrates and has a relatively mild effect on blood sugar levels for someone with diabetes. It is best to choose versions with minimal sugary dressing, opting for a high-fiber salad with non-starchy vegetables and a simple oil-and-vinegar dressing instead.",
+        "meal_title": "Mixed Green Salad with Shredded Vegetables",
+        "meal_description": "A small portion of mixed salad containing lettuce, cucumber, shredded carrot, and light dressing or seasoning.",
+        "macros": {
+            "calories": 35,
+            "carbohydrates": 5,
+            "fats": 1,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "cucumber",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "salt",
+                "impact": "green"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "vegetable oil",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

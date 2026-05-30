@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1749841435404_d2ac9183-048d-4cec-9b9b-a878628e4b30.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This appears to be a bowl of plain yogurt topped with blueberries and red currants, a meal with moderate natural carbohydrate content and generally lower glycemic impact due to protein and fat from the yogurt. It is generally a favorable option for blood sugar levels in someone with diabetes, though choosing unsweetened yogurt and pairing it with additional high-fiber ingredients such as chia seeds or oats may further support glycemic stability.",
+        "meal_title": "Yogurt with Blueberries and Red Currants",
+        "meal_description": "A small bowl of plain yogurt topped with fresh blueberries and red currants.",
+        "macros": {
+            "calories": 170,
+            "carbohydrates": 18,
+            "fats": 5,
+            "proteins": 11
+        },
+        "ingredients": [
+            {
+                "name": "milk",
+                "impact": "yellow"
+            },
+            {
+                "name": "yogurt cultures",
+                "impact": "green"
+            },
+            {
+                "name": "blueberry",
+                "impact": "green"
+            },
+            {
+                "name": "red currant",
+                "impact": "green"
+            }
+        ]
+    }
+}

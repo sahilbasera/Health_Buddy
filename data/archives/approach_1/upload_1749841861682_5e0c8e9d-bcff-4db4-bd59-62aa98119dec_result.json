@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1749841861682_5e0c8e9d-bcff-4db4-bd59-62aa98119dec.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This meal contains moderate carbohydrate content from the potatoes, which can impact blood sugar levels. Choosing whole grain options or adding more non-starchy vegetables could lower the glycemic impact.",
+        "meal_title": "Vegetable and Potato Gratin",
+        "meal_description": "A plate with steamed carrots and broccoli, accompanied by a creamy potato gratin.",
+        "macros": {
+            "calories": 350,
+            "carbohydrates": 45,
+            "fats": 15,
+            "proteins": 8
+        },
+        "ingredients": [
+            {
+                "name": "potatoes",
+                "impact": "yellow"
+            },
+            {
+                "name": "cream",
+                "impact": "orange"
+            },
+            {
+                "name": "cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "butter",
+                "impact": "orange"
+            },
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "broccoli",
+                "impact": "green"
+            }
+        ]
+    }
+}

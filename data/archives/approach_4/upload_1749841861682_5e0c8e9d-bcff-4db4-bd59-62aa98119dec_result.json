@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1749841861682_5e0c8e9d-bcff-4db4-bd59-62aa98119dec.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal consists primarily of non-starchy vegetables with a creamy sauce, which has a low glycemic impact for someone with diabetes. It is best to include more whole vegetables and limit creamy sauces that may add fats. Opting for steamed or roasted broccoli and carrots without heavy sauces is preferable.",
+        "meal_title": "Steamed Broccoli and Carrots with Creamy Sauce",
+        "meal_description": "A plate containing steamed broccoli and sliced carrots served with a creamy white sauce.",
+        "macros": {
+            "calories": 120,
+            "carbohydrates": 15,
+            "fats": 5,
+            "proteins": 3
+        },
+        "ingredients": [
+            {
+                "name": "broccoli",
+                "impact": "green"
+            },
+            {
+                "name": "carrot",
+                "impact": "green"
+            },
+            {
+                "name": "cream",
+                "impact": "yellow"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

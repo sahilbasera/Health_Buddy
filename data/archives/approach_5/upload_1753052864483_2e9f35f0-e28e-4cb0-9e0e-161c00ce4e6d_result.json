@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1753052864483_2e9f35f0-e28e-4cb0-9e0e-161c00ce4e6d.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": false,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "This appears to be a mixed fruit salad, which contains naturally occurring sugars that can raise blood sugar levels in someone with diabetes, though the fiber content may moderate the effect somewhat. It is best to avoid or strictly limit this meal, opting for a smaller portion paired with unsweetened yogurt, nuts, or other high-fiber alternatives instead.",
+        "meal_title": "Mixed Fruit Salad",
+        "meal_description": "A small bowl of mixed fresh fruit, likely including apple, strawberry, pear, and melon pieces, served without any clearly visible syrup or dressing.",
+        "macros": {
+            "calories": 110,
+            "carbohydrates": 27,
+            "fats": 0,
+            "proteins": 1
+        },
+        "ingredients": [
+            {
+                "name": "apple",
+                "impact": "yellow"
+            },
+            {
+                "name": "strawberry",
+                "impact": "green"
+            },
+            {
+                "name": "pear",
+                "impact": "yellow"
+            },
+            {
+                "name": "melon",
+                "impact": "yellow"
+            }
+        ]
+    }
+}

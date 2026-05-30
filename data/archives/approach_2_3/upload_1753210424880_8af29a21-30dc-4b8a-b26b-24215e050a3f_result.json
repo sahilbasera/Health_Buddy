@@ -1,0 +1,56 @@
+{
+    "fileName": "upload_1753210424880_8af29a21-30dc-4b8a-b26b-24215e050a3f.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This burger is generally high in simple carbohydrates, fats, and calories, which may impact blood sugar levels in someone with diabetes. Replacing the bun with a whole grain option and adding more vegetables can provide more fiber and nutrients.",
+        "meal_title": "Classic Hamburger",
+        "meal_description": "A traditional sesame seed hamburger with beef patty, tomato, lettuce, and sauces.",
+        "macros": {
+            "calories": 450,
+            "carbohydrates": 40,
+            "fats": 25,
+            "proteins": 20
+        },
+        "ingredients": [
+            {
+                "name": "sesame seed bun",
+                "impact": "orange"
+            },
+            {
+                "name": "beef patty",
+                "impact": "orange"
+            },
+            {
+                "name": "lettuce",
+                "impact": "green"
+            },
+            {
+                "name": "tomato",
+                "impact": "green"
+            },
+            {
+                "name": "ketchup",
+                "impact": "orange"
+            },
+            {
+                "name": "mayo",
+                "impact": "orange"
+            }
+        ]
+    }
+}

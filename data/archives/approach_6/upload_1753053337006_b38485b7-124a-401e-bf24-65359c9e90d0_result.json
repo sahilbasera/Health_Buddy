@@ -1,0 +1,40 @@
+{
+    "fileName": "upload_1753053337006_b38485b7-124a-401e-bf24-65359c9e90d0.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "orange",
+        "guidance_message": "This meal appears to be plain boiled potatoes, a starchy food with a moderate-to-high glycemic effect that can raise blood sugar levels relatively quickly in someone with diabetes, especially without added fiber, protein, or fat. It is best to avoid or strictly limit this meal, opting for whole grain or high-fiber alternatives instead, such as barley, lentils, or a smaller portion paired with non-starchy vegetables and protein.",
+        "meal_title": "Boiled Potatoes",
+        "meal_description": "Four peeled boiled potatoes served plain on a plate.",
+        "macros": {
+            "calories": 520,
+            "carbohydrates": 120,
+            "fats": 1,
+            "proteins": 12
+        },
+        "ingredients": [
+            {
+                "name": "potato",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            }
+        ]
+    }
+}

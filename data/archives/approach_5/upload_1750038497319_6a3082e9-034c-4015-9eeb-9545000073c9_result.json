@@ -1,0 +1,72 @@
+{
+    "fileName": "upload_1750038497319_6a3082e9-034c-4015-9eeb-9545000073c9.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetyChecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "yellow",
+        "guidance_message": "These are sous vide egg bites made with eggs, bacon, and gouda, providing relatively low carbohydrate content and a modest glycemic effect on blood sugar levels for someone with diabetes. The main considerations are saturated fat and sodium rather than rapid glucose rise. It is best to limit frequent intake of this meal, opting for a high-fiber whole grain breakfast with eggs and vegetables instead.",
+        "meal_title": "Sous Vide Egg Bites with Uncured Bacon and Gouda",
+        "meal_description": "Packaged refrigerated egg bites made primarily from eggs, uncured bacon, gouda cheese, and dairy-based ingredients, prepared in a soft sous vide style.",
+        "macros": {
+            "calories": 300,
+            "carbohydrates": 9,
+            "fats": 20,
+            "proteins": 17
+        },
+        "ingredients": [
+            {
+                "name": "egg",
+                "impact": "green"
+            },
+            {
+                "name": "cottage cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "gouda cheese",
+                "impact": "yellow"
+            },
+            {
+                "name": "uncured bacon",
+                "impact": "orange"
+            },
+            {
+                "name": "water",
+                "impact": "green"
+            },
+            {
+                "name": "butter",
+                "impact": "yellow"
+            },
+            {
+                "name": "salt",
+                "impact": "yellow"
+            },
+            {
+                "name": "black pepper",
+                "impact": "green"
+            },
+            {
+                "name": "vinegar",
+                "impact": "green"
+            },
+            {
+                "name": "celery powder",
+                "impact": "green"
+            }
+        ]
+    }
+}

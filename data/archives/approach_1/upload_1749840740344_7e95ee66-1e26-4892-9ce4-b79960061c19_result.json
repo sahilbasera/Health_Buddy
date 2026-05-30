@@ -1,0 +1,48 @@
+{
+    "fileName": "upload_1749840740344_7e95ee66-1e26-4892-9ce4-b79960061c19.jpeg",
+    "guardrailCheck": {
+        "is_food": true,
+        "no_pii": true,
+        "no_humans": true,
+        "no_captcha": true
+    },
+    "safetychecks": {
+        "no_insuline_guidance": true,
+        "no_carb_content": true,
+        "no_emotional_or_judgmental_language": true,
+        "no_risky_ingredient_substitutions": true,
+        "no_treatment_recommendation": true,
+        "no_medical_diagnosis": true
+    },
+    "mealAnalysis": {
+        "is_food": true,
+        "recommendation": "green",
+        "guidance_message": "This meal is generally healthful and suitable for stable blood sugar levels due to its vegetable content. Consider increasing the portion of vegetables for added fiber and nutrients, which will benefit blood sugar management in individuals with diabetes.",
+        "meal_title": "Vegetable Mix with Sausage",
+        "meal_description": "A dish composed of cooked carrots, onions, apple slices, and pieces of sausage.",
+        "macros": {
+            "calories": 200,
+            "carbohydrates": 25,
+            "fats": 10,
+            "proteins": 5
+        },
+        "ingredients": [
+            {
+                "name": "carrots",
+                "impact": "green"
+            },
+            {
+                "name": "onions",
+                "impact": "green"
+            },
+            {
+                "name": "apples",
+                "impact": "green"
+            },
+            {
+                "name": "sausage",
+                "impact": "yellow"
+            }
+        ]
+    }
+}
