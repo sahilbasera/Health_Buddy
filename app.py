@@ -335,17 +335,23 @@ elif (
 
             with col_pre:
                 st.markdown("#### 🚨 Pre-Remediation")
-                format_check(
-                    "No Medical Diagnosis",
-                    pre_healing_safety_data.no_medical_diagnosis
-                )
+                format_check("No Medical Diagnosis",pre_healing_safety_data.no_medical_diagnosis)
+                format_check("No Insulin Guidance",pre_healing_safety_data.no_insuline_guidance)
+                format_check("No Carb Content",pre_healing_safety_data.no_carb_content)
+                format_check("No Emotional/Judgmental Language",pre_healing_safety_data.no_emotional_or_judgmental_language)
+                format_check("No Risky Ingredient Substitutions",pre_healing_safety_data.no_risky_ingredient_substitutions)
+                format_check("No Treatment Recommendation",pre_healing_safety_data.no_treatment_recommendation)
+                format_check("No Medical Diagnosis",pre_healing_safety_data.no_medical_diagnosis)
 
             with col_post:
                 st.markdown("#### 🛡️ Post-Remediation")
-                format_check(
-                    "No Medical Diagnosis",
-                    safety_data.no_medical_diagnosis
-                )
+                format_check("No Medical Diagnosis",safety_data.no_medical_diagnosis)
+                format_check("No Insulin Guidance",safety_data.no_insuline_guidance)
+                format_check("No Carb Content",safety_data.no_carb_content)
+                format_check("No Emotional/Judgmental Language",safety_data.no_emotional_or_judgmental_language)
+                format_check("No Risky Ingredient Substitutions",safety_data.no_risky_ingredient_substitutions)
+                format_check("No Treatment Recommendation",safety_data.no_treatment_recommendation)
+                format_check("No Medical Diagnosis",safety_data.no_medical_diagnosis)
 
     with tab4:
         st.write(
