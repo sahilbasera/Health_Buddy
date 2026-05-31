@@ -360,6 +360,9 @@ elif (
         st.write(
             f"**Description:** {inference_data.meal_description}"
         )
+        st.write(f"**Guidance:** {inference_data.guidance_message}")
+        st.write("**Macros:**", inference_data.macros)
+        st.write("**Ingredients:**", inference_data.ingredients)
 
     with tab5:
         st.json(inference_data.model_dump())
